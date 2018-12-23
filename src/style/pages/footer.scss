@@ -1,0 +1,4 @@
+footer{
+    @extend %center;
+    @include flex-direction(column);
+}

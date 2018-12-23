@@ -1,0 +1,108 @@
+.intro-wrap{
+    height: calc(100vh - 4vw);
+    @extend %center;
+    .hello-txt{
+        @extend %center;
+        @include flex-wrap(wrap);
+        font-size: 250px;
+        color:hsla(0, 0%, 0%, 0.3);
+        position: absolute;
+        flex-wrap:wrap;
+        pointer-events: none;
+        mix-blend-mode: difference;
+        background-clip: text;
+        background: inherit;
+        background-clip: text;
+        filter: invert(0.7);
+        font-weight: 700;
+    }
+    .hello-txt-back{
+        font-size: 341px;
+        color: hsla(0, 0%, 0%, 0.01);
+        line-height: 286px;
+        position: absolute;
+        z-index: -1;
+        @extend %center;
+        width: 1000px
+    }
+    .photo-wrap{
+        @extend %center;
+        .photo{
+            width:400px;
+            height:400px;
+            background:url('../images/b.png')no-repeat;
+            background-size:auto 100%;
+            border:10px solid white;
+            box-shadow: 0 4px 17px 3px rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+        }
+        .content{
+            margin-top:20px;
+            .link-txt{
+                color:$color-2;
+            }
+        }
+    }
+}
+.intro-wrap-2{
+    padding:150px 0px;
+    @extend %center;
+    @extend %section-wrap;
+    max-width: 1000px;
+    flex-direction: row;
+    @include justify-content(space-between);
+    .photo-wrap{
+        width:400px;
+        height:400px;
+        background:white;
+        margin-right: 60px;
+        border:8px solid white;
+        box-shadow: 0 4px 17px 3px rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.08);
+        @include flexbox();
+        @include flex-wrap(wrap);
+        @include justify-content(space-around);
+        @include align-items(center);
+        .photo-single{
+            width: calc(98%/2);
+            height: calc(98%/2);
+            box-sizing: border-box;
+            background:blue;
+            &#a{
+                background:url('../images/a.png')no-repeat;
+                background-size:auto 100%;
+            }
+            &#b{
+                background:url('../images/b.png')no-repeat;
+                background-size:auto 100%;
+            }
+            &#c{
+                background:url('../images/c.png')no-repeat;
+                background-size:auto 100%;
+            }
+            &#d{
+                background:url('../images/d.png')no-repeat;
+                background-size:auto 100%;
+            }
+        }
+    }
+    .intro-name{
+        .hello{
+            font-size:72px;
+            color: $color-3;
+        }
+        .name{
+            line-height: 77px;
+            @include font-set(90px, $color-2, 700);
+        }
+        .line{
+            height: 4px;
+            width: 36%;
+            background:#5a5a5a;
+            margin-top:20px;
+            opacity:0.5;
+        }
+        .changer-txt-wrap{
+            margin-top:20px;
+            font-size:30px;
+        }
+    }
+}
