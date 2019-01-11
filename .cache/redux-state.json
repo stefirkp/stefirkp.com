@@ -1376,12 +1376,12 @@
       "host": "localhost",
       "pathPrefix": "/stefirkp.github.io",
       "polyfill": true,
-      "buildTime": "2019-01-11T16:07:59.294Z",
+      "buildTime": "2019-01-11T16:11:06.827Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ff723dd001d4aed308844cc66e99dd5a",
+        "contentDigest": "78dd4f7d380ec33c36a70684342229c5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1391,7 +1391,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e216d705b2a340b75be1ee9e5e5b3c44",
+        "contentDigest": "5edbdbb971755f7d47620362629814e0",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1403,7 +1403,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2019-01-11T15:52:07.138Z",
-      "accessTime": "2019-01-11T16:08:10.562Z",
+      "accessTime": "2019-01-11T16:11:12.210Z",
       "changeTime": "2019-01-11T15:52:07.138Z",
       "birthTime": "2018-12-17T08:30:16.017Z",
       "root": "/",
@@ -1421,11 +1421,11 @@
       "blksize": 4096,
       "ino": 12887572331,
       "blocks": 0,
-      "atimeMs": 1547222890561.5159,
+      "atimeMs": 1547223072209.7485,
       "mtimeMs": 1547221927137.8206,
       "ctimeMs": 1547221927137.8206,
       "birthtimeMs": 1545035416016.7283,
-      "atime": "2019-01-11T16:08:10.562Z",
+      "atime": "2019-01-11T16:11:12.210Z",
       "mtime": "2019-01-11T15:52:07.138Z",
       "ctime": "2019-01-11T15:52:07.138Z",
       "birthtime": "2018-12-17T08:30:16.017Z"
