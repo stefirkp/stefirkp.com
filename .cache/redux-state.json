@@ -1365,12 +1365,12 @@
       },
       "pathPrefix": "/stefirkp.github.io",
       "polyfill": true,
-      "buildTime": "2019-01-11T15:38:52.243Z",
+      "buildTime": "2019-01-11T15:39:40.832Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1f1db6eda95879d47aa201d098faa645",
+        "contentDigest": "97b144cfe3c681a824223caf91a00a85",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1380,7 +1380,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6b39c29d47b0de809cb993e90c997348",
+        "contentDigest": "a7101e3b0ca598c64c2148daff4ff493",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1392,7 +1392,7 @@
       "size": 288,
       "prettySize": "288 B",
       "modifiedTime": "2018-12-18T14:54:25.772Z",
-      "accessTime": "2019-01-11T15:39:02.742Z",
+      "accessTime": "2019-01-11T15:39:50.992Z",
       "changeTime": "2019-01-11T15:37:22.642Z",
       "birthTime": "2018-12-17T08:30:16.017Z",
       "root": "/",
@@ -1410,11 +1410,11 @@
       "blksize": 4096,
       "ino": 12887572331,
       "blocks": 0,
-      "atimeMs": 1547221142742.4248,
+      "atimeMs": 1547221190992.0374,
       "mtimeMs": 1545144865772.3108,
       "ctimeMs": 1547221042641.6213,
       "birthtimeMs": 1545035416016.7283,
-      "atime": "2019-01-11T15:39:02.742Z",
+      "atime": "2019-01-11T15:39:50.992Z",
       "mtime": "2018-12-18T14:54:25.772Z",
       "ctime": "2019-01-11T15:37:22.642Z",
       "birthtime": "2018-12-17T08:30:16.017Z"
@@ -1439,7 +1439,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-12-17T08:30:16.018Z",
-      "accessTime": "2019-01-11T15:38:27.832Z",
+      "accessTime": "2019-01-11T15:39:27.219Z",
       "changeTime": "2019-01-11T15:37:22.594Z",
       "birthTime": "2018-12-17T08:30:16.018Z",
       "root": "/",
@@ -1457,11 +1457,11 @@
       "blksize": 4096,
       "ino": 12887572334,
       "blocks": 48,
-      "atimeMs": 1547221107832.326,
+      "atimeMs": 1547221167219.164,
       "mtimeMs": 1545035416018.0935,
       "ctimeMs": 1547221042593.5093,
       "birthtimeMs": 1545035416017.899,
-      "atime": "2019-01-11T15:38:27.832Z",
+      "atime": "2019-01-11T15:39:27.219Z",
       "mtime": "2018-12-17T08:30:16.018Z",
       "ctime": "2019-01-11T15:37:22.594Z",
       "birthtime": "2018-12-17T08:30:16.018Z"
@@ -1496,7 +1496,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-12-17T08:30:16.018Z",
-      "accessTime": "2019-01-11T15:38:27.832Z",
+      "accessTime": "2019-01-11T15:39:27.219Z",
       "changeTime": "2019-01-11T15:37:22.590Z",
       "birthTime": "2018-12-17T08:30:16.017Z",
       "root": "/",
@@ -1514,11 +1514,11 @@
       "blksize": 4096,
       "ino": 12887572333,
       "blocks": 328,
-      "atimeMs": 1547221107832.3284,
+      "atimeMs": 1547221167219.1606,
       "mtimeMs": 1545035416017.7651,
       "ctimeMs": 1547221042590.0593,
       "birthtimeMs": 1545035416016.7803,
-      "atime": "2019-01-11T15:38:27.832Z",
+      "atime": "2019-01-11T15:39:27.219Z",
       "mtime": "2018-12-17T08:30:16.018Z",
       "ctime": "2019-01-11T15:37:22.590Z",
       "birthtime": "2018-12-17T08:30:16.017Z"
@@ -1553,7 +1553,7 @@
       "size": 326599,
       "prettySize": "327 kB",
       "modifiedTime": "2018-12-18T13:03:24.677Z",
-      "accessTime": "2019-01-11T15:38:27.832Z",
+      "accessTime": "2019-01-11T15:39:27.219Z",
       "changeTime": "2019-01-11T15:37:22.640Z",
       "birthTime": "2018-12-18T13:03:24.677Z",
       "root": "/",
@@ -1571,11 +1571,11 @@
       "blksize": 4096,
       "ino": 12887572337,
       "blocks": 640,
-      "atimeMs": 1547221107832.3154,
+      "atimeMs": 1547221167219.1448,
       "mtimeMs": 1545138204677.0166,
       "ctimeMs": 1547221042639.941,
       "birthtimeMs": 1545138204676.6694,
-      "atime": "2019-01-11T15:38:27.832Z",
+      "atime": "2019-01-11T15:39:27.219Z",
       "mtime": "2018-12-18T13:03:24.677Z",
       "ctime": "2019-01-11T15:37:22.640Z",
       "birthtime": "2018-12-18T13:03:24.677Z"
@@ -1610,7 +1610,7 @@
       "size": 480354,
       "prettySize": "480 kB",
       "modifiedTime": "2018-12-18T13:03:12.947Z",
-      "accessTime": "2019-01-11T15:38:27.832Z",
+      "accessTime": "2019-01-11T15:39:27.219Z",
       "changeTime": "2019-01-11T15:37:22.598Z",
       "birthTime": "2018-12-18T13:03:12.947Z",
       "root": "/",
@@ -1628,11 +1628,11 @@
       "blksize": 4096,
       "ino": 12887572336,
       "blocks": 944,
-      "atimeMs": 1547221107832.3198,
+      "atimeMs": 1547221167219.1538,
       "mtimeMs": 1545138192947.1216,
       "ctimeMs": 1547221042598.1267,
       "birthtimeMs": 1545138192946.784,
-      "atime": "2019-01-11T15:38:27.832Z",
+      "atime": "2019-01-11T15:39:27.219Z",
       "mtime": "2018-12-18T13:03:12.947Z",
       "ctime": "2019-01-11T15:37:22.598Z",
       "birthtime": "2018-12-18T13:03:12.947Z"
@@ -1643,63 +1643,6 @@
       "parent": "0d3905ff-e45b-57a9-a880-cb9f8a6150ef",
       "internal": {
         "contentDigest": "8b6b2026da34fbd13a5bb83ad3db14d8",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "3cf4a62d-427c-5f6e-8599-8354214d8a77": {
-      "id": "3cf4a62d-427c-5f6e-8599-8354214d8a77",
-      "children": [
-        "db1f7abb-970e-5675-b6b6-8022facf28e3"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d6a70286d865158797a4287627b6bec3",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/b.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/b.png",
-      "relativePath": "b.png",
-      "extension": "png",
-      "size": 612340,
-      "prettySize": "612 kB",
-      "modifiedTime": "2018-12-18T13:02:59.644Z",
-      "accessTime": "2019-01-11T15:38:27.832Z",
-      "changeTime": "2019-01-11T15:37:22.596Z",
-      "birthTime": "2018-12-18T13:02:59.644Z",
-      "root": "/",
-      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images",
-      "base": "b.png",
-      "ext": ".png",
-      "name": "b",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 12887572335,
-      "blocks": 1200,
-      "atimeMs": 1547221107832.323,
-      "mtimeMs": 1545138179644.4192,
-      "ctimeMs": 1547221042595.7786,
-      "birthtimeMs": 1545138179644.149,
-      "atime": "2019-01-11T15:38:27.832Z",
-      "mtime": "2018-12-18T13:02:59.644Z",
-      "ctime": "2019-01-11T15:37:22.596Z",
-      "birthtime": "2018-12-18T13:02:59.644Z"
-    },
-    "db1f7abb-970e-5675-b6b6-8022facf28e3": {
-      "id": "db1f7abb-970e-5675-b6b6-8022facf28e3",
-      "children": [],
-      "parent": "3cf4a62d-427c-5f6e-8599-8354214d8a77",
-      "internal": {
-        "contentDigest": "d6a70286d865158797a4287627b6bec3",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1724,7 +1667,7 @@
       "size": 582450,
       "prettySize": "582 kB",
       "modifiedTime": "2018-12-18T13:03:18.555Z",
-      "accessTime": "2019-01-11T15:38:27.832Z",
+      "accessTime": "2019-01-11T15:39:27.219Z",
       "changeTime": "2019-01-11T15:37:22.641Z",
       "birthTime": "2018-12-18T13:03:18.555Z",
       "root": "/",
@@ -1742,11 +1685,11 @@
       "blksize": 4096,
       "ino": 12887572338,
       "blocks": 1144,
-      "atimeMs": 1547221107832.31,
+      "atimeMs": 1547221167219.1572,
       "mtimeMs": 1545138198555.3677,
       "ctimeMs": 1547221042641.4924,
       "birthtimeMs": 1545138198554.8108,
-      "atime": "2019-01-11T15:38:27.832Z",
+      "atime": "2019-01-11T15:39:27.219Z",
       "mtime": "2018-12-18T13:03:18.555Z",
       "ctime": "2019-01-11T15:37:22.641Z",
       "birthtime": "2018-12-18T13:03:18.555Z"
@@ -1757,6 +1700,63 @@
       "parent": "6035962c-59d3-507e-9242-f470a9d1d84d",
       "internal": {
         "contentDigest": "6223f894b7bfa9d18d4afdbe2d63e4be",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "3cf4a62d-427c-5f6e-8599-8354214d8a77": {
+      "id": "3cf4a62d-427c-5f6e-8599-8354214d8a77",
+      "children": [
+        "db1f7abb-970e-5675-b6b6-8022facf28e3"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d6a70286d865158797a4287627b6bec3",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/b.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/b.png",
+      "relativePath": "b.png",
+      "extension": "png",
+      "size": 612340,
+      "prettySize": "612 kB",
+      "modifiedTime": "2018-12-18T13:02:59.644Z",
+      "accessTime": "2019-01-11T15:39:27.219Z",
+      "changeTime": "2019-01-11T15:37:22.596Z",
+      "birthTime": "2018-12-18T13:02:59.644Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images",
+      "base": "b.png",
+      "ext": ".png",
+      "name": "b",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12887572335,
+      "blocks": 1200,
+      "atimeMs": 1547221167219.1506,
+      "mtimeMs": 1545138179644.4192,
+      "ctimeMs": 1547221042595.7786,
+      "birthtimeMs": 1545138179644.149,
+      "atime": "2019-01-11T15:39:27.219Z",
+      "mtime": "2018-12-18T13:02:59.644Z",
+      "ctime": "2019-01-11T15:37:22.596Z",
+      "birthtime": "2018-12-18T13:02:59.644Z"
+    },
+    "db1f7abb-970e-5675-b6b6-8022facf28e3": {
+      "id": "db1f7abb-970e-5675-b6b6-8022facf28e3",
+      "children": [],
+      "parent": "3cf4a62d-427c-5f6e-8599-8354214d8a77",
+      "internal": {
+        "contentDigest": "d6a70286d865158797a4287627b6bec3",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1824,7 +1824,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f058203eca2ddbcd3ead6d68215a403b"
+    "PLUGINS_HASH": "92a9af680b88b6770f6ae6f4aa002b1f"
   },
   "componentDataDependencies": {
     "nodes": {
