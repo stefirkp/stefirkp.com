@@ -1,0 +1,11 @@
+.about-wrap{
+    @extend %center;
+    @extend %section-wrap;
+    @include justify-content(flex-end);
+    @include align-items(flex-end);
+    .live{
+        // display: none;
+        width:50%;
+        // flex:1;
+    }
+}
