@@ -29,10 +29,10 @@
                 position: relative;
                 padding:20px;
                 box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.18);
-
+                overflow: hidden;
                 @include flexbox();
                 @include justify-content(center);
-                @include align-items(center);
+                // @include align-items(center);
 
                 &:last-child{
                     margin-right: 0px;
@@ -87,10 +87,26 @@
                     -moz-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.3);
                     box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.3);
                 }
+                .project-title{
+                    z-index: 1;
+                }
+
+                .bg-card{
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top:0px;
+                }
                 &#jupiter{
                     // #
                     background:#ff2e55;
                     color:white;
+                    .bg-card{
+                        background:url('../images/home/jupiter-card.png')no-repeat;
+                        background-size: 100%;
+                        background-position: center bottom;
+                    }
+                    
                     .button-project{
                         background: #212a35;
                         svg{
@@ -101,6 +117,11 @@
                 &#pricentric{
                     background:#1e78c4;
                     color:white;
+                    .bg-card{
+                        background:url('../images/home/pricentric-card-2.png')no-repeat;
+                        background-size: 250%;
+                        background-position: center -24%;
+                    }
                     .button-project{
                         background: #009fe6;
                         svg{
@@ -111,6 +132,12 @@
                 &#falcon{
                     background:#253767;
                     color:white;
+
+                    .bg-card{
+                        background:url('../images/home/falcon-card.png')no-repeat;
+                        background-size: 157%;
+                        background-position: 0px -49px;
+                    }
                     .button-project{    
                         background:#608ad8;
                         svg{
@@ -121,6 +148,15 @@
                 &#borderless{
                     background:#333f51;
                     color:white;
+                    .bg-card{
+                        width: 100%;
+                        height: 100%;
+                        background:url('../images/home/borderless-card.png')no-repeat;
+                        background-size:auto 120%;
+                        background-position: center 30px;
+                        
+                        position: absolute;
+                    }
                     .button-project{    
                         background:#08b9a2;
                         svg{
@@ -128,6 +164,37 @@
                         }
                     }
                 }
+                &#arsip-fak{
+                    background:#701807;
+                    color:white;
+                    .bg-card{
+                        background:url('../images/home/arsip-card.png')no-repeat;
+                        background-size: 250%;
+                        background-position: 0 bottom;
+                    }
+                    .button-project{    
+                        background:#a08d93;
+                        svg{
+                            fill:white;
+                        }
+                    }
+                }
+                &#museum-recomender{
+                    background:black;
+                    color:white;
+                    .bg-card{
+                        background:url('../images/home/skripsi-card.png')no-repeat;
+                        background-size: 100%;
+                        background-position: 0 bottom;
+                    }
+                    .button-project{    
+                        background:#efcb00;
+                        svg{
+                            fill:white;
+                        }
+                    }
+                }
+                // #
                 
             }
             .col-3{
