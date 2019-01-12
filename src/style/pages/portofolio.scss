@@ -97,6 +97,16 @@
                     position: absolute;
                     top:0px;
                 }
+
+                .project-title{
+                    padding-top:50px;
+                    text-align:center;
+                    .big-title{
+                        font-size:50px;
+                        font-weight:bold;
+                        margin-bottom:10px;
+                    }
+                }
                 &#jupiter{
                     // #
                     background:#ff2e55;
@@ -106,7 +116,6 @@
                         background-size: 100%;
                         background-position: center bottom;
                     }
-                    
                     .button-project{
                         background: #212a35;
                         svg{
@@ -122,6 +131,16 @@
                         background-size: 250%;
                         background-position: center -24%;
                     }
+
+                    .big-title{
+                        background:url('../images/home/pricentric-logo.png')no-repeat;
+                        background-size: 95%;
+                        width: 100%;
+                        height: 68px;
+                    //     font-size:50px;
+                    //     font-weight:bold;
+                        margin-bottom:10px;
+                    }
                     .button-project{
                         background: #009fe6;
                         svg{
@@ -132,11 +151,24 @@
                 &#falcon{
                     background:#253767;
                     color:white;
-
+                    
                     .bg-card{
                         background:url('../images/home/falcon-card.png')no-repeat;
                         background-size: 157%;
-                        background-position: 0px -49px;
+                        background-position: 0px 0px;
+                    }
+                    .project-title{
+                        padding-top:50px;
+                        // text-align:center;
+                        .big-title{
+                            background:url('../images/home/white-logo-desk.svg')no-repeat;
+                            background-size: 95%;
+                            width: 100%;
+                            height: 68px;
+                        //     font-size:50px;
+                        //     font-weight:bold;
+                            margin-bottom:10px;
+                        }
                     }
                     .button-project{    
                         background:#608ad8;
@@ -157,6 +189,17 @@
                         
                         position: absolute;
                     }
+
+
+                    .big-title{
+                        background:url('../images/home/borderless-logo.svg')no-repeat;
+                        background-size: 75%;
+                        width: 100%;
+                        height: 68px;
+                    //     font-size:50px;
+                    //     font-weight:bold;
+                        margin-bottom:10px;
+                    }
                     .button-project{    
                         background:#08b9a2;
                         svg{
@@ -172,6 +215,11 @@
                         background-size: 250%;
                         background-position: 0 bottom;
                     }
+                    .project-title{
+                        .big-title{
+                            font-size:30px;
+                        }
+                    }
                     .button-project{    
                         background:#a08d93;
                         svg{
@@ -185,7 +233,12 @@
                     .bg-card{
                         background:url('../images/home/skripsi-card.png')no-repeat;
                         background-size: 100%;
-                        background-position: 0 bottom;
+                        background-position: 0 0;
+                    }
+                    .project-title{
+                        .big-title{
+                            font-size:35px;
+                        }
                     }
                     .button-project{    
                         background:#efcb00;
@@ -194,8 +247,23 @@
                         }
                     }
                 }
-                // #
-                
+                &#personal-website{
+                    .bg-card-custom{
+                        width:100%;
+                        position:absolute;
+                        top:0px;
+                        height: 100%;
+                        background:url('../images/home/path-3-1440.svg')no-repeat;
+                        background-size:100% ;
+                        background-position: 0px 0px;
+                    }
+                    .project-title{
+                        padding-top:30px;
+                        padding-left: 150px;
+                        width: 100%;
+                        text-align:left;
+                    }
+                }
             }
             .col-3{
                 @include flexbox();

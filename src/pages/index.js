@@ -9,8 +9,8 @@ import Portofolio from '../components/main/Portofolio'
 const IndexPage = () => (
   <Layout>
     <Intro/>
-    <About/>
-    <Skill/>
+    {/* <About/> */}
+    {/* <Skill/> */}
     <Portofolio/>
   </Layout>
 )
