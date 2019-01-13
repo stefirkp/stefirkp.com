@@ -1373,12 +1373,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-13T16:48:31.806Z",
+      "buildTime": "2019-01-13T17:02:25.314Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f4ac57f277483ef6303d8d7753ac96b5",
+        "contentDigest": "7270307dd0a7db99f841d82e20d36116",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1388,7 +1388,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0cc9b1a67e7923efc4cb65d1632c9bed",
+        "contentDigest": "67916cbb2a2d534c9ae2a168ca14be4f",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1400,7 +1400,7 @@
       "size": 352,
       "prettySize": "352 B",
       "modifiedTime": "2019-01-13T15:12:49.346Z",
-      "accessTime": "2019-01-13T16:48:37.142Z",
+      "accessTime": "2019-01-13T17:02:31.116Z",
       "changeTime": "2019-01-13T15:12:49.346Z",
       "birthTime": "2018-12-17T08:30:16.017Z",
       "root": "/",
@@ -1418,11 +1418,11 @@
       "blksize": 4096,
       "ino": 12887572331,
       "blocks": 0,
-      "atimeMs": 1547398117141.9905,
+      "atimeMs": 1547398951115.5664,
       "mtimeMs": 1547392369345.5054,
       "ctimeMs": 1547392369345.5054,
       "birthtimeMs": 1545035416016.7283,
-      "atime": "2019-01-13T16:48:37.142Z",
+      "atime": "2019-01-13T17:02:31.116Z",
       "mtime": "2019-01-13T15:12:49.346Z",
       "ctime": "2019-01-13T15:12:49.346Z",
       "birthtime": "2018-12-17T08:30:16.017Z"
@@ -1432,7 +1432,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f7660b1da5f143b5c9c43a4330b34133",
+        "contentDigest": "87f7fe3daf649422c5478ea536d6a1c8",
         "type": "Directory",
         "description": "Directory \"src/images/home\"",
         "owner": "gatsby-source-filesystem"
@@ -1444,7 +1444,7 @@
       "size": 544,
       "prettySize": "544 B",
       "modifiedTime": "2019-01-12T15:16:38.180Z",
-      "accessTime": "2019-01-13T16:48:37.145Z",
+      "accessTime": "2019-01-13T17:02:31.119Z",
       "changeTime": "2019-01-12T15:16:38.180Z",
       "birthTime": "2019-01-12T08:17:18.457Z",
       "root": "/",
@@ -1462,11 +1462,11 @@
       "blksize": 4096,
       "ino": 12887816616,
       "blocks": 0,
-      "atimeMs": 1547398117144.6553,
+      "atimeMs": 1547398951119.3333,
       "mtimeMs": 1547306198180.4612,
       "ctimeMs": 1547306198180.4612,
       "birthtimeMs": 1547281038456.9429,
-      "atime": "2019-01-13T16:48:37.145Z",
+      "atime": "2019-01-13T17:02:31.119Z",
       "mtime": "2019-01-12T15:16:38.180Z",
       "ctime": "2019-01-12T15:16:38.180Z",
       "birthtime": "2019-01-12T08:17:18.457Z"
@@ -1476,7 +1476,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "96f9cd98461c762de0ff6be0a421c58b",
+        "contentDigest": "c5102dd45ba5a9517d5e39121f4b5270",
         "type": "Directory",
         "description": "Directory \"src/images/portofolio-detail\"",
         "owner": "gatsby-source-filesystem"
@@ -1488,7 +1488,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-01-13T16:42:29.522Z",
-      "accessTime": "2019-01-13T16:48:37.145Z",
+      "accessTime": "2019-01-13T17:02:31.119Z",
       "changeTime": "2019-01-13T16:42:29.522Z",
       "birthTime": "2019-01-13T15:12:44.657Z",
       "root": "/",
@@ -1506,11 +1506,11 @@
       "blksize": 4096,
       "ino": 12887906462,
       "blocks": 0,
-      "atimeMs": 1547398117144.9956,
+      "atimeMs": 1547398951119.3594,
       "mtimeMs": 1547397749522.0254,
       "ctimeMs": 1547397749522.0254,
       "birthtimeMs": 1547392364657.4407,
-      "atime": "2019-01-13T16:48:37.145Z",
+      "atime": "2019-01-13T17:02:31.119Z",
       "mtime": "2019-01-13T16:42:29.522Z",
       "ctime": "2019-01-13T16:42:29.522Z",
       "birthtime": "2019-01-13T15:12:44.657Z"
