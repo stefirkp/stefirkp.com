@@ -8,7 +8,7 @@ import Footer from './footer'
 import './layout.css'
 import '../style/index.scss'
 
-const Layout = ({ children }) => (
+const Layout = ({ children, idLayout}) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
           <meta charSet="utf-8" />
           <title>Stefi Rosadi</title>
         </Helmet>
-        <div className='wrap'>
+        <div className='wrap' id={idLayout}>
           {children}
         </div>
         <Footer/>

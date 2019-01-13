@@ -49,6 +49,10 @@ module.exports = {
           {
             family: `Rubik`,
             variants:['300','400','500']
+          },
+          {
+            family: `IBM Plex Sans`,
+            variants:['300','400','500']
           }
         ],
       },

@@ -15,6 +15,16 @@
         "path": "/404/"
     },
     {
+        "componentChunkName": "component---src-pages-portofolio-detail-portofolio-detail-js",
+        "jsonName": "portofolio-detail-portofolio-detail-5d9",
+        "path": "/PortofolioDetail/PortofolioDetail/"
+    },
+    {
+        "componentChunkName": "component---src-pages-portofolio-detail-jupiter-js",
+        "jsonName": "portofolio-detail-jupiter-93d",
+        "path": "/PortofolioDetail/jupiter/"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"

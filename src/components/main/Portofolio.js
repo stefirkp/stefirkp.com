@@ -1,4 +1,5 @@
 import React from 'react'
+import { navigate } from "gatsby"
 
 const Portofolio = () => (
   <section className="portofolio-wrap">
@@ -10,7 +11,7 @@ const Portofolio = () => (
     
     <div className="porto-list">
       <div className="col-2">
-        <div className="a-porto w65percnt h600" id='jupiter'>
+        <div className="a-porto w65percnt h600" id='jupiter' onClick={ () => navigate('/PortofolioDetail/jupiter')} >
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -111,9 +112,9 @@ const Portofolio = () => (
       <div className="col-1">
         <div className="a-porto w100percnt h400" id='personal-website'>
           <div className="bg-card-custom">
-
-
-            <div className="bg-bottom"></div>
+            <div className="bg-card-side"></div>
+            <div className="bg-card-pct"></div>
+            <div className="bg-card-pct-2"></div>
 
           </div>
           

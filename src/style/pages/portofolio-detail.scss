@@ -1,0 +1,229 @@
+.portofolio-detail-wrap{
+    margin-bottom:60px;
+    @extend %center;
+    // @extend %section-wrap;
+    .top-detail{
+        width:100%;
+        height: calc(100vh - 4vw);
+        // height:600px;
+        margin-bottom:80px;
+    }
+    .row-label{
+        margin-bottom:30px;
+        .label-row{
+            // opacity: .4;
+            padding-bottom: 9px;
+            margin-bottom: 15px;
+            height: 21px;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            position: relative;
+            &:after {
+                border-radius: 1000px;
+                content: "";
+                display: block;
+                position: absolute;
+                bottom: -1px;
+                left: 0;
+                width: 100px;
+                height: 2px;
+                background: grey;
+            }
+        }
+
+    }
+
+    .detail-card{
+        @include flexbox();
+        @include justify-content(space-between);
+        .col-2#project-name-detail .row{
+            @include flexbox();
+            .pict-project{
+                width:100px;
+                height:100px;
+                background:yellow;
+                margin-right:30px;
+            }
+            .name{
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 1.1;
+            }
+            .type{
+                margin-top: 6px;
+                font-size: 16px;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .col-style{
+        @include flexbox();
+        @include justify-content(space-between);
+            
+        .color-use{
+            @include flexbox();
+            .color-circle{
+                display:inline-block;
+                border-radius: 1000px;
+                width: 32px;
+                height: 32px;
+                border: 2px solid #fff;
+                background:blue;
+            }
+        }
+    }
+    .label-box-wrap{
+        @include flexbox();
+        .label-box{
+            padding: 12px;
+            border-radius: 2px;
+            background:#848ea79c;
+            color:white;
+            font-size:20px;
+            margin-right:10px;
+            &:last-child{
+                margin-right:0px;
+            }
+        }
+    }
+
+    .example-font{
+        font-size:20px;
+        margin-bottom:10px;
+        margin-top:20px;
+    }
+    .main-detail-container{
+        
+    }
+    .main-detail-wrap{
+        width:800px;
+    }
+    .gallery-wrap{
+        width:100%;
+        height:500px;
+        margin:50px 0px;
+        
+        .template-gallery{
+            width:800px;
+            height:100%;
+            background:url('../images/portofolio-detail/template-lap.png')no-repeat;        
+            background-size:100% 100%;
+            margin:0px auto;
+            position: relative;
+            .desktop{    
+                width: 452px;
+                height: 296px;
+                background:yellow;
+                position: absolute;
+                top:91px;
+                left:81px;
+                // z-index: -1;
+                overflow:scroll;
+            }
+            .mobile{    
+                width: 232px;
+                height: 452px;
+                border-radius: 18px;
+                background: blue;
+                position: absolute;
+                right: 17px;
+                top: 14px;
+                // z-index: -1;
+                overflow:scroll;
+            }
+        }      
+    }
+}
+
+#jupiter{
+    $jupiter-color:#ff2e55;
+    max-width: inherit;
+    .portofolio-detail-wrap{
+        .top-detail{
+            background:$jupiter-color;
+            // height:600px;
+            position: relative;
+            // @include flexbox();
+            // @include justify-content(space-between);
+            .col-title{
+                float:left;
+                height: 100%;
+                @include flexbox();
+                @include flex-direction(column);
+                @include justify-content(center);
+                width: 100%;
+                box-sizing: border-box;
+                padding-left: 119px;
+                .big{
+                    font-size:60px;
+                    margin-bottom:10px;
+                    color:white;
+                    padding-left:20px;
+                }
+                .detail{
+                    font-size:20px;
+                    color:#dcdada;
+                }
+            }
+            .col-pict{
+                position: absolute;
+                right:0px;
+                bottom:-66px;
+                width:930px;
+                height:636px;
+                background:url('../images/portofolio-detail/jupiter-card-detail.png')no-repeat;        
+                background-size:100%;
+                background-position: 45px 0px;
+            }
+        }
+
+        .row-label{
+            .label-row{
+                &:after {
+                    background:$jupiter-color;
+                }
+            }
+        }
+
+        .label-box-wrap{
+            .label-box{
+                background:$jupiter-color;
+                opacity: 0.6;
+            }
+        }
+
+        .color-use{
+            #primary-color{
+                background:#212a35;
+            }
+            #second-color{
+                background:$jupiter-color;
+            }
+        }
+        .example-font{
+            font-family: 'IBM Plex Sans';
+        }
+        .font-style{
+            font-family: 'IBM Plex Sans';
+            .light{font-weight: 300;}
+            .bold{font-weight: 600;}
+        }
+        .gallery-wrap .template-gallery{
+            .desktop .view{
+                width:100%;
+                height:5356px;
+                background:url('../images/portofolio-detail/jupiter-desk.png') no-repeat;
+                background-size:100%;
+            }
+            .mobile .view{
+                width:100%;
+                height:11582px;
+                background:url('../images/portofolio-detail/jupiter-mobile.png') no-repeat;
+                background-size:100%;
+
+            }
+        }
+    }
+}
