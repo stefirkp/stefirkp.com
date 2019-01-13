@@ -94,7 +94,7 @@ const Jupiter = () => (
           <div className="label-row">Style</div>
           <div className="row">
             <div className="col-1 example-font">
-              A smart consentable data exchange
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
             </div>
             <div className="col-style">
               <div className="col-1 font-style">
