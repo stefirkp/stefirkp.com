@@ -1,16 +1,18 @@
 import React from 'react'
 
 import Layout from '../../components/layout'
-const Jupiter = () => (
-  <Layout idLayout='jupiter-layout'>
+const Falcon = () => (
+  <Layout idLayout='falcon-layout'>
     <section className="portofolio-detail-wrap" >
       <div className="top-detail">
-        <div className="bg-top"></div>
-        <div className="col-title">
-          <div className="big">Jupiter Chain</div>
-          <div className="detail">A marketing Industry Profile</div>
+        <div className="top-wrap">
+          <div className="bg-top"></div>
+          <div className="col-title">
+            <div className="big"></div>
+            <div className="detail">A product profile for deploy database changes</div>
+          </div>
+          <div className="col-pict"></div>        
         </div>
-        <div className="col-pict"></div>
       </div>
       <div className="main-detail-wrap">
         <div className="detail-card">
@@ -21,7 +23,7 @@ const Jupiter = () => (
                 <div className="pict-project">
                 <svg viewBox='0 0 100 100'>
                   <path d='M5.99306484,0 L94.0069352,0 C97.3168135,0 100,2.67804027 100,6.00333095 L100,16 L0,16 L0,6.00333095 C0,2.68778282 2.68768095,0 5.99306484,0 Z'
-                  fill='#ff2e55' />
+                  fill='#253767' />
                   <circle fill='#FC645F' cx='10' cy='8' r='3' />
                   <circle fill='#FDBD41' cx='21' cy='8' r='3' />
                   <circle fill='#35CC4B' cx='32' cy='8' r='3' />
@@ -30,29 +32,29 @@ const Jupiter = () => (
                   <rect fill='#F3F3F3' y='16' width='100' height='12' />
                   <rect fill='#343434' x='10' y='19.5' width='17' height='2' rx='1' />
                   <circle fill='#343434' cx='89' cy='20.5' r='1' />
-                  <rect fill='#ff2e55' x='10' y='23.5' width='7' height='2' rx='1' />
-                  <rect fill='#ff2e55' x='18' y='23.5' width='7' height='2' rx='1' />
-                  <rect fill='#ff2e55' x='10' y='32' width='40' height='8' rx='4' />
+                  <rect fill='#253767' x='10' y='23.5' width='7' height='2' rx='1' />
+                  <rect fill='#253767' x='18' y='23.5' width='7' height='2' rx='1' />
+                  <rect fill='#253767' x='10' y='32' width='40' height='8' rx='4' />
                   <rect fill='#D7D7D7' x='10' y='47' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='38' y='47' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='66' y='47' width='24' height='2' rx='1' />
-                  <rect fill='#ff2e55' x='10' y='43' width='24' height='2' rx='1' />
-                  <rect fill='#ff2e55' x='38' y='43' width='24' height='2' rx='1' />
-                  <rect fill='#ff2e55' x='66' y='43' width='24' height='2' rx='1' />
+                  <rect fill='#253767' x='10' y='43' width='24' height='2' rx='1' />
+                  <rect fill='#253767' x='38' y='43' width='24' height='2' rx='1' />
+                  <rect fill='#253767' x='66' y='43' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='51' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='38' y='51' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='66' y='51' width='24' height='2' rx='1' />
-                  <rect fill='#ff2e55' x='10' y='57' width='28' height='6' rx='3' />
+                  <rect fill='#253767' x='10' y='57' width='28' height='6' rx='3' />
                   <rect fill='#D7D7D7' x='10' y='66' width='74' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='70' width='79' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='74' width='71' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='78' width='74' height='2' rx='1' />
-                  <rect fill='#ff2e55' x='10' y='84' width='28' height='6' rx='3' />
+                  <rect fill='#253767' x='10' y='84' width='28' height='6' rx='3' />
               </svg>
 
                 </div>
                 <div className="name-detail-wrap">
-                  <div className="name">Jupiter Chain</div>
+                  <div className="name">Falcon Deploy</div>
                   <div className="type">Product Profile</div>
                 </div>
               </div>
@@ -68,7 +70,7 @@ const Jupiter = () => (
             <div className="row-label">
               <div className="label-row">Goal</div>
               <div className="row">
-                 Create responsive page for desktop & mobile 
+                 Create landing page with responsive layout
               </div>
             </div>
 
@@ -98,14 +100,15 @@ const Jupiter = () => (
             </div>
             <div className="col-style">
               <div className="col-1 font-style">
-                <div className="row reguler">IBM Plex Sans regular</div>
-                <div className="row light">IBM Plex Sans light</div>
-                <div className="row bold">IBM Plex Sans bold</div>
+                <div className="row light">Roboto Slab regular</div>
+                <div className="row reguler">HKGrotesk regular</div>
+                <div className="row bold">HKGrotesk bold</div>
               </div>
               <div className="col-style">
                 <div className="color-use">
                   <span className='color-circle' id='primary-color'></span>
                   <span className='color-circle' id='second-color'></span>
+                  <span className='color-circle' id='third-color'></span>
                 </div>
               </div>
             </div>
@@ -126,6 +129,7 @@ const Jupiter = () => (
           <div className="row label-box-wrap">
             <div className="label-box">HTML</div>
             <div className="label-box">CSS/SCSS</div>
+            <div className="label-box">SVG</div>
             <div className="label-box">Git</div>
           </div>
         </div>
@@ -134,15 +138,9 @@ const Jupiter = () => (
           <div className="label-row">Process</div>
           <div className="row">
             <div className="process-wrap">
-              Develop this project by team, 2 Front end, 1 UI/UX, & 1 Project manager. 
-              <br/>UI/UX just give limited view for responsive page. 
-              Thats the chalenge for us, to think responsive based on design already made. 
-              <br/><br/>
-              From here we learn how to create clean structure in a website. Thats important to handover development to another team. 
-              We use concept .... ? 
-
-              put snippet 
-
+              This project develop by team same like Jupiter Project, 2 Front end, 1 UI/UX, & 1 Project manager. 
+              The goal is responsive, maximum resolution is 1440 pixel (we still make it clean when user use resolution more than 1440)  and the minimun resolution is 320 pixel
+              Finish this task by 3-5 days.
             </div>
           </div>
         </div>
@@ -152,4 +150,4 @@ const Jupiter = () => (
   </Layout>
 )
 
-export default Jupiter
+export default Falcon

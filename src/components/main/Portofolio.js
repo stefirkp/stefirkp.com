@@ -25,7 +25,7 @@ const Portofolio = () => (
           </div>
           <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
         </div>
-        <div className="a-porto w35percnt h600" id='falcon'>
+        <div className="a-porto w35percnt h600" id='falcon' onClick={ () => navigate('/PortofolioDetail/falcon')}>
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -42,7 +42,7 @@ const Portofolio = () => (
         </div>
       </div>
       <div className="col-3">
-        <div className="a-porto w2column h600" id='pricentric'>
+        <div className="a-porto w2column h600" id='pricentric' onClick={ () => navigate('/PortofolioDetail/pricentric')}>
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>

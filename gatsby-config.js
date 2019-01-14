@@ -53,7 +53,11 @@ module.exports = {
           {
             family: `IBM Plex Sans`,
             variants:['300','400','500']
-          }
+          },
+          {
+            family: `Roboto Slab`,
+            variants:['300','400','500']
+          },
         ],
       },
     }

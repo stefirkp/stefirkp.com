@@ -61,7 +61,7 @@
     .col-style{
         @include flexbox();
         @include justify-content(space-between);
-            
+        @include align-items(center);
         .color-use{
             @include flexbox();
             .color-circle{
@@ -137,7 +137,7 @@
     }
 }
 
-#jupiter{
+#jupiter-layout{
     $jupiter-color:#ff2e55;
     max-width: inherit;
     .portofolio-detail-wrap{
@@ -226,4 +226,116 @@
             }
         }
     }
+}
+
+#falcon-layout{
+    $falcon-color:#253767;
+    $secondary-color:#608ad8;
+    $third-color:#f0f7fe;
+
+    max-width: inherit;
+    .portofolio-detail-wrap{
+
+        .top-detail{
+            // background:$falcon-color;
+            background:url('../images/portofolio-detail/bg-falcon.png') no-repeat;
+            background-size:100% 100%;
+            height:calc(106vh - 4vw);
+            color:white;
+            .top-wrap{
+                width:1280px;
+                margin:0px auto;
+                height:100%;            
+                position: relative;
+            }
+            .col-title{
+                float:left;
+                height: 53%;
+                @include flexbox();
+                @include flex-direction(column);
+                @include justify-content(center);
+                width: 80%;
+                box-sizing: border-box;
+                padding-left: 190px;
+                position: absolute;
+                .big{
+                    margin-bottom:10px;
+                    width: 500px;
+                    height: 120px;
+                    background:url('../images/home/white-logo-desk.svg') no-repeat;
+                    background-size: 100%;
+                }
+                .detail{
+                    font-size:20px;
+                    color:#dcdada;
+                    position: absolute;
+                    margin-top: -54px;
+                    margin-left: 142px;
+                }
+            }
+            .col-pict{
+                position: absolute;
+                right:0px;
+                bottom:0px;
+                width:930px;
+                height:636px;
+                background:url('../images/portofolio-detail/falcon-card-detail.png')no-repeat;        
+                background-size:100%;
+                background-position: 0px;
+            }
+            
+        }
+
+
+        .row-label{
+            .label-row{
+                &:after {
+                    background:$falcon-color;
+                }
+            }
+        }
+
+        .label-box-wrap{
+            .label-box{
+                background:$secondary-color;
+                opacity: 0.6;
+            }
+        }
+
+        .color-use{
+            #primary-color{
+                background:$falcon-color;
+            }
+            #second-color{
+                background:$secondary-color;
+            }
+            #third-color{
+                background:$third-color;
+            }
+        }
+        .example-font{
+            font-family: 'Roboto Slab';
+        }
+        .font-style{
+            font-family: 'Roboto Slab';
+            .light{font-weight: 300;}
+            .bold{font-weight: 600;}
+        }
+        .gallery-wrap .template-gallery{
+            .desktop .view{
+                width:100%;
+                height:2185px;
+                background:url('../images/portofolio-detail/falcon-desk.png') no-repeat;
+                background-size:100%;
+            }
+            .mobile .view{
+                width:100%;
+                height:4836px;
+                background:url('../images/portofolio-detail/falcon-mobile.png') no-repeat;
+                background-size:100%;
+
+            }
+        }
+    }
+
 }
