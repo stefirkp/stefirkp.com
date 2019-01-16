@@ -35,6 +35,11 @@
         "path": "/PortofolioDetail/jupiter/"
     },
     {
+        "componentChunkName": "component---src-pages-portofolio-detail-museum-js",
+        "jsonName": "portofolio-detail-museum-6d1",
+        "path": "/PortofolioDetail/museum/"
+    },
+    {
         "componentChunkName": "component---src-pages-portofolio-detail-pricentric-js",
         "jsonName": "portofolio-detail-pricentric-a51",
         "path": "/PortofolioDetail/pricentric/"

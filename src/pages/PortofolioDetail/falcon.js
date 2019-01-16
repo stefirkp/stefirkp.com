@@ -140,7 +140,7 @@ const Falcon = () => (
             <div className="process-wrap">
               This project develop by team same like Jupiter Project, 2 Front end, 1 UI/UX, & 1 Project manager. 
               The goal is responsive, maximum resolution is 1440 pixel (we still make it clean when user use resolution more than 1440)  and the minimun resolution is 320 pixel
-              Finish this task by 3-5 days.
+              Finish this task by 7-9 days.
             </div>
           </div>
         </div>

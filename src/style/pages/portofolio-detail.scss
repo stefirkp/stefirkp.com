@@ -42,7 +42,6 @@
             .pict-project{
                 width:100px;
                 height:100px;
-                background:yellow;
                 margin-right:30px;
             }
             .name{
@@ -70,12 +69,14 @@
                 width: 32px;
                 height: 32px;
                 border: 2px solid #fff;
-                background:blue;
             }
         }
     }
     .label-box-wrap{
         @include flexbox();
+        max-width:500px;
+        @include flex-wrap(wrap);
+        
         .label-box{
             padding: 12px;
             border-radius: 2px;
@@ -83,6 +84,7 @@
             color:white;
             font-size:20px;
             margin-right:10px;
+            margin-bottom:20px;
             &:last-child{
                 margin-right:0px;
             }
@@ -115,7 +117,6 @@
             .desktop{    
                 width: 452px;
                 height: 296px;
-                background:yellow;
                 position: absolute;
                 top:91px;
                 left:81px;
@@ -126,7 +127,6 @@
                 width: 232px;
                 height: 452px;
                 border-radius: 18px;
-                background: blue;
                 position: absolute;
                 right: 17px;
                 top: 14px;
@@ -340,10 +340,6 @@
 
 }
 
-#pricentric-layout{
-
-}
-
 #borderless-layout{
     $border-color:#333f51;
     $secondary-color:#08b9a2;
@@ -362,6 +358,7 @@
             @include flexbox();
             @include justify-content(center);
             @include align-items(center);
+            @include flex-direction(column);
         }
         .col-title{
             // float:left;
@@ -372,11 +369,19 @@
             // width: 100%;
             // box-sizing: border-box;
             // padding-left: 119px;
+            // position: absolute;
+
+            margin-top: 199px;
+            margin-left: -416px;
             .big{
-                font-size:60px;
+                // font-size:60px;
                 margin-bottom:10px;
-                color:white;
-                padding-left:20px;
+                // color:white;
+                // padding-left:20px;
+                width:350px;
+                height:65px;
+                background:url('../images/home/borderless-logo.svg') no-repeat;
+                background-size: 100%;
             }
             .detail{
                 font-size:20px;
@@ -392,6 +397,175 @@
             background:url('../images/portofolio-detail/border-card-detail.png')no-repeat;        
             background-size:100%;
             // background-position: 45px 0px;
+        }
+    }
+    .row-label{
+        .label-row{
+            &:after {
+                background:$border-color;
+            }
+        }
+    }
+
+    .label-box-wrap{
+        .label-box{
+            background:$secondary-color;
+            opacity: 0.6;
+        }
+    }
+
+    .color-use{
+        #primary-color{
+            background:$border-color;
+        }
+        #second-color{
+            background:$secondary-color;
+        }
+    }
+    .example-font{
+        font-family: 'Montserrat';
+    }
+    .font-style{
+        font-family: 'Montserrat';
+        .light{font-weight: 300;}
+        .bold{font-weight: 600;}
+    }
+    .gallery-wrap .template-gallery{
+        .desktop .view{
+            width:100%;
+            height:2185px;
+            background:url('../images/portofolio-detail/border-desk.png') no-repeat;
+            background-size:100%;
+        }
+        .mobile .view{
+            width:100%;
+            height:9563px;
+            background:url('../images/portofolio-detail/border-mobile.png') no-repeat;
+            background-size:100%;
+
+        }
+    }
+
+    .process-wrap{
+        a{
+            text-decoration: none;
+            color:$border-color;
+            cursor: pointer;
+            &:hover{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#pricentric-layout{
+    $pricentric-color:#0f48b1;
+    $secondary-color:#2962ff;
+    $third-color:#e6ebf2;
+
+    max-width: inherit;
+    .top-detail{
+        background:$pricentric-color;
+        position: relative;
+        .top-wrap{
+            width: 1280px;
+            height: 100%;
+            margin: 0px auto;
+            position: relative;
+        }
+        .col-title{
+            top: 233px;
+            position: absolute;
+            left: 155px;
+            .big{
+                margin-bottom:10px;
+                width:350px;
+                height:80px;
+                background:url('../images/home/pricentric-logo.png') no-repeat;
+                background-size: 100%;
+            }
+            .detail{
+                font-size:20px;
+                color:#dcdada;
+            }
+        }
+        .col-pict{
+            width: 1500px;
+            height: 733px;
+            background:url('../images/home/pricentric-card-2.png')no-repeat;        
+            background-size:100%;
+            position: absolute;
+            bottom: 0px;
+            background-position: 242px 0px;
+        }
+    }
+    .row-label{
+        .label-row{
+            &:after {
+                background:$pricentric-color;
+            }
+        }
+    }
+
+    .label-box-wrap{
+        max-width:500px;
+        @include flex-wrap(wrap);
+        .label-box{
+            margin-bottom:20px;
+            background:$secondary-color;
+            opacity: 0.6;
+        }
+    }
+
+    .color-use{
+        #primary-color{
+            background:$pricentric-color;
+        }
+        #second-color{
+            background:$secondary-color;
+        }
+        #third-color{
+            background:$third-color;
+        }
+    }
+    .example-font{
+        font-family: 'Rubik';
+    }
+    .font-style{
+        font-family: 'Rubik';
+        .light{font-weight: 300;}
+        .bold{font-weight: 600;}
+    }
+    .gallery-wrap .gallery-frame{
+        width:1000px;
+        margin:0px auto;
+        height:500px;
+        // overflow: hidden;
+        img{
+            height:500px;
+            margin:0px auto;
+        }
+        .slick-next:before, .slick-prev:before{
+            color:$pricentric-color;
+            font-size: 40px;
+        }
+    }
+    .process-wrap{
+        .example-boot-tag{
+            margin:40px auto;
+            width:500px;
+            height:80px;
+
+            background:url('../images/portofolio-detail/bootstrap search.gif') no-repeat;
+            background-size: 100%;
+        }
+        .example-height{
+            margin:40px auto;
+            width: 636px;
+            height: 406px;
+
+            background:url('../images/portofolio-detail/height-responsive.gif') no-repeat;
+            background-size: 100%;
         }
     }
 }

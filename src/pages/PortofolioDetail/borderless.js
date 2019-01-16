@@ -9,7 +9,7 @@ const Borderless = () => (
           <div className="bg-top"></div>
           <div className="col-title">
             <div className="big"></div>
-            <div className="detail">Pharmaceutical Pricing Database Report</div>
+            <div className="detail">A profile of new payment method</div>
           </div>
           <div className="col-pict"></div>        
         </div>
@@ -23,7 +23,7 @@ const Borderless = () => (
                 <div className="pict-project">
                 <svg viewBox='0 0 100 100'>
                   <path d='M5.99306484,0 L94.0069352,0 C97.3168135,0 100,2.67804027 100,6.00333095 L100,16 L0,16 L0,6.00333095 C0,2.68778282 2.68768095,0 5.99306484,0 Z'
-                  fill='#253767' />
+                  fill='#333f51' />
                   <circle fill='#FC645F' cx='10' cy='8' r='3' />
                   <circle fill='#FDBD41' cx='21' cy='8' r='3' />
                   <circle fill='#35CC4B' cx='32' cy='8' r='3' />
@@ -32,30 +32,30 @@ const Borderless = () => (
                   <rect fill='#F3F3F3' y='16' width='100' height='12' />
                   <rect fill='#343434' x='10' y='19.5' width='17' height='2' rx='1' />
                   <circle fill='#343434' cx='89' cy='20.5' r='1' />
-                  <rect fill='#253767' x='10' y='23.5' width='7' height='2' rx='1' />
-                  <rect fill='#253767' x='18' y='23.5' width='7' height='2' rx='1' />
-                  <rect fill='#253767' x='10' y='32' width='40' height='8' rx='4' />
+                  <rect fill='#333f51' x='10' y='23.5' width='7' height='2' rx='1' />
+                  <rect fill='#333f51' x='18' y='23.5' width='7' height='2' rx='1' />
+                  <rect fill='#333f51' x='10' y='32' width='40' height='8' rx='4' />
                   <rect fill='#D7D7D7' x='10' y='47' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='38' y='47' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='66' y='47' width='24' height='2' rx='1' />
-                  <rect fill='#253767' x='10' y='43' width='24' height='2' rx='1' />
-                  <rect fill='#253767' x='38' y='43' width='24' height='2' rx='1' />
-                  <rect fill='#253767' x='66' y='43' width='24' height='2' rx='1' />
+                  <rect fill='#333f51' x='10' y='43' width='24' height='2' rx='1' />
+                  <rect fill='#333f51' x='38' y='43' width='24' height='2' rx='1' />
+                  <rect fill='#333f51' x='66' y='43' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='51' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='38' y='51' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='66' y='51' width='24' height='2' rx='1' />
-                  <rect fill='#253767' x='10' y='57' width='28' height='6' rx='3' />
+                  <rect fill='#333f51' x='10' y='57' width='28' height='6' rx='3' />
                   <rect fill='#D7D7D7' x='10' y='66' width='74' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='70' width='79' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='74' width='71' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='78' width='74' height='2' rx='1' />
-                  <rect fill='#253767' x='10' y='84' width='28' height='6' rx='3' />
+                  <rect fill='#333f51' x='10' y='84' width='28' height='6' rx='3' />
               </svg>
 
                 </div>
                 <div className="name-detail-wrap">
                   <div className="name">Borderless</div>
-                  <div className="type">Management Application</div>
+                  <div className="type">Product Profile</div>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ const Borderless = () => (
             <div className="row-label">
               <div className="label-row">Goal</div>
               <div className="row">
-                 Create business reporting for desktop view
+                 Create landing page and responsive design
               </div>
             </div>
 
@@ -100,15 +100,13 @@ const Borderless = () => (
             </div>
             <div className="col-style">
               <div className="col-1 font-style">
-                <div className="row light">Roboto Slab regular</div>
-                <div className="row reguler">HKGrotesk regular</div>
-                <div className="row bold">HKGrotesk bold</div>
+                <div className="row light">Montserrat regular</div>
+                <div className="row bold">Montserrat bold</div>
               </div>
               <div className="col-style">
                 <div className="color-use">
                   <span className='color-circle' id='primary-color'></span>
                   <span className='color-circle' id='second-color'></span>
-                  <span className='color-circle' id='third-color'></span>
                 </div>
               </div>
             </div>
@@ -130,8 +128,7 @@ const Borderless = () => (
             <div className="label-box">HTML</div>
             <div className="label-box">CSS/SCSS</div>
             <div className="label-box">SVG</div>
-            <div className="label-box">Bootstrap Select</div>
-            <div className="label-box">Bootstrap Tag Input</div>
+            <div className="label-box">Slide.js</div>
             <div className="label-box">Git</div>
           </div>
         </div>
@@ -141,8 +138,8 @@ const Borderless = () => (
           <div className="row">
             <div className="process-wrap">
               This project develop by team, 3 Front end, 1 UI/UX, & 1 Project manager. 
-              The reporting have 2 level access user, admin & non admin. This application for desktop.
-              We develop this project by 3 week (43 pages for admin access & 4 pages for user access)
+              The requirement same like <a href="/Portofolio/jupiter">Jupiter project</a> and <a href="/Portofolio/falcon">Falcon project</a>, make landing page and responsive in all devices. 
+              Finish this task in 8-10 days. 
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
     },{
       plugin: require('/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":[{"family":"Oswald","subsets":["latin"]},{"family":"Open Sans","variants":["400","700"]},{"family":"Roboto"},{"family":"Playfair Display"},{"family":"Raleway"},{"family":"Rubik","variants":["300","400","500"]},{"family":"IBM Plex Sans","variants":["300","400","500"]},{"family":"Roboto Slab","variants":["300","400","500"]}]},
+      options: {"plugins":[],"fonts":[{"family":"Oswald","subsets":["latin"]},{"family":"Open Sans","variants":["400","700"]},{"family":"Roboto"},{"family":"Playfair Display"},{"family":"Raleway"},{"family":"Rubik","variants":["300","400","500"]},{"family":"IBM Plex Sans","variants":["300","400","500"]},{"family":"Roboto Slab","variants":["300","400","500"]},{"family":"Montserrat","variants":["300","400","500"]}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

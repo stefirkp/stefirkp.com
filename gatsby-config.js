@@ -58,6 +58,10 @@ module.exports = {
             family: `Roboto Slab`,
             variants:['300','400','500']
           },
+          {
+            family: `Montserrat`,
+            variants:['300','400','500']
+          },
         ],
       },
     }

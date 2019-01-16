@@ -142,6 +142,8 @@ const Jupiter = () => (
               We use concept .... ? 
 
               put snippet 
+              <br/>
+              We finish this task by 3-4 days
 
             </div>
           </div>
