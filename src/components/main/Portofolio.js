@@ -56,7 +56,7 @@ const Portofolio = () => (
           </div>
           <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
         </div>
-        <div className="a-porto w2column h600" id='borderless'>
+        <div className="a-porto w2column h600" id='borderless'  onClick={ () => navigate('/PortofolioDetail/borderless')}>
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -74,7 +74,7 @@ const Portofolio = () => (
       </div>
 
       <div className="col-2">
-        <div className="a-porto  w65percnt h600" id='museum-recomender'>
+        <div className="a-porto  w65percnt h600" id='museum-recomender'  onClick={ () => navigate('/PortofolioDetail/museum')}>
         <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -89,7 +89,7 @@ const Portofolio = () => (
           <div className="label-project button-project">FINAL PROJECT </div>
         
         </div>
-        <div className="a-porto w35percnt h600" id='arsip-fak'>
+        <div className="a-porto w35percnt h600" id='arsip-fak'  onClick={ () => navigate('/PortofolioDetail/archive-letter')}>
           <div className="bg-card"></div>
           
           <div className="button-next button-project">
@@ -110,7 +110,7 @@ const Portofolio = () => (
     
 
       <div className="col-1">
-        <div className="a-porto w100percnt h400" id='personal-website'>
+        <div className="a-porto w100percnt h400" id='personal-website'  onClick={ () => navigate('/PortofolioDetail/personal-website')}>
           <div className="bg-card-custom">
             <div className="bg-card-side"></div>
             <div className="bg-card-pct"></div>

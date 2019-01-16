@@ -339,3 +339,59 @@
     }
 
 }
+
+#pricentric-layout{
+
+}
+
+#borderless-layout{
+    $border-color:#333f51;
+    $secondary-color:#08b9a2;
+
+    max-width: inherit;
+    .top-detail{
+        background:$border-color;
+        // background:url('../images/portofolio-detail/bg-borderless.png') no-repeat;
+        // background-size:100% 100%;
+        position: relative;
+        .top-wrap{
+            width: 1280px;
+            height: 100%;
+            margin: 0px auto;
+            position: relative;
+            @include flexbox();
+            @include justify-content(center);
+            @include align-items(center);
+        }
+        .col-title{
+            // float:left;
+            // height: 100%;
+            // @include flexbox();
+            // @include flex-direction(column);
+            // @include justify-content(center);
+            // width: 100%;
+            // box-sizing: border-box;
+            // padding-left: 119px;
+            .big{
+                font-size:60px;
+                margin-bottom:10px;
+                color:white;
+                padding-left:20px;
+            }
+            .detail{
+                font-size:20px;
+                color:#dcdada;
+            }
+        }
+        .col-pict{
+            // position: absolute;
+            // right:0px;
+            // bottom:65px;
+            width:930px;
+            height:636px;
+            background:url('../images/portofolio-detail/border-card-detail.png')no-repeat;        
+            background-size:100%;
+            // background-position: 45px 0px;
+        }
+    }
+}

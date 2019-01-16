@@ -20,6 +20,11 @@
         "path": "/PortofolioDetail/PortofolioDetail/"
     },
     {
+        "componentChunkName": "component---src-pages-portofolio-detail-borderless-js",
+        "jsonName": "portofolio-detail-borderless-f9a",
+        "path": "/PortofolioDetail/borderless/"
+    },
+    {
         "componentChunkName": "component---src-pages-portofolio-detail-falcon-js",
         "jsonName": "portofolio-detail-falcon-99c",
         "path": "/PortofolioDetail/falcon/"
