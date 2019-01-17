@@ -20,6 +20,11 @@
         "path": "/PortofolioDetail/PortofolioDetail/"
     },
     {
+        "componentChunkName": "component---src-pages-portofolio-detail-archive-letter-js",
+        "jsonName": "portofolio-detail-archive-letter-491",
+        "path": "/PortofolioDetail/archive-letter/"
+    },
+    {
         "componentChunkName": "component---src-pages-portofolio-detail-borderless-js",
         "jsonName": "portofolio-detail-borderless-f9a",
         "path": "/PortofolioDetail/borderless/"

@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => (
   <footer id='my-footer'>
     Whats next ? 
-    <div className="closing-txt">Love to meet awesome people on interesting projects. Need a hand? I have two
+    <div className="closing-txt">Pleasure to meet awesome people on interesting projects. Need a hand? I have two
     </div>
     <div className="photo"></div>
     stefirkp@gmail.com 

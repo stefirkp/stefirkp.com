@@ -4,7 +4,15 @@ import Slider from "react-slick"
 
 import Layout from '../../components/layout'
 
-import user1 from '../../images/portofolio-detail/pricentric/user-1.png'
+import Login from '../../images/portofolio-detail/museum/Login.png'
+import Profile from '../../images/portofolio-detail/museum/Profile.png'
+import ListMuseum from '../../images/portofolio-detail/museum/ListMuseum.png'
+import MuseumDetail from '../../images/portofolio-detail/museum/MuseumDetail.png'
+import Validasi from '../../images/portofolio-detail/museum/Validasi.png'
+import SlopeOne from '../../images/portofolio-detail/museum/Slope One.png'
+import Evaluasi from '../../images/portofolio-detail/museum/Evaluasi.png'
+import EvaluasiResult from '../../images/portofolio-detail/museum/Evaluasi Result.png'
+import process from '../../images/portofolio-detail/museum/process.png'
 
 var settings = {
   dots: true,
@@ -21,9 +29,10 @@ const Museum = () => (
         <div className="top-wrap">
           <div className="bg-top"></div>
           <div className="col-title">
-            <div className="big"></div>
-            <div className="detail">A report application for pharmaceutical</div>
+            <div className="big">Museum Recomender</div>
+            <div className="detail">An application for museum explorer</div>
           </div>
+          <div className="col-bg-pict-help"></div>
           <div className="col-pict"></div>        
         </div>
       </div>
@@ -36,7 +45,7 @@ const Museum = () => (
                 <div className="pict-project">
                 <svg viewBox='0 0 100 100'>
                   <path d='M5.99306484,0 L94.0069352,0 C97.3168135,0 100,2.67804027 100,6.00333095 L100,16 L0,16 L0,6.00333095 C0,2.68778282 2.68768095,0 5.99306484,0 Z'
-                  fill='#0f48b1' />
+                  fill='#efcb00' />
                   <circle fill='#FC645F' cx='10' cy='8' r='3' />
                   <circle fill='#FDBD41' cx='21' cy='8' r='3' />
                   <circle fill='#35CC4B' cx='32' cy='8' r='3' />
@@ -45,30 +54,30 @@ const Museum = () => (
                   <rect fill='#F3F3F3' y='16' width='100' height='12' />
                   <rect fill='#343434' x='10' y='19.5' width='17' height='2' rx='1' />
                   <circle fill='#343434' cx='89' cy='20.5' r='1' />
-                  <rect fill='#0f48b1' x='10' y='23.5' width='7' height='2' rx='1' />
-                  <rect fill='#0f48b1' x='18' y='23.5' width='7' height='2' rx='1' />
-                  <rect fill='#0f48b1' x='10' y='32' width='40' height='8' rx='4' />
+                  <rect fill='#efcb00' x='10' y='23.5' width='7' height='2' rx='1' />
+                  <rect fill='#efcb00' x='18' y='23.5' width='7' height='2' rx='1' />
+                  <rect fill='#efcb00' x='10' y='32' width='40' height='8' rx='4' />
                   <rect fill='#D7D7D7' x='10' y='47' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='38' y='47' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='66' y='47' width='24' height='2' rx='1' />
-                  <rect fill='#0f48b1' x='10' y='43' width='24' height='2' rx='1' />
-                  <rect fill='#0f48b1' x='38' y='43' width='24' height='2' rx='1' />
-                  <rect fill='#0f48b1' x='66' y='43' width='24' height='2' rx='1' />
+                  <rect fill='#efcb00' x='10' y='43' width='24' height='2' rx='1' />
+                  <rect fill='#efcb00' x='38' y='43' width='24' height='2' rx='1' />
+                  <rect fill='#efcb00' x='66' y='43' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='51' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='38' y='51' width='24' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='66' y='51' width='24' height='2' rx='1' />
-                  <rect fill='#0f48b1' x='10' y='57' width='28' height='6' rx='3' />
+                  <rect fill='#efcb00' x='10' y='57' width='28' height='6' rx='3' />
                   <rect fill='#D7D7D7' x='10' y='66' width='74' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='70' width='79' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='74' width='71' height='2' rx='1' />
                   <rect fill='#D7D7D7' x='10' y='78' width='74' height='2' rx='1' />
-                  <rect fill='#0f48b1' x='10' y='84' width='28' height='6' rx='3' />
+                  <rect fill='#efcb00' x='10' y='84' width='28' height='6' rx='3' />
               </svg>
 
                 </div>
                 <div className="name-detail-wrap">
-                  <div className="name">Pricentric</div>
-                  <div className="type">Report Application</div>
+                  <div className="name">Museum recomender</div>
+                  <div className="type">Final Project Application</div>
                 </div>
               </div>
             </div>
@@ -77,13 +86,13 @@ const Museum = () => (
             <div className="row-label">
               <div className="label-row">Role</div>
               <div className="row">
-                Front End Developer
+                Web Developer
               </div>
             </div>
             <div className="row-label">
               <div className="label-row">Goal</div>
               <div className="row">
-                 Create business reporting for desktop view
+                 Create museum recommender system with slope one algorithm
               </div>
             </div>
 
@@ -94,9 +103,17 @@ const Museum = () => (
       </div>
       <div className="gallery-wrap">
         <div className="gallery-frame">
-        {/* <Slider {...settings}>
-          <div className="slide-img"> <img src={user1} alt="Login for user"/></div>
-        </Slider> */}
+        <Slider {...settings}>
+          <div className="slide-img"> <img src={Login} alt="Login for user"/></div>
+          <div className="slide-img"> <img src={Profile} alt="Profile"/></div>
+          <div className="slide-img"> <img src={ListMuseum} alt="List Museum"/></div>
+          <div className="slide-img"> <img src={MuseumDetail} alt="Museum Detail"/></div>
+          <div className="slide-img"> <img src={Validasi} alt="Validation"/></div>
+          <div className="slide-img"> <img src={SlopeOne} alt="Slope One process"/></div>
+          <div className="slide-img"> <img src={Evaluasi} alt="Evaluasi Choose"/></div>
+          <div className="slide-img"> <img src={EvaluasiResult} alt="Evaluasi"/></div>
+          <div className="slide-img"> <img src={process} alt="process flowchart"/></div>
+        </Slider>
         </div>
       </div>
 
@@ -126,7 +143,8 @@ const Museum = () => (
         <div className="row-label">
           <div className="label-row">Tools</div>
           <div className="row label-box-wrap">
-            <div className="label-box">Zeplin</div>
+            <div className="label-box">XAMPP</div>
+            <div className="label-box">MySQL</div>
             <div className="label-box">Sublime</div>
           </div>
         </div>
@@ -137,12 +155,9 @@ const Museum = () => (
           <div className="row label-box-wrap">
             <div className="label-box">HTML</div>
             <div className="label-box">CSS/SCSS</div>
-            <div className="label-box">SVG</div>
+            <div className="label-box">CakePHP</div>
             <div className="label-box">Bootstrap</div>
-            <div className="label-box">Bootstrap Select</div>
-            <div className="label-box">Bootstrap Tag Input</div>
             <div className="label-box">JQuery</div>
-            <div className="label-box">Git</div>
           </div>
         </div>
 
@@ -150,24 +165,29 @@ const Museum = () => (
           <div className="label-row">Process</div>
           <div className="row">
             <div className="process-wrap">
-              This project develop by team, 3 Front end, 1 UI/UX, & 1 Project manager. 
-              The application have 2 level access user, admin & non admin.
-              <br/>
-              <br/>
-              <div>
-                We use Bootstrap Tag Input for search bar. When user typing then enter, it will be create a tag, so user can search word by word. 
-                Here the example : 
-                <div className='example-boot-tag'></div>
+              <div className="concept-wrap">
+                Recommender System is an application that can filter information and provide recommendation to user. 
+                This system use 2 method, Slope one (a part of Collaborative filtering) and Demographic. 
+                
+                <div className="col-1">
+                  <div className="col-2">
+                    Collaborative filtering is one of recommender system method, which can provide 
+                    recommendation based on similar taste with other user seen on the rating of an item.
+                  </div>
+                  <div className="col-2">
+                    Demographic method can help to overcome coldstart problem in slope one. Coldstart is user who never visit museum. 
+                    The system will calculate similarity user based on  user information (age, occupation, education).
+                  </div>
+                </div>
+                
               </div>
-              <br/>
-              <div>
-                Another requirement, the height table should be responsive with the height resolution. We use jquery to detect height screen. 
 
-                <div className='example-height'></div>
-
+              <div className="keyword">
+              Keyword : <b>Slope one Recommendation, Demography Recommendation, Collaborative Filtering</b>
               </div>
+
+              You can access <a href="http://sinta.ukdw.ac.id/sinta/resources/sintasrv/nim/71110064" target='_blank'> full version </a>
               
-              <br/>We develop this project by 3 week (43 pages for admin access & 4 pages for user access).
 
             </div>
           </div>

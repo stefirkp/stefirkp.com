@@ -56,6 +56,9 @@
                 text-transform: uppercase;
             }
         }
+        .col-2:not(#project-name-detail){
+            max-width: 300px;
+        }
     }
     .col-style{
         @include flexbox();
@@ -569,3 +572,266 @@
         }
     }
 }
+#museum-layout{
+    $museum-color:#f6f6f4;
+    $secondary-color:#efcb00;
+    $main-color:black;
+
+    max-width: inherit;
+    .portofolio-detail-wrap{
+        .top-detail{
+            background:$museum-color;
+            // height:600px;
+            position: relative;
+            // @include flexbox();
+            // @include justify-content(space-between);
+            .col-title{
+                height: 100%;
+                @include flexbox();
+                @include flex-direction(column);
+                @include justify-content(center);
+                width: 100%;
+                box-sizing: border-box;
+                padding-left: 119px;
+                position: absolute;
+                z-index: 2;
+                // background:#efcb00;
+                .big{
+                    font-size:60px;
+                    margin-bottom:10px;
+                    // color:white;
+                    padding-left:20px;
+                    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+                }
+                .detail{
+                    font-size:20px;
+                    // color:#dcdada;
+                }
+            }
+            .col-pict{
+                position: absolute;
+                right:0px;
+                width:930px;
+                height: 841px;
+                background:url('../images/home/skripsi-card.png')no-repeat;        
+                background-size:100%;
+                background-position: 45px 0px;
+                background-position: 16px -124px;
+                bottom:0px;
+            }
+            .col-bg-pict-help{
+                background: black;
+                height: 100%;
+                position: absolute;
+                width: 788px;
+                position: absolute;
+                right: 0px;
+            }
+        }
+
+        .row-label{
+            .label-row{
+                &:after {
+                    background:$secondary-color;
+                }
+            }
+        }
+
+        .label-box-wrap{
+            .label-box{
+                background:$secondary-color;
+                opacity: 0.6;
+            }
+        }
+
+        .color-use{
+            #primary-color{
+                background:#212a35;
+            }
+            #second-color{
+                background:$secondary-color;
+            }
+        }
+        .example-font{
+            font-family: 'IBM Plex Sans';
+        }
+        .font-style{
+            font-family: 'IBM Plex Sans';
+            .light{font-weight: 300;}
+            .bold{font-weight: 600;}
+        }
+        
+        .gallery-wrap .gallery-frame{
+            width:1000px;
+            margin:0px auto;
+            height:500px;
+            // overflow: hidden;
+            img{
+                height:450px;
+                margin:0px auto;
+            }
+            .slick-next:before, .slick-prev:before{
+                color:$secondary-color;
+                font-size: 40px;
+            }
+        }
+        .process-wrap{
+            .concept-wrap{
+                .col-1{
+                    margin-top:20px;
+                    margin-bottom:20px;
+                    @include flexbox();
+                    @include justify-content(space-between);
+                    .col-2{
+                        padding:30px;
+                    }
+                }
+            }
+            .keyword{
+                margin:20px 0px;
+            }
+            a{
+                font-weight: 400;
+                text-decoration: none;
+                color:inherit;
+                cursor: pointer;
+                &:hover{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+#archive-layout{
+    $archive-color:#701807;
+    $secondary-color:#f3d994;
+    $main-color:black;
+
+    max-width: inherit;
+    .portofolio-detail-wrap{
+        .top-detail{
+            background:$archive-color;
+            // height:600px;
+            position: relative;
+            // @include flexbox();
+            // @include justify-content(space-between);
+            .col-title{
+                height: 100%;
+                @include flexbox();
+                @include flex-direction(column);
+                @include justify-content(center);
+                @include align-items(flex-end);
+
+                width: 50%;
+                box-sizing: border-box;
+                padding-right: 150px;
+                position: absolute;
+                z-index: 2;
+                right: 0px;
+                text-align: right;
+                margin-top:-100px;
+                .big{
+                    font-size:60px;
+                    margin-bottom:10px;
+                    color:white;
+                    padding-left:20px;
+                }
+                .detail{
+                    font-size:20px;
+                    color:#dcdada;
+                }
+            }
+            .col-pict{
+                // position: absolute;
+                // right:0px;
+                // width:930px;
+                // height: 841px;
+                // background-size:100%;
+                // background-position: 45px 0px;
+                // background-position: 16px -124px;
+                // bottom:0px;
+
+                position: absolute;
+                right: 0px;
+                width: 100%;
+                height: 764px;
+                background:url('../images/home/arsip-card.png')no-repeat;        
+                background-size: 100%;
+                bottom: 0px;
+            }
+        }
+
+        .row-label{
+            .label-row{
+                &:after {
+                    background:$archive-color;
+                }
+            }
+        }
+
+        .label-box-wrap{
+            .label-box{
+                background:$archive-color;
+                opacity: 0.6;
+            }
+        }
+
+        .color-use{
+            #primary-color{
+                background:#212a35;
+            }
+            #second-color{
+                background:$archive-color;
+            }
+        }
+        .example-font{
+            font-family: 'IBM Plex Sans';
+        }
+        .font-style{
+            font-family: 'IBM Plex Sans';
+            .light{font-weight: 300;}
+            .bold{font-weight: 600;}
+        }
+        
+        .gallery-wrap .gallery-frame{
+            width:1000px;
+            margin:0px auto;
+            height:500px;
+            // overflow: hidden;
+            img{
+                height:450px;
+                margin:0px auto;
+            }
+            .slick-next:before, .slick-prev:before{
+                color:$archive-color;
+                font-size: 40px;
+            }
+        }
+        .process-wrap{
+            .concept-wrap{
+                .col-1{
+                    margin-top:20px;
+                    margin-bottom:20px;
+                    @include flexbox();
+                    @include justify-content(space-between);
+                    .col-2{
+                        padding:30px;
+                    }
+                }
+            }
+            .keyword{
+                margin:20px 0px;
+            }
+            a{
+                font-weight: 400;
+                text-decoration: none;
+                color:inherit;
+                cursor: pointer;
+                &:hover{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
