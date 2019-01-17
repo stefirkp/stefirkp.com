@@ -78,6 +78,7 @@ const Museum = () => (
                 <div className="name-detail-wrap">
                   <div className="name">Museum recomender</div>
                   <div className="type">Final Project Application</div>
+                  <div className="year">Oct 2015</div>
                 </div>
               </div>
             </div>
@@ -154,7 +155,7 @@ const Museum = () => (
           <div className="label-row">Development</div>
           <div className="row label-box-wrap">
             <div className="label-box">HTML</div>
-            <div className="label-box">CSS/SCSS</div>
+            <div className="label-box">CSS</div>
             <div className="label-box">CakePHP</div>
             <div className="label-box">Bootstrap</div>
             <div className="label-box">JQuery</div>

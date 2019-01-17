@@ -56,6 +56,7 @@ const Borderless = () => (
                 <div className="name-detail-wrap">
                   <div className="name">Borderless</div>
                   <div className="type">Product Profile</div>
+                  <div className="year">Mei 2018</div>
                 </div>
               </div>
             </div>
@@ -126,7 +127,7 @@ const Borderless = () => (
           <div className="label-row">Development</div>
           <div className="row label-box-wrap">
             <div className="label-box">HTML</div>
-            <div className="label-box">CSS/SCSS</div>
+            <div className="label-box">CSS</div>
             <div className="label-box">SVG</div>
             <div className="label-box">Slide.js</div>
             <div className="label-box">Git</div>

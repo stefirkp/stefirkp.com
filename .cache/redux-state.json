@@ -1404,12 +1404,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-17T11:20:13.849Z",
+      "buildTime": "2019-01-17T22:58:51.786Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e4e7f82192a619c7fb61754d6b86d760",
+        "contentDigest": "abe3464b89f3aa1471c86a25aab57ea8",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1419,7 +1419,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6842ba38f0bdef6bf2028bf89e4c1f97",
+        "contentDigest": "922bb26a8fa9ad0aa1c56d2d3775ffb4",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1431,7 +1431,7 @@
       "size": 352,
       "prettySize": "352 B",
       "modifiedTime": "2019-01-13T15:12:49.346Z",
-      "accessTime": "2019-01-17T11:20:31.379Z",
+      "accessTime": "2019-01-17T22:59:15.514Z",
       "changeTime": "2019-01-13T15:12:49.346Z",
       "birthTime": "2018-12-17T08:30:16.017Z",
       "root": "/",
@@ -1440,7 +1440,7 @@
       "ext": "",
       "name": "images",
       "relativeDirectory": "..",
-      "dev": 16777221,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 11,
       "uid": 501,
@@ -1449,11 +1449,11 @@
       "blksize": 4096,
       "ino": 12887572331,
       "blocks": 0,
-      "atimeMs": 1547724031379.1396,
+      "atimeMs": 1547765955513.9993,
       "mtimeMs": 1547392369345.5054,
       "ctimeMs": 1547392369345.5054,
       "birthtimeMs": 1545035416016.7283,
-      "atime": "2019-01-17T11:20:31.379Z",
+      "atime": "2019-01-17T22:59:15.514Z",
       "mtime": "2019-01-13T15:12:49.346Z",
       "ctime": "2019-01-13T15:12:49.346Z",
       "birthtime": "2018-12-17T08:30:16.017Z"
@@ -1463,7 +1463,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "875fe7ad48a9b55ea36bdf1efe4482b1",
+        "contentDigest": "5a038608066c1ebab564afa1e2a93bca",
         "type": "Directory",
         "description": "Directory \"src/images/home\"",
         "owner": "gatsby-source-filesystem"
@@ -1475,7 +1475,7 @@
       "size": 480,
       "prettySize": "480 B",
       "modifiedTime": "2019-01-16T14:01:50.918Z",
-      "accessTime": "2019-01-17T11:20:31.382Z",
+      "accessTime": "2019-01-17T22:59:15.522Z",
       "changeTime": "2019-01-16T14:01:50.918Z",
       "birthTime": "2019-01-12T08:17:18.457Z",
       "root": "/",
@@ -1484,7 +1484,7 @@
       "ext": "",
       "name": "home",
       "relativeDirectory": "",
-      "dev": 16777221,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 15,
       "uid": 501,
@@ -1493,11 +1493,11 @@
       "blksize": 4096,
       "ino": 12887816616,
       "blocks": 0,
-      "atimeMs": 1547724031381.9824,
+      "atimeMs": 1547765955521.8862,
       "mtimeMs": 1547647310917.815,
       "ctimeMs": 1547647310917.815,
       "birthtimeMs": 1547281038456.9429,
-      "atime": "2019-01-17T11:20:31.382Z",
+      "atime": "2019-01-17T22:59:15.522Z",
       "mtime": "2019-01-16T14:01:50.918Z",
       "ctime": "2019-01-16T14:01:50.918Z",
       "birthtime": "2019-01-12T08:17:18.457Z"
@@ -1507,7 +1507,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b212602b4f9e209e753f82c5e6e0f28b",
+        "contentDigest": "88029a0b15ecd61476c1329d9df43e26",
         "type": "Directory",
         "description": "Directory \"src/images/portofolio-detail\"",
         "owner": "gatsby-source-filesystem"
@@ -1516,11 +1516,11 @@
       "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/portofolio-detail",
       "relativePath": "portofolio-detail",
       "extension": "",
-      "size": 608,
-      "prettySize": "608 B",
-      "modifiedTime": "2019-01-16T14:49:51.918Z",
-      "accessTime": "2019-01-17T11:20:31.382Z",
-      "changeTime": "2019-01-16T14:49:51.918Z",
+      "size": 672,
+      "prettySize": "672 B",
+      "modifiedTime": "2019-01-17T13:37:27.578Z",
+      "accessTime": "2019-01-17T22:59:15.522Z",
+      "changeTime": "2019-01-17T13:37:27.578Z",
       "birthTime": "2019-01-13T15:12:44.657Z",
       "root": "/",
       "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images",
@@ -1528,22 +1528,22 @@
       "ext": "",
       "name": "portofolio-detail",
       "relativeDirectory": "",
-      "dev": 16777221,
+      "dev": 16777220,
       "mode": 16877,
-      "nlink": 19,
+      "nlink": 21,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 12887906462,
       "blocks": 0,
-      "atimeMs": 1547724031382.0361,
-      "mtimeMs": 1547650191918.233,
-      "ctimeMs": 1547650191918.233,
+      "atimeMs": 1547765955521.8962,
+      "mtimeMs": 1547732247578.4075,
+      "ctimeMs": 1547732247578.4075,
       "birthtimeMs": 1547392364657.4407,
-      "atime": "2019-01-17T11:20:31.382Z",
-      "mtime": "2019-01-16T14:49:51.918Z",
-      "ctime": "2019-01-16T14:49:51.918Z",
+      "atime": "2019-01-17T22:59:15.522Z",
+      "mtime": "2019-01-17T13:37:27.578Z",
+      "ctime": "2019-01-17T13:37:27.578Z",
       "birthtime": "2019-01-13T15:12:44.657Z"
     },
     "d455ad0b-b43e-5d83-a695-82efb9b088ef": {
@@ -3372,7 +3372,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2eccd9bf3dd251d084c7808189771e10",
+        "contentDigest": "62657ad4c9ffff77ca315468d234fac2",
         "type": "Directory",
         "description": "Directory \"src/images/portofolio-detail/pricentric\"",
         "owner": "gatsby-source-filesystem"
@@ -3384,7 +3384,7 @@
       "size": 448,
       "prettySize": "448 B",
       "modifiedTime": "2019-01-16T14:58:09.411Z",
-      "accessTime": "2019-01-17T11:20:31.385Z",
+      "accessTime": "2019-01-17T22:59:15.533Z",
       "changeTime": "2019-01-16T14:58:09.411Z",
       "birthTime": "2019-01-16T14:49:49.407Z",
       "root": "/",
@@ -3393,7 +3393,7 @@
       "ext": "",
       "name": "pricentric",
       "relativeDirectory": "portofolio-detail",
-      "dev": 16777221,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 14,
       "uid": 501,
@@ -3402,11 +3402,11 @@
       "blksize": 4096,
       "ino": 12887950582,
       "blocks": 0,
-      "atimeMs": 1547724031385.0256,
+      "atimeMs": 1547765955532.711,
       "mtimeMs": 1547650689410.6738,
       "ctimeMs": 1547650689410.6738,
       "birthtimeMs": 1547650189407.3435,
-      "atime": "2019-01-17T11:20:31.385Z",
+      "atime": "2019-01-17T22:59:15.533Z",
       "mtime": "2019-01-16T14:58:09.411Z",
       "ctime": "2019-01-16T14:58:09.411Z",
       "birthtime": "2019-01-16T14:49:49.407Z"
@@ -4038,192 +4038,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /404/": {
-      "jsonName": "404-22d",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "376f94ad960c0908a77522d6bc5875ef",
-        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "jsonName": "index",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "b56871e37c4f83b949261320e2687326",
-        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /PortofolioDetail/borderless/": {
-      "jsonName": "portofolio-detail-borderless-f9a",
-      "internalComponentName": "ComponentPortofolioDetailBorderless",
-      "path": "/PortofolioDetail/borderless/",
-      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/borderless.js",
-      "componentChunkName": "component---src-pages-portofolio-detail-borderless-js",
-      "context": {},
-      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/borderless.js",
-      "id": "SitePage /PortofolioDetail/borderless/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "8204322c3d630aff449f25e44afebc3b",
-        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /PortofolioDetail/falcon/": {
-      "jsonName": "portofolio-detail-falcon-99c",
-      "internalComponentName": "ComponentPortofolioDetailFalcon",
-      "path": "/PortofolioDetail/falcon/",
-      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/falcon.js",
-      "componentChunkName": "component---src-pages-portofolio-detail-falcon-js",
-      "context": {},
-      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/falcon.js",
-      "id": "SitePage /PortofolioDetail/falcon/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "d9fa870bf06059b738ea89c67c9146aa",
-        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /PortofolioDetail/jupiter/": {
-      "jsonName": "portofolio-detail-jupiter-93d",
-      "internalComponentName": "ComponentPortofolioDetailJupiter",
-      "path": "/PortofolioDetail/jupiter/",
-      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/jupiter.js",
-      "componentChunkName": "component---src-pages-portofolio-detail-jupiter-js",
-      "context": {},
-      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/jupiter.js",
-      "id": "SitePage /PortofolioDetail/jupiter/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "cfcb4dbc084292ebd4bcda6b12e65a8f",
-        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /PortofolioDetail/museum/": {
-      "jsonName": "portofolio-detail-museum-6d1",
-      "internalComponentName": "ComponentPortofolioDetailMuseum",
-      "path": "/PortofolioDetail/museum/",
-      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/museum.js",
-      "componentChunkName": "component---src-pages-portofolio-detail-museum-js",
-      "context": {},
-      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/museum.js",
-      "id": "SitePage /PortofolioDetail/museum/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "882b9ba45d2761d8dc2f773d150fc0c8",
-        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /PortofolioDetail/PortofolioDetail/": {
-      "jsonName": "portofolio-detail-portofolio-detail-5d9",
-      "internalComponentName": "ComponentPortofolioDetailPortofolioDetail",
-      "path": "/PortofolioDetail/PortofolioDetail/",
-      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/PortofolioDetail.js",
-      "componentChunkName": "component---src-pages-portofolio-detail-portofolio-detail-js",
-      "context": {},
-      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/PortofolioDetail.js",
-      "id": "SitePage /PortofolioDetail/PortofolioDetail/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "bff66ae71065b8a6fbd88c329d6246cb",
-        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /PortofolioDetail/pricentric/": {
-      "jsonName": "portofolio-detail-pricentric-a51",
-      "internalComponentName": "ComponentPortofolioDetailPricentric",
-      "path": "/PortofolioDetail/pricentric/",
-      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pricentric.js",
-      "componentChunkName": "component---src-pages-portofolio-detail-pricentric-js",
-      "context": {},
-      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pricentric.js",
-      "id": "SitePage /PortofolioDetail/pricentric/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "b099e633292cb695ce0d08c8342771e0",
-        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "jsonName": "404-html-516",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5c56d8b52b339ec131ec1c85e0023ae2",
-        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-        "owner": "internal-data-bridge"
-      }
-    },
     "b95256ca-8afe-53cc-a5a2-4db03b767ac3": {
       "id": "b95256ca-8afe-53cc-a5a2-4db03b767ac3",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0f5501d0335f913315a67c46c9baf2c2",
+        "contentDigest": "4769e1ecaeb1395de887e7553012a475",
         "type": "Directory",
         "description": "Directory \"src/images/portofolio-detail/museum\"",
         "owner": "gatsby-source-filesystem"
@@ -4232,11 +4052,11 @@
       "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/portofolio-detail/museum",
       "relativePath": "portofolio-detail/museum",
       "extension": "",
-      "size": 64,
-      "prettySize": "64 B",
-      "modifiedTime": "2019-01-17T12:33:06.350Z",
-      "accessTime": "2019-01-17T12:33:07.648Z",
-      "changeTime": "2019-01-17T12:33:09.191Z",
+      "size": 384,
+      "prettySize": "384 B",
+      "modifiedTime": "2019-01-17T12:36:35.705Z",
+      "accessTime": "2019-01-17T22:59:15.533Z",
+      "changeTime": "2019-01-17T12:36:35.705Z",
       "birthTime": "2019-01-17T12:33:06.350Z",
       "root": "/",
       "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/portofolio-detail",
@@ -4244,22 +4064,22 @@
       "ext": "",
       "name": "museum",
       "relativeDirectory": "portofolio-detail",
-      "dev": 16777221,
+      "dev": 16777220,
       "mode": 16877,
-      "nlink": 2,
+      "nlink": 12,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 12887960561,
       "blocks": 0,
-      "atimeMs": 1547728387647.5227,
-      "mtimeMs": 1547728386349.6003,
-      "ctimeMs": 1547728389191.0566,
+      "atimeMs": 1547765955532.705,
+      "mtimeMs": 1547728595704.8293,
+      "ctimeMs": 1547728595704.8293,
       "birthtimeMs": 1547728386349.6003,
-      "atime": "2019-01-17T12:33:07.648Z",
-      "mtime": "2019-01-17T12:33:06.350Z",
-      "ctime": "2019-01-17T12:33:09.191Z",
+      "atime": "2019-01-17T22:59:15.533Z",
+      "mtime": "2019-01-17T12:36:35.705Z",
+      "ctime": "2019-01-17T12:36:35.705Z",
       "birthtime": "2019-01-17T12:33:06.350Z"
     },
     "a8559b45-0942-57b4-966f-ffb7996daecb": {
@@ -4775,32 +4595,12 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /PortofolioDetail/archive-letter/": {
-      "jsonName": "portofolio-detail-archive-letter-491",
-      "internalComponentName": "ComponentPortofolioDetailArchiveLetter",
-      "path": "/PortofolioDetail/archive-letter/",
-      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js",
-      "componentChunkName": "component---src-pages-portofolio-detail-archive-letter-js",
-      "context": {},
-      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js",
-      "id": "SitePage /PortofolioDetail/archive-letter/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "a6e3a1efefacd550a7b38fccfd135f84",
-        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "0866b260-a541-5db0-8163-65bad135ada2": {
       "id": "0866b260-a541-5db0-8163-65bad135ada2",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d115cab0a4fef5776b1e79ce9752c9a4",
+        "contentDigest": "0456dd6bdb6fbf0b3750a03d9d374185",
         "type": "Directory",
         "description": "Directory \"src/images/portofolio-detail/arsip\"",
         "owner": "gatsby-source-filesystem"
@@ -4809,11 +4609,11 @@
       "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/portofolio-detail/arsip",
       "relativePath": "portofolio-detail/arsip",
       "extension": "",
-      "size": 64,
-      "prettySize": "64 B",
-      "modifiedTime": "2019-01-17T13:37:25.224Z",
-      "accessTime": "2019-01-17T13:37:25.947Z",
-      "changeTime": "2019-01-17T13:37:27.578Z",
+      "size": 480,
+      "prettySize": "480 B",
+      "modifiedTime": "2019-01-17T13:51:39.618Z",
+      "accessTime": "2019-01-17T22:59:15.533Z",
+      "changeTime": "2019-01-17T13:51:39.618Z",
       "birthTime": "2019-01-17T13:37:25.224Z",
       "root": "/",
       "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/portofolio-detail",
@@ -4821,22 +4621,22 @@
       "ext": "",
       "name": "arsip",
       "relativeDirectory": "portofolio-detail",
-      "dev": 16777221,
+      "dev": 16777220,
       "mode": 16877,
-      "nlink": 2,
+      "nlink": 15,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 12887961782,
       "blocks": 0,
-      "atimeMs": 1547732245946.7378,
-      "mtimeMs": 1547732245224.166,
-      "ctimeMs": 1547732247578.4075,
+      "atimeMs": 1547765955532.6963,
+      "mtimeMs": 1547733099618.3157,
+      "ctimeMs": 1547733099618.3157,
       "birthtimeMs": 1547732245224.166,
-      "atime": "2019-01-17T13:37:25.947Z",
-      "mtime": "2019-01-17T13:37:25.224Z",
-      "ctime": "2019-01-17T13:37:27.578Z",
+      "atime": "2019-01-17T22:59:15.533Z",
+      "mtime": "2019-01-17T13:51:39.618Z",
+      "ctime": "2019-01-17T13:51:39.618Z",
       "birthtime": "2019-01-17T13:37:25.224Z"
     },
     "8de60257-2ce1-54d2-9320-8e4c5b6d6920": {
@@ -5522,6 +5322,226 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "376f94ad960c0908a77522d6bc5875ef",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b56871e37c4f83b949261320e2687326",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/archive-letter/": {
+      "jsonName": "portofolio-detail-archive-letter-491",
+      "internalComponentName": "ComponentPortofolioDetailArchiveLetter",
+      "path": "/PortofolioDetail/archive-letter/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-archive-letter-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js",
+      "id": "SitePage /PortofolioDetail/archive-letter/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a6e3a1efefacd550a7b38fccfd135f84",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/borderless/": {
+      "jsonName": "portofolio-detail-borderless-f9a",
+      "internalComponentName": "ComponentPortofolioDetailBorderless",
+      "path": "/PortofolioDetail/borderless/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/borderless.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-borderless-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/borderless.js",
+      "id": "SitePage /PortofolioDetail/borderless/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8204322c3d630aff449f25e44afebc3b",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/falcon/": {
+      "jsonName": "portofolio-detail-falcon-99c",
+      "internalComponentName": "ComponentPortofolioDetailFalcon",
+      "path": "/PortofolioDetail/falcon/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/falcon.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-falcon-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/falcon.js",
+      "id": "SitePage /PortofolioDetail/falcon/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d9fa870bf06059b738ea89c67c9146aa",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/jupiter/": {
+      "jsonName": "portofolio-detail-jupiter-93d",
+      "internalComponentName": "ComponentPortofolioDetailJupiter",
+      "path": "/PortofolioDetail/jupiter/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/jupiter.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-jupiter-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/jupiter.js",
+      "id": "SitePage /PortofolioDetail/jupiter/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cfcb4dbc084292ebd4bcda6b12e65a8f",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/museum/": {
+      "jsonName": "portofolio-detail-museum-6d1",
+      "internalComponentName": "ComponentPortofolioDetailMuseum",
+      "path": "/PortofolioDetail/museum/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/museum.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-museum-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/museum.js",
+      "id": "SitePage /PortofolioDetail/museum/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "882b9ba45d2761d8dc2f773d150fc0c8",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/PortofolioDetail/": {
+      "jsonName": "portofolio-detail-portofolio-detail-5d9",
+      "internalComponentName": "ComponentPortofolioDetailPortofolioDetail",
+      "path": "/PortofolioDetail/PortofolioDetail/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/PortofolioDetail.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-portofolio-detail-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/PortofolioDetail.js",
+      "id": "SitePage /PortofolioDetail/PortofolioDetail/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bff66ae71065b8a6fbd88c329d6246cb",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/pricentric/": {
+      "jsonName": "portofolio-detail-pricentric-a51",
+      "internalComponentName": "ComponentPortofolioDetailPricentric",
+      "path": "/PortofolioDetail/pricentric/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pricentric.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-pricentric-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pricentric.js",
+      "id": "SitePage /PortofolioDetail/pricentric/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b099e633292cb695ce0d08c8342771e0",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5c56d8b52b339ec131ec1c85e0023ae2",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/personal-website/": {
+      "jsonName": "portofolio-detail-personal-website-e6a",
+      "internalComponentName": "ComponentPortofolioDetailPersonalWebsite",
+      "path": "/PortofolioDetail/personal-website/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/personal-website.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-personal-website-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/personal-website.js",
+      "id": "SitePage /PortofolioDetail/personal-website/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b5661d7e9d369f5d33fc01ce15ee43e9",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -5557,7 +5577,8 @@
     "portofolio-detail-pricentric-a51": "346/path---portofolio-detail-pricentric-a-51-f21-NZuapzHg3X9TaN1iIixfv1W23E",
     "portofolio-detail-borderless-f9a": "428/path---portofolio-detail-borderless-f-9-a-a0c-NZuapzHg3X9TaN1iIixfv1W23E",
     "portofolio-detail-museum-6d1": "601/path---portofolio-detail-museum-6-d-1-a4d-NZuapzHg3X9TaN1iIixfv1W23E",
-    "portofolio-detail-archive-letter-491": "91/path---portofolio-detail-archive-letter-491-d1c-NZuapzHg3X9TaN1iIixfv1W23E"
+    "portofolio-detail-archive-letter-491": "91/path---portofolio-detail-archive-letter-491-d1c-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-personal-website-e6a": "937/path---portofolio-detail-personal-website-e-6-a-6d9-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js": {
@@ -5592,13 +5613,17 @@
       "query": "",
       "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/museum.js"
     },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js"
+    },
     "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js"
     },
-    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js": {
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/personal-website.js": {
       "query": "",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js"
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/personal-website.js"
     }
   },
   "staticQueryComponents": {

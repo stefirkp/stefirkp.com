@@ -835,3 +835,40 @@
     }
 }
 
+#personal-website-layout{
+    $secondary-color:#94030e;
+    $third-color:#e6b51c;
+
+    max-width: inherit;
+    .main-detail-wrap:first-child{
+        margin-top: 200px;
+    }
+
+    .row-label{
+        .label-row{
+            &:after {
+                background:$secondary-color;
+            }
+        }
+    }
+
+    .label-box-wrap{
+        .label-box{
+            background:$secondary-color;
+            opacity: 0.6;
+        }
+    }
+
+    .color-use{
+        #primary-color{
+            background:$third-color;
+        }
+        #second-color{
+            background:$secondary-color;
+        }
+    }
+    .font-style{
+        .light{font-weight: 300;}
+        .bold{font-weight: 600;}
+    }
+}

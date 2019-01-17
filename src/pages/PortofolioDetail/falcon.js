@@ -56,6 +56,7 @@ const Falcon = () => (
                 <div className="name-detail-wrap">
                   <div className="name">Falcon Deploy</div>
                   <div className="type">Product Profile</div>
+                  <div className="year">June 2018</div>
                 </div>
               </div>
             </div>
@@ -128,7 +129,7 @@ const Falcon = () => (
           <div className="label-row">Development</div>
           <div className="row label-box-wrap">
             <div className="label-box">HTML</div>
-            <div className="label-box">CSS/SCSS</div>
+            <div className="label-box">CSS</div>
             <div className="label-box">SVG</div>
             <div className="label-box">Git</div>
           </div>

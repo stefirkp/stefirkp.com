@@ -81,6 +81,7 @@ const ArchiveLetter = () => (
                 <div className="name-detail-wrap">
                   <div className="name">Letter Archive</div>
                   <div className="type">Internship</div>
+                  <div className="year">Des 2014</div>
                 </div>
               </div>
             </div>
@@ -160,9 +161,10 @@ const ArchiveLetter = () => (
           <div className="label-row">Development</div>
           <div className="row label-box-wrap">
             <div className="label-box">HTML</div>
-            <div className="label-box">CSS/SCSS</div>
+            <div className="label-box">CSS</div>
             <div className="label-box">CakePHP</div>
             <div className="label-box">Bootstrap</div>
+            <div className="label-box">AJAX</div>
             <div className="label-box">JQuery</div>
           </div>
         </div>

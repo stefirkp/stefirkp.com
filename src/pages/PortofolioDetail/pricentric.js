@@ -79,6 +79,7 @@ const Pricentric = () => (
                 <div className="name-detail-wrap">
                   <div className="name">Pricentric</div>
                   <div className="type">Report Application</div>
+                  <div className="year">June 2017</div>
                 </div>
               </div>
             </div>
