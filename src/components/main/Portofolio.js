@@ -2,7 +2,7 @@ import React from 'react'
 import { navigate } from "gatsby"
 
 const Portofolio = () => (
-  <section className="portofolio-wrap">
+  <section className="portofolio-wrap" id='portfolio'>
     <div className="description">
       <div className='title'>Let's build something amazing</div>
       <div className="content">I have hardwired desire to be better, an instinct for best user experience.</div>
@@ -25,7 +25,7 @@ const Portofolio = () => (
           </div>
           <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
         </div>
-        <div className="a-porto w35percnt h600" id='falcon' onClick={ () => navigate('/PortofolioDetail/falcon')} role="link">
+        <div className="a-porto w35percnt h600" id='falcon' onClick={ () => navigate('/PortofolioDetail/falcon')} >
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>

@@ -2,56 +2,316 @@
     padding:150px 0px;
     @extend %center;
     @extend %section-wrap;
+    max-width: inherit;
+    // background:#f2f2f2;
+    .skill-wrap-2{
+        max-width: 1440px;
+        @extend %center;
+    }
+    .row{
+        @include flexbox();
+        @include justify-content(center);
+        margin-bottom:15px;
+        .label{
+            text-transform: capitalize;
+            margin-right:10px;
+        }
+    }
+    &:after {
+        content: "";
+        // opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;   
+      }
     .title{
         font-family:'Rubik';
         font-size:30px;
-        font-weight: 500;
+        // font-weight: 500;
         margin-bottom:30px;
-        
+        text-align: center;
     }
     .list-skill{
-        width: 80%;
-        margin-top:30px;
+        width: 100%;
+        padding-top:40px;
+        overflow: hidden;
         @include flexbox();
         @include flex-wrap(wrap);
         @include align-items(center);
-        @include justify-content(space-between);
+        @include justify-content(center);
         
         &> div{
-            width: 300px;
-            margin-bottom:20px;
+            width: calc(100%/4);
+            min-width: 200px;
+            // margin-bottom:40px;
             text-align:center;
             // border-radius: 100%;
-            height:150px;
-            margin:0px 20px 40px;
-            background:red;
-
+            height:250px;
+            // margin:0px 20px 40px;
+            // background:red;
+            position: relative;
+            
+            
+            $pastel-1:#A63A50;
+            $pastel-2:#F0E7D8;
+            $pastel-3:#AB9B96;
+            $pastel-4:#A1674A;
+            $pastel-5:#BA6E6E;
+            
             &.a-skill{
                 @extend %center;
                 cursor: pointer;
-                &:hover .box{
-                    border-radius:0; 
-                    // width: 0px; 
-                    margin-left:-50%;
+                position: relative;
+                // overflow: hidden;
+                .box-title{
+                    // margin-top:130px;
+                    font-size:25px;
+                    font-weight: bold;
+                    position: absolute;
+                    bottom:45px;
+                    transition: all .5s ease-in-out;
                 }
-            }
-
-            
-            .box{
-                width: 150px;
-                // margin-bottom:20px;
-                text-align:center;
-                border-radius: 100%;
-                height:150px;
-                // margin:0px 20px 40px;
-                background:yellow;
-                transition: all .5s ease-in-out;
-
+                .box{
+                    width: 125px;
+                    text-align:center;
+                    height:125px;
+                    background: #066093;
+                    transition: all .5s ease-in-out;
+                    position: absolute;
+                    top: 38px;
+                    display: inline-block;
+                    margin-bottom: 68px;
+                    border-radius:100%;
+                }
                 &:hover{
-                    
+                    .box{
+                        border-radius:0; 
+                        // width: 0px; 
+                        // margin-left:-50%;
+                        width:80px;
+                        height:80px;
+                        top: -38px;
+                        background: #066093;
+                        margin-left: -40px;
+                        z-index: 2;
+                    }
+                    .detail-skill-wrap{
+                        // display: inherit;
+                        z-index: 0;
+                        height: 100%;
+                        width:100%;
+                        overflow: inherit;
+                        padding-top:50px;
+                        margin-bottom:0px;
+                        background:#00000069;
+                    }
+                    .box-title{
+                        bottom: 224px;
+                        margin-left: 19px;
+                        z-index: 1;
+                        /* padding-left: 350px; */
+                        background: #e74c18;
+                        color: white;
+                        padding: 10px;
+                        padding-left: 39px;
+                        padding-right: 20px;
+                        box-sizing: border-box;
+                        border-radius: 40px;
+                        font-size:20px;
+                    }
+                }
+                .detail-skill-wrap{
+                    padding-top:86px;
+                    height: 100%;
+                    width:100%;
+                    z-index: -1;
+                        
+                    overflow: hidden;
+                    margin-bottom:-1000%;
+                    transition: all .5s ease-in-out;
+                    padding:0px 20px;
+                    box-sizing: border-box;
+                    @include flexbox();
+                    @include flex-direction(column);
+                    @include align-items(center);
+                    @include justify-content(center);
+                    .desc .row{
+                        &:not(.info){
+                            font-size: 14px;
+                            font-style: italic;
+                        }
+
+                    }
+                }
+                color:white;
+                &#html{
+                    background:#e74c18cf;
+                    .box{
+                        background:url('../images/home/skill/html.png') no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                    }
+                }
+
+                &#css{
+                    background: #3099d9c2;
+                    color: white;
+                    .box{
+                        background:url('../images/home/skill/css.png') no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                    }
+                    &:hover {
+                        .box-title{
+                            background:#3099d9;
+                        }
+                        .box{
+                            margin-left:-67px;
+                        }
+                    }
+                }
+                &#js{
+                    background: #f7ae0bd1;
+                    .box{
+                        background:url('../images/home/skill/js.png') no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                    }
+                    &:hover{
+                        .box{
+                            margin-left: -54px;
+                        }
+                        .box-title{
+                            background:#f1dd3f;
+                        }
+                    }
+                }
+                &#php{
+                    background: #4e5995d9;
+                    .box{
+                        background:url('../images/home/skill/php.png') no-repeat;
+                        background-size:auto 100%;
+                        background-position: center;
+                    }
+                    &:hover {
+                        .box{
+                            margin-left:-81px;
+                        }
+                        .box-title{
+                            padding-left: 79px;
+                            bottom:223px;
+                            background:#4e5995;
+                        }
+                    }
+                }
+                &#react{
+                    background: #3363b1c7;
+                    .box{
+                        background:url('../images/home/skill/react.png') no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                    }
+                    &:hover .box-title{
+                        background:#3363b1;
+                    }
+                }
+                &#angular{
+                    background: #b72d2dc7;
+                    color:white;
+                    .box{
+                        background:url('../images/home/skill/angular.png') no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                    }
+                    &:hover {
+                        .box-title{
+                            background:#b72d2d;
+                        }
+                        .box{
+                            margin-left:-52px;
+                        }
+                    }
+                }
+                &#ror{
+                    background: #8f0600c9;
+                    .box{
+                        background:url('../images/home/skill/ror.jpeg') no-repeat;
+                        background-size: 100%;
+                        background-position: center;
+                    }
+                    &:hover{
+                        .box-title{
+                            background:white;
+                            color:black;
+                        }
+                        .box{
+                            border-radius:100%;
+                            margin-left: -80px;
+                        }
+                    }
+                }
+                &#mysql{
+                    background: #47728c;
+                    .box{
+                        background:url('../images/home/skill/mysql.png') no-repeat;
+                        background-size: auto 131%;
+                        background-position: -26px -5px;
+                    }
+                    &:hover{
+                        .box{
+                            border-radius: 100%;
+                            background-position: -17px -3px;
+                            margin-left: -51px;
+                        }
+                        .box-title{
+                            background:white;
+                            color:#003c5f;
+                        }
+                    }
                 }
             }
-
+            
+        }
+    }
+    .main-skill{
+        margin-bottom:70px;
+    }
+    .support-skill{
+        width:80%;
+        .list-skill-additional{
+            @include flexbox();
+            @include justify-content(center);
+            @include align-items(center);
+            @include flex-wrap(wrap);
+            .add-skill{
+                width:150px;
+                height:80px;
+                background:black;
+                margin:0px 10px;
+                &#git{
+                    background:url('../images/home/skill/git.png')no-repeat;
+                    background-size: 100%;
+                    background-position: center;
+                }
+                &#mern{
+                    background:url('../images/home/skill/mern.png')no-repeat;
+                    background-size: 100%;
+                    background-position: center;
+                }
+                &#gatsby{
+                    background:url('../images/home/skill/gatsbyjs.png')no-repeat;
+                    background-size:auto 100%;
+                    background-position: center;
+                }
+                &#cake-php{
+                    background:url('../images/home/skill/cakephp.png')no-repeat;
+                    background-size: 100%;
+                    background-position: center;
+                }
+            }
         }
     }
 }

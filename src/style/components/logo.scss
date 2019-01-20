@@ -1,0 +1,82 @@
+svg#stefi{
+    // max-width: 980px; 
+    width: 100px;
+     
+    .s {
+        stroke-dasharray: 1000px;
+        stroke-dashoffset: 1000px;
+        animation: dash 0.5s linear forwards;
+        z-index: 100;
+    }
+    
+    .tefi {
+        stroke-dasharray: 1400px;
+        stroke-dashoffset: 1400px;
+        animation: dash 2s linear forwards;
+        animation-delay: 0.55s;
+    }
+    .dot-s {
+        stroke-dasharray: 1400px;
+        stroke-dashoffset: 1400px;
+        animation: dash 0.5s linear forwards;
+        animation-delay: 2s;
+    }
+    
+    .r1 {
+        // stroke-dasharray: 31.254px;
+        // stroke-dashoffset: 31.254px;
+        stroke-dasharray: 997.459px;
+        stroke-dashoffset: 997.459px;
+        
+        animation: dash 0.8s linear forwards;
+        animation-delay: 2.1s;
+        
+    }
+    
+    .r2 {
+        // stroke-dasharray: 229.274px;
+        // stroke-dashoffset: 229.274px;
+        stroke-dasharray: 997.459px;
+        stroke-dashoffset: 997.459px;
+        animation: dash 0.5s linear forwards;
+        animation-delay: 2.2s;
+    }
+    
+    .os {
+        // stroke-dasharray: 348.272px;
+        // stroke-dashoffset: 348.272px;
+
+        stroke-dasharray: 997.459px;
+        stroke-dashoffset: 997.459px;
+        animation: dash 0.25s linear forwards;
+        animation-delay: 2.25s;
+    }
+    
+    .adi {
+        stroke-dasharray: 1789.839px;
+        stroke-dashoffset: 1789.839px;
+        animation: dash 1.5s linear forwards;
+        animation-delay: 2.5s;
+    }
+
+    .dot-r {
+        stroke-dasharray: 1400px;
+        stroke-dashoffset: 1400px;
+        animation: dash 0.5s linear forwards;
+        animation-delay: 3s;
+    }
+    
+    @keyframes dash {
+        to {
+            // fill:black;
+        stroke-dashoffset: 0;
+        }
+    }
+    
+    path {
+        stroke:black;
+        stroke-width: 2px;
+        // fill:pink;
+    }
+    
+  }

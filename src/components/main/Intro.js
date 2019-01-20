@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 export default class Intro extends Component {
   componentDidMount(){
-    console.log('sapi')
     let text = ['a website developer', 'a front end developer', 'Craft Lover', 'Dog Lover','a developer']
     var counter = 0;
     var elem = document.getElementById("changer-txt");
@@ -32,7 +31,7 @@ export default class Intro extends Component {
           </div>
         </section>
         
-        <section className="intro-wrap-2">
+        <section className="intro-wrap-2" id='intro-about'>
         <div className="photo-wrap">
           <div className="photo-single" id='a'></div>
           <div className="photo-single" id='b'></div>

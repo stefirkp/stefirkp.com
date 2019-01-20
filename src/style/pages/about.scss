@@ -1,11 +1,102 @@
 .about-wrap{
     @extend %center;
     @extend %section-wrap;
-    @include justify-content(flex-end);
-    @include align-items(flex-end);
-    .live{
-        // display: none;
-        width:50%;
-        // flex:1;
+
+    .title{
+        font-family: 'Rubik';
+        font-size: 30px;
+        margin-bottom: 80px;
+        text-align: center;
     }
+
+    .life-list-wrap{
+        max-width: 800px;
+        .a-part-of-life{
+            margin-bottom:50px;
+            @include flexbox();
+            .left{
+                width:35%;
+                text-align:right;
+                padding-right:30px;
+                .label{
+                    font-size:20px;
+                    margin-bottom:10px;
+                    font-weight: bold;
+                    color:#960003;
+                }
+                .year-label{
+                    font-style: italic;
+                    color:#909090;
+                }
+            }
+            .right{
+                width:60%;
+                position: relative;
+                @include flexbox;
+                .icon{
+                    min-width: 40px;
+                    width:40px;
+                    height:40px;
+                    background:black;
+                }
+                .detail-wrap{
+                    width:100%;
+                    padding-left:20px;
+                    box-sizing: border-box;
+                }
+                .label-detail{
+                    font-size:20px;
+                    margin-bottom:10px;
+                    font-weight: bold;
+                }
+                .desc-detail{
+                    color:#676161;
+                    font-size:14px;
+                }
+            }
+            .ornament{
+                position: absolute;
+                left: 18px;
+                top: 40px;
+                .line{
+                    height:114px;
+                    width:1.5px;
+                    background:#10808f;
+                }
+                .dot{
+                    margin-top:10px;
+                    height:2px;
+                    width:2px;
+                    border-radius: 100%;
+                    background:#10808f;
+                }
+            }
+            &#caption{
+                .right .icon{
+                    min-width: 50px;
+                    background:url('../images/home/about-icon.png')no-repeat;
+                    background-size: 270px 81px;
+                    background-position: -139px -16px;
+                }
+            }
+            &#ukdw{
+                .right .icon{
+                    background:url('../images/home/about-icon.png')no-repeat;
+                    background-size: 270px 81px;
+                    background-position: -7px -7px;
+                    
+                }
+            }
+            &#pptpm{
+                .right .icon{
+                    min-width: 50px;
+                    background:url('../images/home/about-icon.png')no-repeat;
+                    background-size: 270px 81px;
+                    background-position: -202px -19px;
+                    
+                }
+            }
+        }
+    }
+
 }
