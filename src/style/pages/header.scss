@@ -50,4 +50,29 @@
         top:0px;
         
     }
+    &.transparent-bg{
+        background:none;
+        %port-header{
+            
+        }
+
+        &.falcon-layout,&.jupiter-layout,&.borderless-layout,&.pricentric-layout,&.museum-layout,&.archive-layout{
+            color:white;
+            .header-wrap{
+                padding-top:40px;
+                padding-bottom:40px;
+                .logo svg#stefi path{
+                    stroke: white;
+                }
+            }
+        }
+        &.museum-layout{
+            .header-wrap{
+                .logo svg#stefi path{
+                    stroke:black;
+                }
+            }
+        }
+        
+    }
 }
