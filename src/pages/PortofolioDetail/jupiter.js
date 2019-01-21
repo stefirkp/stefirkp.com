@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/layout'
+
 const Jupiter = () => (
   <Layout idLayout='jupiter-layout'>
     <section className="portofolio-detail-wrap" >
@@ -140,9 +141,8 @@ const Jupiter = () => (
               Thats the chalenge for us, to think responsive based on design already made. 
               <br/><br/>
               From here we learn how to create clean structure in a website. Thats important to handover development to another team. 
-              We use concept .... ? 
-
-              put snippet 
+              For format directory, we use concept 4+1.
+              <div className="img-css-directory"></div>
               <br/>
               We finish this task by 3-4 days
 

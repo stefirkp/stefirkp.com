@@ -187,7 +187,7 @@ const Museum = () => (
               Keyword : <b>Slope one Recommendation, Demography Recommendation, Collaborative Filtering</b>
               </div>
 
-              You can access <a href="http://sinta.ukdw.ac.id/sinta/resources/sintasrv/nim/71110064" target='_blank'> full version </a>
+              You can access <a href="http://sinta.ukdw.ac.id/sinta/resources/sintasrv/nim/71110064" target='_blank' rel="noopener noreferrer"> full version </a>
               
 
             </div>

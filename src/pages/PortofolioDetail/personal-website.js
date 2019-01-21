@@ -2,14 +2,6 @@ import React from 'react'
 
 import Layout from '../../components/layout'
 
-var settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay:true
-};
 const PersonalWebsite = () => (
   <Layout idLayout='personal-website-layout'>
     <section className="portofolio-detail-wrap" >

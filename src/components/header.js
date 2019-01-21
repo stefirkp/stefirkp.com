@@ -18,9 +18,9 @@ export default class Header extends Component {
       var target = 0
       var customClass = ''
       var tmp_active_header = 0
-      if(document.getElementById('intro-about')!=null){
+      if(document.getElementById('intro-about')!==null){
         target = document.getElementById('intro-about').offsetTop - 250
-      }else if(document.querySelector(".top-detail")!=null){
+      }else if(document.querySelector(".top-detail")!==null){
         target = document.querySelector(".top-detail").offsetHeight - 100
         customClass = 'transparent-bg'
         tmp_active_header = 1
@@ -34,10 +34,10 @@ export default class Header extends Component {
         customClass = ''
       }
 
-      if(that.state.active_header!=tmp_active_header){
+      if(that.state.active_header!==tmp_active_header){
         that.setState({active_header:tmp_active_header})
       }
-      if(that.state.customClass!=customClass){
+      if(that.state.customClass!==customClass){
         that.setState({customClass:customClass})
       }
     }
@@ -48,18 +48,18 @@ export default class Header extends Component {
     const {page} = this.props 
     
     var customClass = ''
-    if(page!=undefined){
-      if(active_header==0){
+    if(page!==undefined){
+      if(active_header===0){
         customClass = 'active transparent-bg'
       }
 
-      if(this.state.customClass!=''){
+      if(this.state.customClass!==''){
         customClass = this.state.customClass
       }
       customClass+=' '+page
     }
     return(
-      <div className={'header '+(active_header==1?'active':'')+' '+customClass}>
+      <div className={'header '+(active_header===1?'active':'')+' '+customClass}>
         <div className="header-wrap">
           <div className="left">
             <div className="logo" onClick={ () => navigate('/')} >

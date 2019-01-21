@@ -1,5 +1,4 @@
 import React from 'react'
-import { navigate } from "gatsby"
 
 const Footer = () => (
   <footer id='my-footer'>
@@ -10,9 +9,9 @@ const Footer = () => (
     <span className="email"></span>
     <a href="mailto:stefirkp@gmail.com">stefirkp@gmail.com </a>
     <div className="socmed-wrap">
-      <a className='a-socmed' id='li' href={'https://www.linkedin.com/in/stefi-rosadi-67721993/'} target='_blank' ></a>
-      <a className='a-socmed' id='fb' href={'https://web.facebook.com/stefy.fhy'} target='_blank' ></a>
-      <a className='a-socmed' id='ig' href={'https://www.instagram.com/stepyroroo/'} target='_blank' ></a>
+      <a className='a-socmed' id='li' href={'https://www.linkedin.com/in/stefi-rosadi-67721993/'} target='_blank'  rel="noopener noreferrer"></a>
+      <a className='a-socmed' id='fb' href={'https://web.facebook.com/stefy.fhy'} target='_blank'  rel="noopener noreferrer"></a>
+      <a className='a-socmed' id='ig' href={'https://www.instagram.com/stepyroroo/'} target='_blank'  rel="noopener noreferrer"></a>
     </div>
 
     <span className="copy">Copyright @2019</span>

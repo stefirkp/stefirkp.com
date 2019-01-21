@@ -1404,12 +1404,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-20T13:48:00.085Z",
+      "buildTime": "2019-01-21T12:49:07.607Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "91d3489011f2cf19eb6935480ff85287",
+        "contentDigest": "822839cc6e83a4f60e7ccbeb9e6c3a07",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1419,7 +1419,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0d39596de07786a809599653063caf92",
+        "contentDigest": "c0e1fffe681714d15c099e13c33dd085",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1431,7 +1431,7 @@
       "size": 352,
       "prettySize": "352 B",
       "modifiedTime": "2019-01-20T13:48:09.544Z",
-      "accessTime": "2019-01-20T13:48:34.239Z",
+      "accessTime": "2019-01-21T12:49:23.880Z",
       "changeTime": "2019-01-20T13:48:09.544Z",
       "birthTime": "2018-12-17T08:30:16.017Z",
       "root": "/",
@@ -1449,11 +1449,11 @@
       "blksize": 4096,
       "ino": 12887572331,
       "blocks": 0,
-      "atimeMs": 1547992114238.5725,
+      "atimeMs": 1548074963879.6985,
       "mtimeMs": 1547992089544.3728,
       "ctimeMs": 1547992089544.3728,
       "birthtimeMs": 1545035416016.7283,
-      "atime": "2019-01-20T13:48:34.239Z",
+      "atime": "2019-01-21T12:49:23.880Z",
       "mtime": "2019-01-20T13:48:09.544Z",
       "ctime": "2019-01-20T13:48:09.544Z",
       "birthtime": "2018-12-17T08:30:16.017Z"
@@ -1463,7 +1463,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4e44cf04cbb3f9809064a00151730cb2",
+        "contentDigest": "eb46e61ecf00b08e5bb858130cca9565",
         "type": "Directory",
         "description": "Directory \"src/images/home\"",
         "owner": "gatsby-source-filesystem"
@@ -1475,7 +1475,7 @@
       "size": 576,
       "prettySize": "576 B",
       "modifiedTime": "2019-01-19T14:47:57.419Z",
-      "accessTime": "2019-01-20T13:48:34.241Z",
+      "accessTime": "2019-01-21T12:49:23.884Z",
       "changeTime": "2019-01-19T14:47:57.419Z",
       "birthTime": "2019-01-12T08:17:18.457Z",
       "root": "/",
@@ -1493,11 +1493,11 @@
       "blksize": 4096,
       "ino": 12887816616,
       "blocks": 0,
-      "atimeMs": 1547992114241.3018,
+      "atimeMs": 1548074963884.1863,
       "mtimeMs": 1547909277419.3352,
       "ctimeMs": 1547909277419.3352,
       "birthtimeMs": 1547281038456.9429,
-      "atime": "2019-01-20T13:48:34.241Z",
+      "atime": "2019-01-21T12:49:23.884Z",
       "mtime": "2019-01-19T14:47:57.419Z",
       "ctime": "2019-01-19T14:47:57.419Z",
       "birthtime": "2019-01-12T08:17:18.457Z"
@@ -1507,7 +1507,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5625de15178228e7941a3d2e08409356",
+        "contentDigest": "f629f681c4e1242b87245284e46a4e97",
         "type": "Directory",
         "description": "Directory \"src/images/portofolio-detail\"",
         "owner": "gatsby-source-filesystem"
@@ -1519,7 +1519,7 @@
       "size": 672,
       "prettySize": "672 B",
       "modifiedTime": "2019-01-17T13:37:27.578Z",
-      "accessTime": "2019-01-20T13:48:34.241Z",
+      "accessTime": "2019-01-21T12:49:23.884Z",
       "changeTime": "2019-01-17T13:37:27.578Z",
       "birthTime": "2019-01-13T15:12:44.657Z",
       "root": "/",
@@ -1537,11 +1537,11 @@
       "blksize": 4096,
       "ino": 12887906462,
       "blocks": 0,
-      "atimeMs": 1547992114241.3228,
+      "atimeMs": 1548074963884.101,
       "mtimeMs": 1547732247578.4075,
       "ctimeMs": 1547732247578.4075,
       "birthtimeMs": 1547392364657.4407,
-      "atime": "2019-01-20T13:48:34.241Z",
+      "atime": "2019-01-21T12:49:23.884Z",
       "mtime": "2019-01-17T13:37:27.578Z",
       "ctime": "2019-01-17T13:37:27.578Z",
       "birthtime": "2019-01-13T15:12:44.657Z"
@@ -1551,7 +1551,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f78c04de0c4c46a5b8786dcaf29f2760",
+        "contentDigest": "cabf45d6446b1f4b0a955a0839aed670",
         "type": "Directory",
         "description": "Directory \"src/images/home/skill\"",
         "owner": "gatsby-source-filesystem"
@@ -1563,7 +1563,7 @@
       "size": 512,
       "prettySize": "512 B",
       "modifiedTime": "2019-01-19T12:46:50.327Z",
-      "accessTime": "2019-01-20T13:48:34.246Z",
+      "accessTime": "2019-01-21T12:49:23.889Z",
       "changeTime": "2019-01-19T12:46:50.327Z",
       "birthTime": "2019-01-19T07:19:36.388Z",
       "root": "/",
@@ -1581,11 +1581,11 @@
       "blksize": 4096,
       "ino": 12887998222,
       "blocks": 0,
-      "atimeMs": 1547992114246.0098,
+      "atimeMs": 1548074963888.5889,
       "mtimeMs": 1547902010327.395,
       "ctimeMs": 1547902010327.395,
       "birthtimeMs": 1547882376387.9553,
-      "atime": "2019-01-20T13:48:34.246Z",
+      "atime": "2019-01-21T12:49:23.889Z",
       "mtime": "2019-01-19T12:46:50.327Z",
       "ctime": "2019-01-19T12:46:50.327Z",
       "birthtime": "2019-01-19T07:19:36.388Z"
@@ -1595,7 +1595,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0c4287280b803151a5603c9561cdaac1",
+        "contentDigest": "ed5b99fcd945683ef0b1eac26d63ecde",
         "type": "Directory",
         "description": "Directory \"src/images/portofolio-detail/arsip\"",
         "owner": "gatsby-source-filesystem"
@@ -1607,7 +1607,7 @@
       "size": 480,
       "prettySize": "480 B",
       "modifiedTime": "2019-01-17T13:51:39.618Z",
-      "accessTime": "2019-01-20T13:48:34.246Z",
+      "accessTime": "2019-01-21T12:49:23.888Z",
       "changeTime": "2019-01-17T13:51:39.618Z",
       "birthTime": "2019-01-17T13:37:25.224Z",
       "root": "/",
@@ -1625,11 +1625,11 @@
       "blksize": 4096,
       "ino": 12887961782,
       "blocks": 0,
-      "atimeMs": 1547992114246.0833,
+      "atimeMs": 1548074963887.99,
       "mtimeMs": 1547733099618.3157,
       "ctimeMs": 1547733099618.3157,
       "birthtimeMs": 1547732245224.166,
-      "atime": "2019-01-20T13:48:34.246Z",
+      "atime": "2019-01-21T12:49:23.888Z",
       "mtime": "2019-01-17T13:51:39.618Z",
       "ctime": "2019-01-17T13:51:39.618Z",
       "birthtime": "2019-01-17T13:37:25.224Z"
@@ -1639,7 +1639,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e1f92f946647edfe054195c37a2da6cd",
+        "contentDigest": "d321c391620904800bd70e084dcda5ac",
         "type": "Directory",
         "description": "Directory \"src/images/portofolio-detail/museum\"",
         "owner": "gatsby-source-filesystem"
@@ -1651,7 +1651,7 @@
       "size": 384,
       "prettySize": "384 B",
       "modifiedTime": "2019-01-17T12:36:35.705Z",
-      "accessTime": "2019-01-20T13:48:34.246Z",
+      "accessTime": "2019-01-21T12:49:23.888Z",
       "changeTime": "2019-01-17T12:36:35.705Z",
       "birthTime": "2019-01-17T12:33:06.350Z",
       "root": "/",
@@ -1669,11 +1669,11 @@
       "blksize": 4096,
       "ino": 12887960561,
       "blocks": 0,
-      "atimeMs": 1547992114246.4116,
+      "atimeMs": 1548074963888.0957,
       "mtimeMs": 1547728595704.8293,
       "ctimeMs": 1547728595704.8293,
       "birthtimeMs": 1547728386349.6003,
-      "atime": "2019-01-20T13:48:34.246Z",
+      "atime": "2019-01-21T12:49:23.888Z",
       "mtime": "2019-01-17T12:36:35.705Z",
       "ctime": "2019-01-17T12:36:35.705Z",
       "birthtime": "2019-01-17T12:33:06.350Z"
@@ -1683,7 +1683,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b87d1fab30fb63188ed9f34a8630b76b",
+        "contentDigest": "a00f5b421d95e138695dd459a49e73e2",
         "type": "Directory",
         "description": "Directory \"src/images/portofolio-detail/pricentric\"",
         "owner": "gatsby-source-filesystem"
@@ -1695,7 +1695,7 @@
       "size": 448,
       "prettySize": "448 B",
       "modifiedTime": "2019-01-16T14:58:09.411Z",
-      "accessTime": "2019-01-20T13:48:34.246Z",
+      "accessTime": "2019-01-21T12:49:23.888Z",
       "changeTime": "2019-01-16T14:58:09.411Z",
       "birthTime": "2019-01-16T14:49:49.407Z",
       "root": "/",
@@ -1713,11 +1713,11 @@
       "blksize": 4096,
       "ino": 12887950582,
       "blocks": 0,
-      "atimeMs": 1547992114246.4067,
+      "atimeMs": 1548074963888.1038,
       "mtimeMs": 1547650689410.6738,
       "ctimeMs": 1547650689410.6738,
       "birthtimeMs": 1547650189407.3435,
-      "atime": "2019-01-20T13:48:34.246Z",
+      "atime": "2019-01-21T12:49:23.888Z",
       "mtime": "2019-01-16T14:58:09.411Z",
       "ctime": "2019-01-16T14:58:09.411Z",
       "birthtime": "2019-01-16T14:49:49.407Z"
@@ -6441,6 +6441,108 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "b8788ff9-73cb-568d-aae9-f1016007dae7": {
+      "id": "b8788ff9-73cb-568d-aae9-f1016007dae7",
+      "children": [
+        "3c01f6fc-2a70-523e-8e76-10ac373a7743"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9baf457bc34134afacf83e93c2be2b58",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/portofolio-detail/formatCss.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/portofolio-detail/formatCss.png",
+      "relativePath": "portofolio-detail/formatCss.png",
+      "extension": "png",
+      "size": 108406,
+      "prettySize": "108 kB",
+      "modifiedTime": "2019-01-21T13:07:16.354Z",
+      "accessTime": "2019-01-21T13:08:12.135Z",
+      "changeTime": "2019-01-21T13:08:20.509Z",
+      "birthTime": "2019-01-21T13:07:16.354Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/portofolio-detail",
+      "base": "formatCss.png",
+      "ext": ".png",
+      "name": "formatCss",
+      "relativeDirectory": "portofolio-detail",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888099485,
+      "blocks": 216,
+      "atimeMs": 1548076092135.415,
+      "mtimeMs": 1548076036353.874,
+      "ctimeMs": 1548076100509.3008,
+      "birthtimeMs": 1548076036353.7512,
+      "atime": "2019-01-21T13:08:12.135Z",
+      "mtime": "2019-01-21T13:07:16.354Z",
+      "ctime": "2019-01-21T13:08:20.509Z",
+      "birthtime": "2019-01-21T13:07:16.354Z"
+    },
+    "3c01f6fc-2a70-523e-8e76-10ac373a7743": {
+      "id": "3c01f6fc-2a70-523e-8e76-10ac373a7743",
+      "children": [],
+      "parent": "b8788ff9-73cb-568d-aae9-f1016007dae7",
+      "internal": {
+        "contentDigest": "9baf457bc34134afacf83e93c2be2b58",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "cca6f463-684b-5ae6-a7a7-be6634f58d72": {
+      "id": "cca6f463-684b-5ae6-a7a7-be6634f58d72",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "630535b03eafc1099bb1257a2c2d019d",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/link.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/link.svg",
+      "relativePath": "link.svg",
+      "extension": "svg",
+      "size": 1356,
+      "prettySize": "1.36 kB",
+      "modifiedTime": "2014-06-04T09:47:39.000Z",
+      "accessTime": "2019-01-21T13:41:57.064Z",
+      "changeTime": "2019-01-21T13:42:26.215Z",
+      "birthTime": "2014-06-04T09:47:39.000Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images",
+      "base": "link.svg",
+      "ext": ".svg",
+      "name": "link",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888102742,
+      "blocks": 8,
+      "atimeMs": 1548078117064.4307,
+      "mtimeMs": 1401875259000,
+      "ctimeMs": 1548078146214.8552,
+      "birthtimeMs": 1401875259000,
+      "atime": "2019-01-21T13:41:57.064Z",
+      "mtime": "2014-06-04T09:47:39.000Z",
+      "ctime": "2019-01-21T13:42:26.215Z",
+      "birthtime": "2014-06-04T09:47:39.000Z"
     }
   },
   "status": {
@@ -6474,10 +6576,6 @@
     "sq--src-components-image-js": 2011440971
   },
   "components": {
-    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js"
-    },
     "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js"
@@ -6517,6 +6615,10 @@
     "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pricentric.js": {
       "query": "",
       "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pricentric.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
