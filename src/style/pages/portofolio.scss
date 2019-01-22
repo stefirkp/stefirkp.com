@@ -30,6 +30,7 @@
                 padding:20px;
                 box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.18);
                 overflow: hidden;
+                box-sizing: border-box;
                 cursor: pointer;
                 @include flexbox();
                 @include justify-content(center);
@@ -214,7 +215,7 @@
                     .bg-card{
                         background:url('../images/home/arsip-card.png')no-repeat;
                         background-size: 250%;
-                        background-position: 0 bottom;
+                        background-position: 0 73px;
                     }
                     .project-title{
                         .big-title{

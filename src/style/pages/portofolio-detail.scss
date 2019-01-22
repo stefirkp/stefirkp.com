@@ -4,9 +4,17 @@
     // @extend %section-wrap;
     .top-detail{
         width:100%;
+        min-height:666px;
         height: calc(100vh - 4vw);
         // height:600px;
         margin-bottom:80px;
+
+        .bg-wrap,.top-wrap{
+            position: relative;
+            height: 100%;
+            max-width: 1440px;
+            margin: 0px auto;
+        }
     }
     .row-label{
         margin-bottom:30px;

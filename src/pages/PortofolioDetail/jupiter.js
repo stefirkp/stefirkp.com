@@ -6,12 +6,15 @@ const Jupiter = () => (
   <Layout idLayout='jupiter-layout'>
     <section className="portofolio-detail-wrap" >
       <div className="top-detail">
+        <div className="bg-wrap">
         <div className="bg-top"></div>
         <div className="col-title">
           <div className="big">Jupiter Chain</div>
           <div className="detail">A marketing Industry Profile</div>
         </div>
         <div className="col-pict"></div>
+        </div>
+        
       </div>
       <div className="main-detail-wrap">
         <div className="detail-card">

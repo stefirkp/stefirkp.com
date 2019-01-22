@@ -1,0 +1,502 @@
+@media screen and (min-width:1291px) {
+    .portofolio-wrap{
+        .porto-list > div .a-porto{
+            &.w2column{
+                min-width: 525px;
+            }
+            &.w65percnt{
+                min-width: 682px;
+            }
+            &.w35percnt{
+                min-width: 349px;
+            }
+        }
+    }
+}    
+@media screen and (max-width:1290px) {
+    // Falcon 
+    #falcon-layout .portofolio-detail-wrap{
+        .top-detail {
+            .col-title{
+                top:48px ;
+                padding-left:104px ;
+            }
+            .col-pict{
+                width: 760px ;
+                right: 58px ;
+                bottom:-86px  ;
+            }
+        }
+    }
+    // pricentric
+    #pricentric-layout .top-detail {
+        overflow: hidden;
+        .col-title {
+            top: 163px ;
+            left: 168px ;
+        }
+        .col-pict{
+            bottom:-66px ;
+        }
+    }
+
+    // borderless
+    #borderless-layout .top-detail{
+        height:inherit;
+        .col-title{
+            margin-top:135px ;   
+        }
+        .col-pict {
+            width: 800px ;
+            height: 433px ;
+            background-position: 0px -37px ;
+        }
+    }
+    
+    // museum 
+    #museum-layout .portofolio-detail-wrap .top-detail .col-pict{
+        background-position: 16px 16px ;
+    }
+
+    // archive letter 
+    #archive-layout .portofolio-detail-wrap .top-detail{
+        .col-pict{
+            height: 666px ;
+        }
+        .col-title{
+            width:49% ;
+            margin-top:-35px ;
+            .big{
+                font-size: 40px ;
+            }
+        }
+    }
+}
+@media screen and (max-width:1280px) and (min-height:800px){
+    // museum 
+    #museum-layout .portofolio-detail-wrap .top-detail .col-pict{
+        background-position: 16px -69px ;
+    }
+}
+@media screen and (max-width:1200px){
+    #jupiter-layout .portofolio-detail-wrap .top-detail .col-pict{
+        
+    }
+    #jupiter-layout .portofolio-detail-wrap .top-detail .col-title{
+        @include justify-content(inherit);
+        margin-top:140px;
+    }
+
+    #falcon-layout .portofolio-detail-wrap .top-detail .top-wrap{
+        width:100%;
+    }
+    #falcon-layout .portofolio-detail-wrap .top-detail .col-pict{
+        width:660px;
+    }
+    #falcon-layout .portofolio-detail-wrap .top-detail .col-title .detail{
+        margin-top:44px;
+    }
+    #pricentric-layout .top-detail .col-pict{
+        width:100%;
+    }
+    #pricentric-layout .gallery-wrap .gallery-frame{
+        width:80%;
+        height:auto;
+    }
+    #pricentric-layout .gallery-wrap .gallery-frame img{
+        height: 375px;
+    }
+    .portofolio-detail-wrap .gallery-wrap{
+        // height: auto;
+        // margin-bottom:60px;
+    }
+    #pricentric-layout .process-wrap .example-height{
+        width:100%;
+        height:370px;
+    }
+
+    #borderless-layout .top-detail .top-wrap{
+        width:100%;
+    }
+    #borderless-layout .top-detail .col-pict{
+        width:100%;
+    }
+}
+@media screen and (max-width:1170px){
+    .intro-wrap-2{
+        max-width: 800px;
+    }
+    .intro-wrap-2 .photo-wrap{
+        width:300px;
+        height:300px;
+    }
+    .intro-wrap-2 .intro-name .hello{
+        font-size: 63px;
+    }
+    .intro-wrap-2 .intro-name .name{
+        font-size: 78px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#falcon .bg-card {
+        background-size: 146%;
+        background-position: 0px 48px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#arsip-fak .bg-card {
+        background-position: 0 153px;
+    }
+}
+@media screen and (max-width:1028px){
+    .portofolio-wrap .porto-list > div .a-porto.h600{
+        height: 555px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .intro-wrap-2{
+        @include flex-direction(column);
+    }
+
+    .intro-wrap-2 .photo-wrap{
+        margin-right: 0px;
+        margin-bottom:20px;
+    }
+    .intro-wrap-2 .intro-name{
+        text-align: center;
+    }
+    .skill-wrap .list-skill > div.a-skill:hover .detail-skill-wrap{
+        font-size: 12px;
+    }
+    .skill-wrap .list-skill > div.a-skill .detail-skill-wrap .desc .row:not(.info){
+        font-size:11px;
+    }
+    .skill-wrap .list-skill > div.a-skill:hover .detail-skill-wrap{
+        padding-top:30px;
+    }
+    .skill-wrap .list-skill > div.a-skill:hover .box{
+
+    width: 50px;
+    height: 50px;
+    top: -19px;
+    }
+    .skill-wrap .list-skill > div.a-skill:hover .box-title{
+        bottom: 227px;
+    padding: 6px 24px;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    }
+    .skill-wrap .list-skill > div.a-skill#mysql:hover .box{
+        background-position: -8px -3px;
+    }
+    .skill-wrap .list-skill > div.a-skill#php:hover .box-title{
+
+    padding: 6px 13px;
+    font-size: 18px;
+        bottom:227px;
+    }
+    .skill-wrap .list-skill > div.a-skill#php:hover .box{
+        margin-left: -77px;
+    }
+    .skill-wrap .list-skill > div.a-skill#ror:hover .box-title{
+
+    padding: 6px 13px;
+    }
+
+    .portofolio-wrap .description .title{
+        font-size:50px;
+    }
+    .portofolio-wrap .description .content{
+        font-size:20px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto.w35percnt,.portofolio-wrap .porto-list > div .a-porto.w65percnt{
+        width:50%;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#jupiter .bg-card{
+
+    background-size: 168%;
+    background-position: right bottom;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#pricentric .bg-card{
+
+    background-size: 198%;
+    background-position: center bottom;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#museum-recomender .bg-card{
+
+    background-size: 185%;
+    background-position: 0 bottom;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#personal-website .project-title{
+        padding-left:20px;
+    }
+    .portofolio-detail-wrap .gallery-wrap .template-gallery{
+        width:90%;
+    }
+    .portofolio-detail-wrap .main-detail-wrap{
+        width:100%;
+        padding-left:100px;
+        padding-right:100px;
+        box-sizing: border-box;
+    }
+    .portofolio-detail-wrap .detail-card .col-2:not(#project-name-detail){
+        max-width:220px;
+    }
+}
+@media screen and (max-width:800px){
+    
+}
+
+@media screen and (max-width:700px){
+    .header .header-wrap{
+        font-size:14px;
+        padding:20px 30px;
+    }
+    .header .header-wrap .logo{
+        margin-right:20px;
+    }
+    .header .header-wrap .right{
+        width:inherit;
+    }
+    .header .header-wrap .nav-list .a-nav{
+        width:inherit;
+        margin-right:20px;
+        &:last-child{
+            margin-right: 0px;
+        }
+    }
+    .intro-wrap .photo-wrap .photo{
+        width:250px;
+        height:250px;
+    }
+    .intro-wrap-2 .intro-name .hello{
+        font-size: 45px;
+    }
+    .intro-wrap-2 .intro-name .name{
+        font-size: 60px;
+    }
+    .intro-wrap-2 .intro-name .changer-txt-wrap{
+        font-size: 20px;
+        margin-top:0px;
+    }
+    .intro-wrap-2, .about-wrap, .skill-wrap, .portofolio-wrap{
+        padding:50px 30px;
+    }
+    .about-wrap .title{
+        margin-bottom:30px;
+        text-align: left;
+    }
+    .about-wrap .life-list-wrap .a-part-of-life{
+        display: inherit;
+    }
+
+    .about-wrap .life-list-wrap .a-part-of-life .left{
+        width:100%;
+        text-align:left;
+        padding-right:0px;
+    }
+    .about-wrap .life-list-wrap .a-part-of-life .right{
+        width:100%;
+    }
+    .about-wrap .life-list-wrap .a-part-of-life .right .icon,
+    .about-wrap .life-list-wrap .a-part-of-life .ornament{
+        display: none;
+    }
+    .about-wrap .life-list-wrap .a-part-of-life .right .detail-wrap{
+        margin-top:20px;
+    }
+    .portofolio-wrap .description .title{
+        font-size: 30px;
+        margin-bottom:15px;
+    }
+    .portofolio-wrap .description .content{
+        font-size: 15px;
+    }
+    .portofolio-wrap .porto-list{
+        margin-top:30px;
+    }
+    .portofolio-wrap .porto-list > div{
+        display: inherit;
+        margin-bottom:0px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto.w35percnt,
+     .portofolio-wrap .porto-list > div .a-porto.w65percnt{
+        width:100%;
+    }
+    .portofolio-wrap .porto-list > div .a-porto.h600,
+    .portofolio-wrap .porto-list > div .a-porto.h400{
+        height: 200px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto .project-title{
+        padding-top:0px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto .project-title .big-title{
+        font-size: 30px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto .bg-card{
+        opacity: 0.3;
+        background-size: 100%!important;
+        background-position: center top!important;
+    }
+
+
+    .portofolio-wrap .porto-list > div .a-porto#jupiter .project-title{
+        padding-top:35px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#falcon .project-title{
+        padding-top:20px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#falcon .project-title .big-title {
+        background-size: 100%;
+        width: 90%;
+        height: 63px;
+        margin-bottom: 5px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#pricentric .big-title {
+        background-size: 95%;
+        width: 88%;
+        height: 62px;
+        margin-top:15px;
+        // margin-bottom: 10px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#borderless .big-title {
+        background-size: 50%;
+        width: 100%;
+        height: 29px;
+        margin-bottom: 13px;
+        background-position: center;
+        margin-top: 27px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#borderless .button-project{
+        font-size:11px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#museum-recomender .project-title .big-title,
+    .portofolio-wrap .porto-list > div .a-porto#arsip-fak .project-title .big-title{
+        font-size: 25px;
+        margin-top:38px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#arsip-fak .project-title .big-title{
+        margin-top:30px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#personal-website .bg-card-custom{
+        opacity: 0.2;
+    }
+    footer#my-footer{
+        padding:70px 30px;
+    }
+    footer#my-footer .closing-txt{
+        width: 100%;
+    }
+}
+@media screen and (max-width:460px){
+    .skill-wrap .list-skill > div{
+        width:150px;
+        height:150px;
+        min-width: inherit;
+    }
+    .skill-wrap .list-skill{
+        padding-top:20px;
+    }
+    .skill-wrap .row{
+        margin-bottom:5px;
+    }
+    .skill-wrap .list-skill > div.a-skill .box {
+        width: 100px;
+        height: 100px;
+        top: 16px;
+        margin-bottom:0px;
+    }
+    .skill-wrap .list-skill > div.a-skill .box-title{
+        font-size: 15px;
+        bottom:15px;
+    }
+    .skill-wrap .list-skill > div.a-skill:hover .box {
+        border-radius: 0;
+        top: inherit;
+        margin-left: inherit;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    .skill-wrap .list-skill > div.a-skill:hover .box{
+        width:inherit;
+        height: inherit;
+        margin-left: inherit!important;
+    }
+    .skill-wrap .list-skill > div.a-skill:hover .detail-skill-wrap{
+        padding:10px;
+        text-align:left;
+        font-size:10px;
+    }
+    .skill-wrap .list-skill > div.a-skill:hover .box-title,
+    .skill-wrap .list-skill > div.a-skill .detail-skill-wrap .desc .row.familiar{
+        display: none;
+    }
+}
+
+@media screen and (max-width:375px){
+    .intro-wrap-2 .photo-wrap{
+        width:230px;
+        height:230px;
+    }
+    .intro-wrap-2 .intro-name .hello{
+        font-size: 35px;
+    }
+    .intro-wrap-2 .intro-name .name{
+        font-size: 40px;
+    }
+    .skill-wrap .list-skill > div{
+        width:128px;
+        height:128px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#jupiter .project-title{
+        padding-top:24px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto .summary-project{
+        font-size:13px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#falcon .project-title .big-title{
+        height: 56px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#pricentric .big-title{
+        height: 56px;
+    }
+    .portofolio-wrap .porto-list > div .a-porto#museum-recomender .project-title .big-title, .portofolio-wrap .porto-list > div .a-porto#arsip-fak .project-title .big-title{
+        font-size: 20px;
+        margin-top:45px;
+    }
+    .skill-wrap .support-skill .list-skill-additional .add-skill{
+        width:100px;
+    }
+    .skill-wrap .support-skill .list-skill-additional .add-skill#gatsby{
+        background-size:100%;
+    }
+    .skill-wrap .support-skill .list-skill-additional .add-skill#cake-php{
+        background-size:124px;
+    }
+    .skill-wrap .list-skill > div.a-skill .box{
+        width:75px;
+        height:75px;
+    }
+    .skill-wrap .list-skill > div.a-skill#mysql .box{
+        background-position: -14px -5px;
+    }
+    .intro-wrap-2, .about-wrap, .skill-wrap, .portofolio-wrap{
+        padding:30px;
+    }
+    .about-wrap .life-list-wrap .a-part-of-life .right .detail-wrap{
+        padding-left: 0px;
+    }
+    .intro-wrap .hello-txt{
+        font-size: 124px;
+    }
+}
+
+@media screen and (max-height:500px){
+    .intro-wrap .photo-wrap .photo{
+        width:250px;
+        height:250px;
+    }
+}
+@media screen and (max-height:300px){
+    .intro-wrap .photo-wrap .photo{
+        width:100px;
+        height:100px;
+    }
+}
