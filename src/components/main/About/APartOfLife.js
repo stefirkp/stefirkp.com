@@ -14,10 +14,10 @@ const APartOfLife = ({aLife}) => {
                     <div className="desc-detail">{aLife.desc}</div>
                 </div>
 
-                <div className="ornament">
+                {/* <div className="ornament">
                     <div className="line"></div>
                     <div className="dot"></div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

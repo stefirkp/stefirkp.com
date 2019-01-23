@@ -31,7 +31,7 @@
         .photo{
             width:400px;
             height:400px;
-            background:url('../images/b.png')no-repeat;
+            background:url($intro-img-1)no-repeat;
             background-size:auto 100%;
             border:10px solid white;
             box-shadow: 0 4px 17px 3px rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
@@ -68,21 +68,23 @@
             box-sizing: border-box;
             background:blue;
             &#a{
-                background:url('../images/a.png')no-repeat;
-                background-size:auto 100%;
+                width: 100%;
+                background:url('../images/me/pg1.jpg')no-repeat;
+                background-size: auto 164%;
+                background-position: center -81px;
             }
-            &#b{
-                background:url('../images/b.png')no-repeat;
-                background-size:auto 100%;
-            }
-            &#c{
-                background:url('../images/c.png')no-repeat;
-                background-size:auto 100%;
-            }
-            &#d{
-                background:url('../images/d.png')no-repeat;
-                background-size:auto 100%;
-            }
+            // &#b{
+            //     background:url('../images/me/pg2.jpg')no-repeat;
+            //     background-size:auto 100%;
+            // }
+            // &#c{
+            //     background:url('../images/me/pg3.jpg')no-repeat;
+            //     background-size:auto 100%;
+            // }
+            // &#d{
+            //     background:url('../images/me/pg4.jpg')no-repeat;
+            //     background-size:auto 100%;
+            // }
         }
     }
     .intro-name{

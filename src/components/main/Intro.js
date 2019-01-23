@@ -34,9 +34,9 @@ export default class Intro extends Component {
         <section className="intro-wrap-2" id='intro-about'>
         <div className="photo-wrap">
           <div className="photo-single" id='a'></div>
-          <div className="photo-single" id='b'></div>
+          {/* <div className="photo-single" id='b'></div>
           <div className="photo-single" id='c'></div>
-          <div className="photo-single" id='d'></div>
+          <div className="photo-single" id='d'></div> */}
         </div>
 
         <div className="intro-name">
