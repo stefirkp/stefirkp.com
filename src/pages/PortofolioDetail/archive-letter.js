@@ -1,21 +1,6 @@
 import React from 'react'
-
 import Slider from "react-slick"
-
 import Layout from '../../components/layout'
-
-import arsip1 from '../../images/portofolio-detail/arsip/1.png'
-import arsip2 from '../../images/portofolio-detail/arsip/2.png'
-import arsip3 from '../../images/portofolio-detail/arsip/3.png'
-import arsip4 from '../../images/portofolio-detail/arsip/4.png'
-import arsip5 from '../../images/portofolio-detail/arsip/5.png'
-import arsip6 from '../../images/portofolio-detail/arsip/6.png'
-import arsip7 from '../../images/portofolio-detail/arsip/7.png'
-import arsip8 from '../../images/portofolio-detail/arsip/8.png'
-import arsip9 from '../../images/portofolio-detail/arsip/9.png'
-import arsip10 from '../../images/portofolio-detail/arsip/10.png'
-import arsip11 from '../../images/portofolio-detail/arsip/11.png'
-import arsip12 from '../../images/portofolio-detail/arsip/12.png'
 
 var settings = {
   dots: true,
@@ -25,6 +10,23 @@ var settings = {
   slidesToScroll: 1,
   autoplay:true
 };
+
+let gallery_list = [
+
+'https://lh3.googleusercontent.com/Wfetkm8YPIal13J1CJZC_4zhOJDZdBE66rGDexRk4qzhzRzmYT473SeRbmy6TQ0uovJC0K523V7oXWbr8TJu2qJSKkKXPgJyYalu5VtgBYIarBq00mPCn-xAQlXbH8DLS8NdpJ9_VA=w2400',
+,'https://lh3.googleusercontent.com/s5tXeb8Q_QnhsbMRmk70w3NRyrAQc9dwnzlx6b5bOxWFrgXs3WwBxcBliYxgXhAIDotx_jyyDmTCbcvHl5gqMgAW7BchMDOC9qB_A6YbyL4rhOuerr7LcqH6E_L7lOTPY5kN24jqHA=w2400',
+,'https://lh3.googleusercontent.com/9kbGTVrVMWzrURywGRLNr3XHVzB05WRiQaVXCEcj_mDtptTWUCJjW5l85r20WuTm5pUKd52b8b11eRwtdnj7b8kUiFJ4Pv1gTJCo9tP59M1LqxutHLhZPpmra5HcYvTfCOgLaqmNaw=w2400',
+,'https://lh3.googleusercontent.com/MTFBM2NiTb5Vb7JP0XvZG1-lW36yNNDn_r3glbeZnnkzwPvjp-EWFJF1eWQUUY8EqcPr6NpG--tW8ay1jZH6CFRFs8gegbsorWQYYinP3MqmrpcqQWicwJ-8PDWR62iveUMFr7Sybg=w2400',
+,'https://lh3.googleusercontent.com/bgRVMsahSXTUi-7a-yUrGFsMJY-v8Z6R3YJltKzFbuAiSfTxoZb5a5I04bQBSJX2NsAHyl-rFSlMlMnIf7m9OdMM1aFsH29X0SobtIfqG5hhkA_JinonswR3jcJuwf8hBER2ttmkgw=w2400',
+,'https://lh3.googleusercontent.com/-WWRbEKCMz6n4F6L9nUE-C3xhcnG_xmHHuGBtF4KrdrfzRfu8rYZADp-X1uaeWQUifASqQGIOSkJgMAtVQuvaBCfsTvCYw-jAQKGwqW8vnxOErnk4qowNO8G7gASiMsmzHzD_JvEPA=w2400',
+,'https://lh3.googleusercontent.com/Kpvvpskb0YF1UdQHL7j1l3X5Jd5QMNtL4Qb-zqk7FEur4Ur3q11G6eTMEmqy5I_EMD2hzW6XG6175CCpqQshaz2wOL86tWUdeeZjVsWOh7Bg5fE2RPrhTUaUv1Rvjrpphoi3fdw-hw=w2400',
+,'https://lh3.googleusercontent.com/kbQ-KfO4ZwAfj3hQl0y64UsmlEVP34nUwFUruJN74rg0KNvjo2AF1mbmz8pF5tP7_mRDT5EnQe95bxOsJ-3XO2LA8uY2eXb3Ykqd_W_LszcQ3wMoekQdcdIN8ND8iX3IEFm3yZA5lQ=w2400',
+,'https://lh3.googleusercontent.com/gTtX6Cjg-D0gtDcyixmly7WZd0SRn-N9CrHAGy_6ak6sqzra-fgI0gPLNDyn9UMvKAb7K6k2zS9QPnrm2BL4YXkAeYNLgwSe3qGLPe9lQ1XWmOMmgetiyb0H-PpLtifqCMeFS_hLlg=w2400',
+,'https://lh3.googleusercontent.com/pe0_mtnYusrc3TIvUiwxmZ9YtDAZNTAOiWTfeVgu-Vs_WIyOOzI4j0fpFQSoClbjf3L9ZyoSlewVXG-ty9MOKKJwYq25AF4eqryJDyh1JxCk7iiakE1PKRB6Lkq_Ikk1yZD9Kl6BxA=w2400',
+,'https://lh3.googleusercontent.com/afwbMECuHQkJHd5FFkVxuDullwG8ZO8CNGieOSqmHtwi4LwvDdhRuyOoHoMBVfjrlyrjmxm6SZPgVZP9Zl0exx0nsn7R1kN2NHlnuadexpKdTl9wXWmMw5M1ngUnVdEewqscP0waSg=w2400',
+,'https://lh3.googleusercontent.com/gQsdP4Dy03VV4d9ZuqDcs5CbGKtrkbqyHWI9YlpCP6chFYjRTSr6L3ev5Cs5cnsfXdvOGZXzNaxl-PjJV9BnUdAT5k-m-V_IfntR5UwmIRb7wxkaGaTONjCnugclKEwnd8F3q4Jm1Q=w2400'
+]
+
 const ArchiveLetter = () => (
   <Layout idLayout='archive-layout'>
     <section className="portofolio-detail-wrap" >
@@ -108,18 +110,11 @@ const ArchiveLetter = () => (
       <div className="gallery-wrap">
         <div className="gallery-frame">
         <Slider {...settings}>
-          <div className="slide-img"> <img src={arsip1} alt="arsip1"/></div>
-          <div className="slide-img"> <img src={arsip2} alt="arsip2"/></div>
-          <div className="slide-img"> <img src={arsip3} alt="arsip3"/></div>
-          <div className="slide-img"> <img src={arsip4} alt="arsip4"/></div>
-          <div className="slide-img"> <img src={arsip5} alt="arsip5"/></div>
-          <div className="slide-img"> <img src={arsip6} alt="arsip6"/></div>
-          <div className="slide-img"> <img src={arsip7} alt="arsip7"/></div>
-          <div className="slide-img"> <img src={arsip8} alt="arsip8"/></div>
-          <div className="slide-img"> <img src={arsip9} alt="arsip9"/></div>
-          <div className="slide-img"> <img src={arsip10} alt="arsip10"/></div>
-          <div className="slide-img"> <img src={arsip11} alt="arsip11"/></div>
-          <div className="slide-img"> <img src={arsip12} alt="arsip12"/></div>
+          {gallery_list.map((img, key)=>{
+            return(
+              <div className="slide-img" key={key}> <img src={img} alt={"img"+key}/></div>
+            )
+          })}
         </Slider>
         </div>
       </div>

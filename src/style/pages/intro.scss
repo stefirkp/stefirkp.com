@@ -69,22 +69,10 @@
             background:blue;
             &#a{
                 width: 100%;
-                background:url('../images/me/pg1.jpg')no-repeat;
+                background:url($intro-img-2)no-repeat;
                 background-size: auto 164%;
-                background-position: center -81px;
+                background-position: center;
             }
-            // &#b{
-            //     background:url('../images/me/pg2.jpg')no-repeat;
-            //     background-size:auto 100%;
-            // }
-            // &#c{
-            //     background:url('../images/me/pg3.jpg')no-repeat;
-            //     background-size:auto 100%;
-            // }
-            // &#d{
-            //     background:url('../images/me/pg4.jpg')no-repeat;
-            //     background-size:auto 100%;
-            // }
         }
     }
     .intro-name{

@@ -30,7 +30,7 @@ footer#my-footer{
             margin:0px 10px;
             cursor: pointer;
             &#ig{
-                background:url('../images/home/socmed-logo.png') no-repeat;
+                background:url($footer-icon) no-repeat;
                 background-size:260px 182px;
                 background-position: -3px -125px;
                 &:hover{
@@ -38,7 +38,7 @@ footer#my-footer{
                 }
             }
             &#li{
-                background:url('../images/home/socmed-logo.png') no-repeat;
+                background:url($footer-icon) no-repeat;
                 background-size:260px 182px;
                 background-position: -205px -126px;
                 &:hover{
@@ -46,7 +46,7 @@ footer#my-footer{
                 }
             }
             &#fb{
-                background:url('../images/home/socmed-logo.png') no-repeat;
+                background:url($footer-icon) no-repeat;
                 background-size:260px 182px;
                 background-position:  -54px -125px;
                 &:hover{

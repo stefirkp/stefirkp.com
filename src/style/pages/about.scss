@@ -74,14 +74,14 @@
             &#caption{
                 .right .icon{
                     min-width: 50px;
-                    background:url('../images/home/about-icon.png')no-repeat;
+                    background:url($about-icon)no-repeat;
                     background-size: 270px 81px;
                     background-position: -139px -16px;
                 }
             }
             &#ukdw{
                 .right .icon{
-                    background:url('../images/home/about-icon.png')no-repeat;
+                    background:url($about-icon)no-repeat;
                     background-size: 270px 81px;
                     background-position: -7px -7px;
                     
@@ -90,7 +90,7 @@
             &#pptpm{
                 .right .icon{
                     min-width: 50px;
-                    background:url('../images/home/about-icon.png')no-repeat;
+                    background:url($about-icon)no-repeat;
                     background-size: 270px 81px;
                     background-position: -202px -19px;
                     

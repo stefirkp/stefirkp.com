@@ -3,17 +3,6 @@ import React from 'react'
 import Slider from "react-slick"
 
 import Layout from '../../components/layout'
-
-import Login from '../../images/portofolio-detail/museum/Login.png'
-import Profile from '../../images/portofolio-detail/museum/Profile.png'
-import ListMuseum from '../../images/portofolio-detail/museum/ListMuseum.png'
-import MuseumDetail from '../../images/portofolio-detail/museum/MuseumDetail.png'
-import Validasi from '../../images/portofolio-detail/museum/Validasi.png'
-import SlopeOne from '../../images/portofolio-detail/museum/Slope One.png'
-import Evaluasi from '../../images/portofolio-detail/museum/Evaluasi.png'
-import EvaluasiResult from '../../images/portofolio-detail/museum/Evaluasi Result.png'
-import process from '../../images/portofolio-detail/museum/process.png'
-
 var settings = {
   dots: true,
   infinite: true,
@@ -22,6 +11,18 @@ var settings = {
   slidesToScroll: 1,
   autoplay:true
 };
+
+let gallery_list = ['https://lh3.googleusercontent.com/JiNL4PyuoQx6FUAXxkWT4B_82-VseeC5tfbskjK3G-3gRjtN_icucSO5OB4xJCd-yG18W93-Utx3Zb2NEFxMN6CYD9m4c_DMTYF3yBqGRekgSXyfYeml3Z3aTa1xlTMUO2kv-cU66g=w2400'
+,'https://lh3.googleusercontent.com/2bKsYI_IeEwL78uVi5pI37wZ1HDemyAK8Ze6gys7ssKIxt892AHm-BPDJ22B6j0XrheehjkVMC_A752XYL7DtZ0kHP9XmGtgi8ulI7fdPCQyDu9x-6UbEGZGCV9neS8AETa27Z5K3A=w2400'
+,'https://lh3.googleusercontent.com/QMpECt340hNrMCKgvKELygkmkfJAxk0KdyABBPz535NrLYGPsiCOMHpME2EUHA5ECghTaA2ROxeM0qszYU0tcW6J6bO6zoIcIWmDeARgmHcTBn1TJsGjP8VGPfi5rcnB9Op5Ut0eKQ=w2400'
+,'https://lh3.googleusercontent.com/kpQkIoKjqPvQT55dFpRz1zucO9Wx9Dtv1Vh3O528zeu7Aue0sb4TcrTHb0CSLCeltUuyP8UzD1N8rfQqJn6vKqsC0cuCBUr0IidqSh4Hf6RN0zwWtrUluu8sG13D5ClEH7k4YNV6-Q=w2400'
+,'https://lh3.googleusercontent.com/EGuQe4G_8gqrRRcL8r2BuEUiXeIFcQZDJTHeNc0CBE8d4AhKku7fQmzmi6wl9KbUNvqwcSErq2njJ4Di3ghpiKtGr8a3Y7GT6507pbfdeXmeI95Mf1v-lyeFuxqtNJwvTJqmBAs9hg=w2400'
+,'https://lh3.googleusercontent.com/37Wsp3fJm9oUbVW43WTet5671yyl4Xn2cwC1PYj0ug5GAqFtpaoNSsfai3l2yvcFyMoq3oiYQbJTCIwFinOpEpc6zPQI82szMDfZF4yFDNR0i572omoCbOa3zK4kArWByZP0jCerFg=w2400'
+,'https://lh3.googleusercontent.com/B1xZ2-bC6tslNBzr1AZkuS4KL-aLnTSdy_Zyo1tzyGgvIhe64npaJM7SDHP6IIgNZCsfIZyuGNTPRjmy6gRcdE8MvmiLuY1u2IyIPD5FwbbJCDbf28MqrNj9kg4I7QIKkd1LWXfLpA=w2400'
+,'https://lh3.googleusercontent.com/PGIBQOSyIkbcOWQGsGmnVkKQYSpR4089BHl3IvJZCJ1XHTkjSuVxJ6BysWSz_YqU3iA83J8dS5wQOW-sHs1lyjFcDG_7D0QT6xOLtV_bjxDUlo8_5nnmsa3Iz-SckIhlkipWU2ceGA=w2400'
+,'https://lh3.googleusercontent.com/iM9vkPbt1-NFTpqACugpBHgfkIAyVHYOJnqFeUijx95k_qcRsHsIU0t3h9SdncukxF-LfYYX79BlqBDlbxqqrVZjPtMdozOcn4SuFigenoBJEZv0vCyqA_xLMRAiqV_dtHX_ceJWFg=w2400'
+]
+
 const Museum = () => (
   <Layout idLayout='museum-layout'>
     <section className="portofolio-detail-wrap" >
@@ -105,15 +106,11 @@ const Museum = () => (
       <div className="gallery-wrap">
         <div className="gallery-frame">
         <Slider {...settings}>
-          <div className="slide-img"> <img src={Login} alt="Login for user"/></div>
-          <div className="slide-img"> <img src={Profile} alt="Profile"/></div>
-          <div className="slide-img"> <img src={ListMuseum} alt="List Museum"/></div>
-          <div className="slide-img"> <img src={MuseumDetail} alt="Museum Detail"/></div>
-          <div className="slide-img"> <img src={Validasi} alt="Validation"/></div>
-          <div className="slide-img"> <img src={SlopeOne} alt="Slope One process"/></div>
-          <div className="slide-img"> <img src={Evaluasi} alt="Evaluasi Choose"/></div>
-          <div className="slide-img"> <img src={EvaluasiResult} alt="Evaluasi"/></div>
-          <div className="slide-img"> <img src={process} alt="process flowchart"/></div>
+          {gallery_list.map((img,key)=>{
+            return(
+              <div className="slide-img"> <img src={img} alt={"img"+key}/></div>
+            )
+          })}
         </Slider>
         </div>
       </div>
