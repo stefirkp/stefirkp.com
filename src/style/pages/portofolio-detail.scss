@@ -262,7 +262,8 @@
             height:calc(106vh - 4vw);
             color:white;
             .top-wrap{
-                width:1280px;
+                width:100%;
+                max-width: 1280px;
                 margin:0px auto;
                 height:100%;            
                 position: relative;
