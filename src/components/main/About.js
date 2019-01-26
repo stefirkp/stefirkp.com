@@ -42,8 +42,8 @@ const life_list = [
   },
   {
     id:'pptpm',
-    location:'PPTPM UKDW',
-    year:'2011 - 2015',
+    location:'PPTPM DWCU',
+    year:'2012 - 2014',
     title:'Multimedia',
     desc:'PPTPM “Pusat Pengembangan Pengajaran dan Multimedia”  is a multimedia center unit in DWCU. I was voluter who documenting any campus event like Graduation. From here i learn how to edit movie, create packaging, and work in team. Beside that I also maintance multimedia devices classroom. Make sure projector and computer working well.'
   }

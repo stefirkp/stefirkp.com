@@ -1,6 +1,7 @@
 import React from 'react'
-
+import { navigate } from "gatsby"
 import Layout from '../../components/layout'
+
 const Borderless = () => (
   <Layout idLayout='borderless-layout'>
     <section className="portofolio-detail-wrap" >
@@ -54,7 +55,9 @@ const Borderless = () => (
 
                 </div>
                 <div className="name-detail-wrap">
-                  <div className="name">Borderless</div>
+                  <div className="name">Borderless
+                    <a href="https://stefiportfolio.github.io/borderless/" className="link-port" target='_blank'></a>
+                  </div>
                   <div className="type">Product Profile</div>
                   <div className="year">Mei 2018</div>
                 </div>

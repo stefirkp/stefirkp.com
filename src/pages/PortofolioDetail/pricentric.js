@@ -77,7 +77,9 @@ const Pricentric = () => (
 
                 </div>
                 <div className="name-detail-wrap">
-                  <div className="name">Pricentric</div>
+                  <div className="name">Pricentric
+                    <a href="https://stefiportfolio.github.io/pricentric/pages/anatomy_management.html" className="link-port" target='_blank'></a>
+                  </div>
                   <div className="type">Report Application</div>
                   <div className="year">June 2017</div>
                 </div>

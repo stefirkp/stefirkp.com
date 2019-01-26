@@ -39,7 +39,13 @@
         .content{
             margin-top:20px;
             .link-txt{
-                color:$color-2;
+                a{
+                    text-decoration:none;
+                    color:$color-2;
+                    &:hover{
+                        font-weight: bold;
+                    }
+                }
             }
         }
     }
