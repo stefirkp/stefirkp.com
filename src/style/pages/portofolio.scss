@@ -82,6 +82,7 @@
                     bottom: 20px;
                     left: 20px;
                     font-size: 12px;
+                    margin-right:20px;
                     border-radius: 30px;
                     letter-spacing: 3px;
                     text-transform: uppercase;
@@ -294,6 +295,109 @@
                         padding-left: 150px;
                         width: 100%;
                         text-align:left;
+                    }
+                }
+                &#pms{                  
+                    background: #e6a65c;
+                    .button-project{
+                        background:#bd782f;
+                    }
+                    .bg-card{
+                        background:url('../images/home/portfolio/pms-card.png')no-repeat;
+                        background-size:auto 100%;
+                        background-position: center bottom;
+                    }
+                    .project-title{
+                        text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff;
+                    }
+                }
+                &#fnb{                                    
+                    background: #044B7F;
+                    color: white;
+                    .button-project{
+                        background:#256b9a;
+                    }
+                    .bg-card{
+                        background:url('../images/home/portfolio/fnb-card.png')no-repeat;
+                        background-size: auto 80%;
+                        background-position: center;
+                        // background-position: -683px 214px;
+                    }
+                    
+                }
+                &#crs{                
+                    background: #107E7D;
+                    color: white;
+                    .button-project{
+                        background:#47b3b3;
+                    }
+                    .bg-card{
+                        background:url('../images/home/portfolio/crs-card.png')no-repeat;
+                        background-size: auto 75%;
+                        background-position: center bottom; 
+                    }
+                    .project-title{
+                        padding-top:45px;
+                    }
+                }
+                &#capthos{
+                    background:#963e39f7;
+                    color:white;
+                    .project-title{
+                        .big-title{
+                            font-size:30px;
+                        }
+                    }
+                    .bg-card{
+                        background:url('../images/home/portfolio/caphost-real-card.png')no-repeat;
+                        background-size: auto 70%;
+                        background-position: -200px bottom; 
+                    }
+                }
+                &#be{                    
+                    background: #6999ab;
+                    color: white;
+                    .button-project{
+                        background:#407e94;
+                    }
+                    .bg-card{
+                        background:url('../images/home/portfolio/be-card.png')no-repeat;
+                        background-size:auto 100%;
+                        background-position: center 100px;
+                    }
+
+                    .project-title{
+                        .big-title{
+                            font-size:25px;
+                        }
+                    }
+                }
+                &#hotel-template{   
+                    .button-project{
+                        background:#6b3555;
+                    }
+                    .bg-card{
+                        background:url('../images/home/portfolio/caphost-card.jpg')no-repeat;
+                        background-size:auto 100%;
+                        background-position: -250px 0px;
+                    }
+                    .project-title{
+                        .big-title{
+                            font-size:30px;
+                        }
+                        text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff;
+                    }
+                }
+                &#pos{                
+                    background: #59ade2;
+                    color: white;
+                    .button-project{
+                        background:#4296c5;
+                    }
+                    .bg-card{
+                        background:url('../images/home/portfolio/pos-card.png')no-repeat;
+                        background-size:auto 100%;
+                        background-position: -50px 0px;
                     }
                 }
             }

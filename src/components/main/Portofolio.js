@@ -11,6 +11,115 @@ const Portofolio = () => (
     
     <div className="porto-list">
       <div className="col-2">
+        <div className="a-porto w65percnt h600" id='pms' onClick={ () => navigate('/PortofolioDetail/jupiter')} role="link">
+          <div className="bg-card"></div>
+          <div className="button-next button-project">
+            <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
+              <path className='st0' d='M28.8,296.2L28,296l342.6,0L262.9,403.9c-5.3,5.3-8.2,12.4-8.2,19.9c0,7.5,2.9,14.6,8.2,19.9l16.8,16.8 c5.3,5.3,12.3,8.2,19.8,8.2c7.5,0,14.5-2.9,19.8-8.2l184.6-184.6c5.3-5.3,8.2-12.3,8.2-19.8c0-7.5-2.9-14.6-8.2-19.9L319.2,51.5 c-5.3-5.3-12.3-8.2-19.8-8.2c-7.5,0-14.5,2.9-19.8,8.2l-16.8,16.8c-5.3,5.3-8.2,12.3-8.2,19.8c0,7.5,2.9,14.1,8.2,19.4L371.8,216 l-343.4,0C13,216,0,229.3,0,244.8l0,23.7C0,283.9,13.3,296.2,28.8,296.2z'
+              />
+            </svg>
+          </div>
+          <div className="project-title">
+            <div className="big-title">PMS</div>
+            <div className="summary-project">A hotel property management application</div>
+          </div>
+          <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
+        </div>
+        <div className="a-porto w35percnt h600" id='fnb' onClick={ () => navigate('/PortofolioDetail/falcon')} >
+          <div className="bg-card"></div>
+          <div className="button-next button-project">
+            <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
+              <path className='st0' d='M28.8,296.2L28,296l342.6,0L262.9,403.9c-5.3,5.3-8.2,12.4-8.2,19.9c0,7.5,2.9,14.6,8.2,19.9l16.8,16.8 c5.3,5.3,12.3,8.2,19.8,8.2c7.5,0,14.5-2.9,19.8-8.2l184.6-184.6c5.3-5.3,8.2-12.3,8.2-19.8c0-7.5-2.9-14.6-8.2-19.9L319.2,51.5 c-5.3-5.3-12.3-8.2-19.8-8.2c-7.5,0-14.5,2.9-19.8,8.2l-16.8,16.8c-5.3,5.3-8.2,12.3-8.2,19.8c0,7.5,2.9,14.1,8.2,19.4L371.8,216 l-343.4,0C13,216,0,229.3,0,244.8l0,23.7C0,283.9,13.3,296.2,28.8,296.2z'
+              />
+            </svg>
+          </div>
+          <div className="project-title">
+            <div className="big-title">FNB</div>
+            <div className="summary-project">Record all guest request for hotel restaurant</div>
+          </div>
+          <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
+        
+        </div>
+      </div>
+      <div className="col-3">
+        <div className="a-porto w3column h600" id='crs' onClick={ () => navigate('/PortofolioDetail/pricentric')}>
+          <div className="bg-card"></div>
+          <div className="button-next button-project">
+            <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
+              <path className='st0' d='M28.8,296.2L28,296l342.6,0L262.9,403.9c-5.3,5.3-8.2,12.4-8.2,19.9c0,7.5,2.9,14.6,8.2,19.9l16.8,16.8 c5.3,5.3,12.3,8.2,19.8,8.2c7.5,0,14.5-2.9,19.8-8.2l184.6-184.6c5.3-5.3,8.2-12.3,8.2-19.8c0-7.5-2.9-14.6-8.2-19.9L319.2,51.5 c-5.3-5.3-12.3-8.2-19.8-8.2c-7.5,0-14.5,2.9-19.8,8.2l-16.8,16.8c-5.3,5.3-8.2,12.3-8.2,19.8c0,7.5,2.9,14.1,8.2,19.4L371.8,216 l-343.4,0C13,216,0,229.3,0,244.8l0,23.7C0,283.9,13.3,296.2,28.8,296.2z'
+              />
+            </svg>
+          </div>
+          <div className="project-title">
+            <div className="big-title">CRS</div>
+            <div className="summary-project">Central Management System </div>
+          </div>
+          <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
+        </div>
+        <div className="a-porto w3column h600" id='capthos'  onClick={ () => navigate('/PortofolioDetail/borderless')}>
+          <div className="bg-card"></div>
+          <div className="button-next button-project">
+            <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
+              <path className='st0' d='M28.8,296.2L28,296l342.6,0L262.9,403.9c-5.3,5.3-8.2,12.4-8.2,19.9c0,7.5,2.9,14.6,8.2,19.9l16.8,16.8 c5.3,5.3,12.3,8.2,19.8,8.2c7.5,0,14.5-2.9,19.8-8.2l184.6-184.6c5.3-5.3,8.2-12.3,8.2-19.8c0-7.5-2.9-14.6-8.2-19.9L319.2,51.5 c-5.3-5.3-12.3-8.2-19.8-8.2c-7.5,0-14.5,2.9-19.8,8.2l-16.8,16.8c-5.3,5.3-8.2,12.3-8.2,19.8c0,7.5,2.9,14.1,8.2,19.4L371.8,216 l-343.4,0C13,216,0,229.3,0,244.8l0,23.7C0,283.9,13.3,296.2,28.8,296.2z'
+              />
+            </svg>
+          </div>
+          <div className="project-title">
+            <div className="big-title">Caption Hospitality</div>
+            <div className="summary-project">A product and company profile </div>
+          </div>
+          <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
+        
+        </div>
+        <div className="a-porto w3column h600" id='be'  onClick={ () => navigate('/PortofolioDetail/borderless')}>
+          <div className="bg-card"></div>
+          <div className="button-next button-project">
+            <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
+              <path className='st0' d='M28.8,296.2L28,296l342.6,0L262.9,403.9c-5.3,5.3-8.2,12.4-8.2,19.9c0,7.5,2.9,14.6,8.2,19.9l16.8,16.8 c5.3,5.3,12.3,8.2,19.8,8.2c7.5,0,14.5-2.9,19.8-8.2l184.6-184.6c5.3-5.3,8.2-12.3,8.2-19.8c0-7.5-2.9-14.6-8.2-19.9L319.2,51.5 c-5.3-5.3-12.3-8.2-19.8-8.2c-7.5,0-14.5,2.9-19.8,8.2l-16.8,16.8c-5.3,5.3-8.2,12.3-8.2,19.8c0,7.5,2.9,14.1,8.2,19.4L371.8,216 l-343.4,0C13,216,0,229.3,0,244.8l0,23.7C0,283.9,13.3,296.2,28.8,296.2z'
+              />
+            </svg>
+          </div>
+          <div className="project-title">
+            <div className="big-title">Booking Engine</div>
+            <div className="summary-project">An application hotel to booking room</div>
+          </div>
+          <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
+        
+        </div>
+      </div>
+      <div className="col-2-ori">
+        <div className="a-porto w2column h600" id='hotel-template' onClick={ () => navigate('/PortofolioDetail/pricentric')}>
+          <div className="bg-card"></div>
+          <div className="button-next button-project">
+            <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
+              <path className='st0' d='M28.8,296.2L28,296l342.6,0L262.9,403.9c-5.3,5.3-8.2,12.4-8.2,19.9c0,7.5,2.9,14.6,8.2,19.9l16.8,16.8 c5.3,5.3,12.3,8.2,19.8,8.2c7.5,0,14.5-2.9,19.8-8.2l184.6-184.6c5.3-5.3,8.2-12.3,8.2-19.8c0-7.5-2.9-14.6-8.2-19.9L319.2,51.5 c-5.3-5.3-12.3-8.2-19.8-8.2c-7.5,0-14.5,2.9-19.8,8.2l-16.8,16.8c-5.3,5.3-8.2,12.3-8.2,19.8c0,7.5,2.9,14.1,8.2,19.4L371.8,216 l-343.4,0C13,216,0,229.3,0,244.8l0,23.7C0,283.9,13.3,296.2,28.8,296.2z'
+              />
+            </svg>
+          </div>
+          <div className="project-title">
+            <div className="big-title">Hotel Template</div>
+            <div className="summary-project">A hotel profile </div>
+          </div>
+          <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
+        </div>
+        <div className="a-porto w2column h600" id='pos'  onClick={ () => navigate('/PortofolioDetail/borderless')}>
+          <div className="bg-card"></div>
+          <div className="button-next button-project">
+            <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
+              <path className='st0' d='M28.8,296.2L28,296l342.6,0L262.9,403.9c-5.3,5.3-8.2,12.4-8.2,19.9c0,7.5,2.9,14.6,8.2,19.9l16.8,16.8 c5.3,5.3,12.3,8.2,19.8,8.2c7.5,0,14.5-2.9,19.8-8.2l184.6-184.6c5.3-5.3,8.2-12.3,8.2-19.8c0-7.5-2.9-14.6-8.2-19.9L319.2,51.5 c-5.3-5.3-12.3-8.2-19.8-8.2c-7.5,0-14.5,2.9-19.8,8.2l-16.8,16.8c-5.3,5.3-8.2,12.3-8.2,19.8c0,7.5,2.9,14.1,8.2,19.4L371.8,216 l-343.4,0C13,216,0,229.3,0,244.8l0,23.7C0,283.9,13.3,296.2,28.8,296.2z'
+              />
+            </svg>
+          </div>
+          <div className="project-title">
+            <div className="big-title">POS</div>
+            <div className="summary-project">Point of Sales for Hotelier</div>
+          </div>
+          <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
+        
+        </div>
+      </div>
+
+      <div className="col-2">
         <div className="a-porto w65percnt h600" id='jupiter' onClick={ () => navigate('/PortofolioDetail/jupiter')} role="link">
           <div className="bg-card"></div>
           <div className="button-next button-project">
