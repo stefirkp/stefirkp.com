@@ -77,7 +77,7 @@ const Pos = () => (
 
       </div>
       <div className="gallery-wrap">
-        <div className="template-gallery">
+        <div className="template-gallery capt-gall">
           
 
         <Slider {...settings}>

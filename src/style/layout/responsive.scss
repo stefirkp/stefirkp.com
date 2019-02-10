@@ -134,6 +134,23 @@
     #borderless-layout .top-detail .col-pict{
         width:100%;
     }
+    
+    .portofolio-detail-wrap .gallery-wrap .template-gallery.capt-gall{
+        width:620px;
+    }
+    #pms-layout .gallery-wrap .template-gallery.capt-gall,
+    #fnb-layout .gallery-wrap .template-gallery.capt-gall,
+    #crs-layout .gallery-wrap .template-gallery.capt-gall,
+    #pos-layout .gallery-wrap .template-gallery.capt-gall{
+        .slick-list{
+            width: 467px;
+            height: 262px;
+        }
+        .slick-slider{
+            top: 21px;
+            left: 67px;
+        }
+    }
 }
 @media screen and (max-width:1170px){
     .intro-wrap-2{
@@ -156,6 +173,16 @@
     .portofolio-wrap .porto-list > div .a-porto#arsip-fak .bg-card {
         background-position: 0 153px;
     }
+    #fnb-layout .top-detail .col-pict{
+        background-position: 500px center;
+    }
+
+    .portofolio-detail-wrap .gallery-wrap .template-gallery .mobile{
+        height: 358px;
+     }
+     .portofolio-detail-wrap .gallery-wrap .template-gallery .desktop{
+         height: 216px;
+     }
 }
 @media screen and (max-width:1028px){
     .portofolio-wrap .porto-list > div .a-porto.h600{
@@ -164,6 +191,14 @@
     #archive-layout .portofolio-detail-wrap .top-detail .col-pict{
         height:100%;
         background-position: bottom;
+    }
+    #crs-layout .top-detail .col-title{
+        width: 32%;
+        padding-top: 61px;
+    }
+    #ht-layout .top-detail .col-title{
+        text-shadow: 0 0 10px black, 0 0 20px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
+                
     }
 }
 
@@ -308,13 +343,94 @@
         padding-right:100px;
     }
 
+
+    .portofolio-detail-wrap .gallery-wrap .template-gallery.capt-gall{
+        width:483px;
+    }
+    #pms-layout .gallery-wrap .template-gallery.capt-gall,
+    #fnb-layout .gallery-wrap .template-gallery.capt-gall,
+    #crs-layout .gallery-wrap .template-gallery.capt-gall,
+    #pos-layout .gallery-wrap .template-gallery.capt-gall{
+        .slick-list{
+            width: 372px;
+            height: 209px;
+        }
+        .slick-slider{
+            top: 17px;
+            left: 55px;
+        }
+    }
+     .portofolio-detail-wrap .gallery-wrap .template-gallery:not(.capt-gall){
+         height:125%;
+     }
+     #be-layout .top-detail{
+         overflow: hidden;
+     }
+     #be-layout .top-detail .col-title{
+        justify-content: inherit;
+        padding: 0px;
+        width: 80%;
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 104px;
+     }
+     #be-layout .top-detail .col-pict{
+        background-position: center 55px;
+     }
+     #pos-layout .top-detail .col-pict{
+        background-position: center bottom;
+        background-size: 76%;
+     }
+}
+@media screen and (max-width:850px){
+    #crs-layout .top-detail .col-pict{
+        background-size:auto 77%;
+        background-position: right bottom;
+    }   
 }
 @media screen and (max-width:830px){
     #borderless-layout .top-detail .col-title{
         margin-left:0px;
     }
-}
+    #pms-layout .top-detail .col-title .big{
+        font-size: 40px;
+        width:70%;
+    }
 
+    #fnb-layout .top-detail .col-pict{
+        background-position:  center;
+    }
+    #fnb-layout .top-detail .col-title{
+        @include justify-content(inherit);
+        @include align-items(center);
+        padding-top:100px;
+        padding-left: inherit;
+
+    }
+    #caphost-layout .top-detail{
+        overflow: hidden;
+    }
+    #caphost-layout .top-detail .col-title{
+        justify-content: inherit;
+        padding: 0px;
+        width: 80%;
+        text-align: center;
+        margin: 100px auto 0px;
+        height: max-content;
+    }
+    #caphost-layout .top-detail .col-pict{
+
+    background-size: auto 83%;
+    background-position: right bottom;
+    }
+    .portofolio-detail-wrap .detail-card .col-2#project-name-detail .row .name{
+        font-size: 20px;
+    }
+    .portofolio-detail-wrap .detail-card .col-2#project-name-detail .row .type{
+        font-size:14px;
+        margin-bottom:5px;
+    }
+}
 @media screen and (max-width:700px){
     .header .header-wrap{
         font-size:14px;
@@ -475,6 +591,23 @@
     #archive-layout .portofolio-detail-wrap .top-detail .col-title{
         width:100%;
         margin-top:-130px;
+    }
+    #pms-layout .top-detail .col-title{
+        padding-top:23%;
+    }
+    #crs-layout .top-detail .col-title{
+        width: 80%;
+        padding: 0px;
+        justify-content: inherit;
+        padding-top: 98px;
+        margin: 0px auto;
+        text-align: center;
+        .big{
+            font-size:35px;
+        }
+    }
+    #crs-layout .top-detail .col-pict{
+        background-position: center bottom;
     }
 }
 @media screen and (max-width:630px){
@@ -670,6 +803,54 @@
     #personal-website-layout .main-detail-wrap:first-child{
         margin-top:120px;
     }
+    #pms-layout .top-detail .col-title{
+        // padding:0px;
+        top:0px;
+        padding-left:5%;
+    }
+    #pms-layout .top-detail .col-title .big{
+        font-size:30px;
+    }
+    #pms-layout .top-detail .col-pict{
+        background-position: 112px bottom;
+    }
+    
+    #fnb-layout .portofolio-detail-wrap .top-detail .bg-wrap, 
+    #fnb-layout .portofolio-detail-wrap .top-detail .top-wrap,
+    #crs-layout .portofolio-detail-wrap .top-detail .bg-wrap, 
+    #crs-layout .portofolio-detail-wrap .top-detail .top-wrap,
+    #caphost-layout .portofolio-detail-wrap .top-detail .bg-wrap, 
+    #caphost-layout .portofolio-detail-wrap .top-detail .top-wrap,
+    #be-layout .portofolio-detail-wrap .top-detail .bg-wrap, 
+    #be-layout .portofolio-detail-wrap .top-detail .top-wrap,
+    #ht-layout .portofolio-detail-wrap .top-detail .bg-wrap, 
+    #ht-layout .portofolio-detail-wrap .top-detail .top-wrap,
+    #pos-layout .portofolio-detail-wrap .top-detail .bg-wrap, 
+    #pos-layout .portofolio-detail-wrap .top-detail .top-wrap{
+        @include justify-content(inherit);
+    }
+    #fnb-layout .top-detail .col-title .big{
+        font-size:30px;
+    }
+    #fnb-layout .top-detail .col-pict{
+        height:88%;
+    }
+    #crs-layout .top-detail .col-pict{
+        background-size:auto 61%;
+    }
+    #caphost-layout .top-detail .col-pict{
+        background-size:auto 63%;
+    }
+    #be-layout .top-detail .col-pict{
+        background-position: center 165px;
+    }
+    #pos-layout .top-detail .col-title{
+        padding-left: 0px;
+        padding-top:100px;
+        width:80%;
+        margin:0px auto;
+        text-align: center;
+    }
 }
 @media screen and (max-width:460px){
     .skill-wrap .list-skill > div{
@@ -713,6 +894,42 @@
     .skill-wrap .list-skill > div.a-skill:hover .box-title,
     .skill-wrap .list-skill > div.a-skill .detail-skill-wrap .desc .row.familiar{
         display: none;
+    }
+
+    #pms-layout .top-detail .col-title .big{
+        width:90%;
+        font-size:25px;
+        padding-left:0px;
+    }
+    #pms-layout .top-detail .col-title{
+        padding-top:44%;
+        padding-left:30px;
+    }
+    #pms-layout .top-detail .col-pict{
+        background-position: center bottom;
+    }
+
+    #fnb-layout .top-detail .col-pict{
+        height:70%;
+    }
+
+    #crs-layout .top-detail .col-title .big{
+        font-size: 30px;
+    }#crs-layout .top-detail .col-title{
+        padding-top:110px;
+    }
+    #caphost-layout .top-detail .col-title{
+        margin-top:125px;
+        .big{
+            font-size:38px;
+        }
+    }
+    #caphost-layout .top-detail .col-pict{
+        background-size:auto 50%;
+    }
+    #ht-layout .top-detail .col-title{
+        padding:0px;
+        width:80%;
     }
 }
 
@@ -771,6 +988,16 @@
     }
     .intro-wrap .hello-txt{
         font-size: 124px;
+    }
+
+
+    #crs-layout .top-detail .col-title .big{
+        font-size: 25px;
+    }#crs-layout .top-detail .col-title{
+        padding-top:110px;
+    }
+    #be-layout .top-detail .col-title .big{
+        font-size: 35px;
     }
 }
 

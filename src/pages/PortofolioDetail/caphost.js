@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Layout from '../../components/layout'
-
 import ProjectIcon from '../../components/layout/projectIcon'
 
 const Caphost = () => (

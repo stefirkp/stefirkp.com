@@ -79,7 +79,7 @@ const Pms = () => (
 
       </div>
       <div className="gallery-wrap">
-        <div className="template-gallery">
+        <div className="template-gallery capt-gall">
         <Slider {...settings}>
           {gallery_list.map((img,key)=>{
             return(
