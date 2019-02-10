@@ -11,7 +11,7 @@ const Portofolio = () => (
     
     <div className="porto-list">
       <div className="col-2">
-        <div className="a-porto w65percnt h600" id='pms' onClick={ () => navigate('/PortofolioDetail/jupiter')} role="link">
+        <div className="a-porto w65percnt h600" id='pms' onClick={ () => navigate('/PortofolioDetail/pms')} role="link">
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -25,7 +25,7 @@ const Portofolio = () => (
           </div>
           <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
         </div>
-        <div className="a-porto w35percnt h600" id='fnb' onClick={ () => navigate('/PortofolioDetail/falcon')} >
+        <div className="a-porto w35percnt h600" id='fnb' onClick={ () => navigate('/PortofolioDetail/fnb')}  role="link">
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -42,7 +42,7 @@ const Portofolio = () => (
         </div>
       </div>
       <div className="col-3">
-        <div className="a-porto w3column h600" id='crs' onClick={ () => navigate('/PortofolioDetail/pricentric')}>
+        <div className="a-porto w3column h600" id='crs' onClick={ () => navigate('/PortofolioDetail/crs')} role="link">
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -56,7 +56,7 @@ const Portofolio = () => (
           </div>
           <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
         </div>
-        <div className="a-porto w3column h600" id='capthos'  onClick={ () => navigate('/PortofolioDetail/borderless')}>
+        <div className="a-porto w3column h600" id='capthos'  onClick={ () => navigate('/PortofolioDetail/caphost')} role="link">
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -71,7 +71,7 @@ const Portofolio = () => (
           <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
         
         </div>
-        <div className="a-porto w3column h600" id='be'  onClick={ () => navigate('/PortofolioDetail/borderless')}>
+        <div className="a-porto w3column h600" id='be'  onClick={ () => navigate('/PortofolioDetail/be')} role="link">
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -88,7 +88,7 @@ const Portofolio = () => (
         </div>
       </div>
       <div className="col-2-ori">
-        <div className="a-porto w2column h600" id='hotel-template' onClick={ () => navigate('/PortofolioDetail/pricentric')}>
+        <div className="a-porto w2column h600" id='hotel-template' onClick={ () => navigate('/PortofolioDetail/ht')} role="link">
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -102,7 +102,7 @@ const Portofolio = () => (
           </div>
           <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
         </div>
-        <div className="a-porto w2column h600" id='pos'  onClick={ () => navigate('/PortofolioDetail/borderless')}>
+        <div className="a-porto w2column h600" id='pos'  onClick={ () => navigate('/PortofolioDetail/pos')} role="link">
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -134,7 +134,7 @@ const Portofolio = () => (
           </div>
           <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
         </div>
-        <div className="a-porto w35percnt h600" id='falcon' onClick={ () => navigate('/PortofolioDetail/falcon')} >
+        <div className="a-porto w35percnt h600" id='falcon' onClick={ () => navigate('/PortofolioDetail/falcon')}  role="link">
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -151,7 +151,7 @@ const Portofolio = () => (
         </div>
       </div>
       <div className="col-3">
-        <div className="a-porto w2column h600" id='pricentric' onClick={ () => navigate('/PortofolioDetail/pricentric')}>
+        <div className="a-porto w2column h600" id='pricentric' onClick={ () => navigate('/PortofolioDetail/pricentric')}  role="link">
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -165,7 +165,7 @@ const Portofolio = () => (
           </div>
           <div className="label-project button-project">WEB DEVELOPMENT | FRONT END</div>
         </div>
-        <div className="a-porto w2column h600" id='borderless'  onClick={ () => navigate('/PortofolioDetail/borderless')}>
+        <div className="a-porto w2column h600" id='borderless'  onClick={ () => navigate('/PortofolioDetail/borderless')} role="link">
           <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -183,7 +183,7 @@ const Portofolio = () => (
       </div>
 
       <div className="col-2">
-        <div className="a-porto  w65percnt h600" id='museum-recomender'  onClick={ () => navigate('/PortofolioDetail/museum')}>
+        <div className="a-porto  w65percnt h600" id='museum-recomender'  onClick={ () => navigate('/PortofolioDetail/museum')} role="link">
         <div className="bg-card"></div>
           <div className="button-next button-project">
             <svg xmlns='http://www.w3.org/2000/svg' version='1' id='Layer_1' viewBox='0 0 512 512'>
@@ -198,7 +198,7 @@ const Portofolio = () => (
           <div className="label-project button-project">FINAL PROJECT </div>
         
         </div>
-        <div className="a-porto w35percnt h600" id='arsip-fak'  onClick={ () => navigate('/PortofolioDetail/archive-letter')}>
+        <div className="a-porto w35percnt h600" id='arsip-fak'  onClick={ () => navigate('/PortofolioDetail/archive-letter')} role="link">
           <div className="bg-card"></div>
           
           <div className="button-next button-project">
@@ -219,7 +219,7 @@ const Portofolio = () => (
     
 
       <div className="col-1">
-        <div className="a-porto w100percnt h400" id='personal-website'  onClick={ () => navigate('/PortofolioDetail/personal-website')}>
+        <div className="a-porto w100percnt h400" id='personal-website'  onClick={ () => navigate('/PortofolioDetail/personal-website')} role="link">
           <div className="bg-card-custom">
             <div className="bg-card-side"></div>
             <div className="bg-card-pct"></div>

@@ -303,7 +303,7 @@
                         background:#bd782f;
                     }
                     .bg-card{
-                        background:url('../images/home/portfolio/pms-card.png')no-repeat;
+                        background:url($pms-card)no-repeat;
                         background-size:auto 100%;
                         background-position: center bottom;
                     }
@@ -318,7 +318,7 @@
                         background:#256b9a;
                     }
                     .bg-card{
-                        background:url('../images/home/portfolio/fnb-card.png')no-repeat;
+                        background:url($fnb-card)no-repeat;
                         background-size: auto 80%;
                         background-position: center;
                         // background-position: -683px 214px;
@@ -332,7 +332,7 @@
                         background:#47b3b3;
                     }
                     .bg-card{
-                        background:url('../images/home/portfolio/crs-card.png')no-repeat;
+                        background:url($crs-card)no-repeat;
                         background-size: auto 75%;
                         background-position: center bottom; 
                     }
@@ -349,7 +349,7 @@
                         }
                     }
                     .bg-card{
-                        background:url('../images/home/portfolio/caphost-real-card.png')no-repeat;
+                        background:url($caphost-card)no-repeat;
                         background-size: auto 70%;
                         background-position: -200px bottom; 
                     }
@@ -361,7 +361,7 @@
                         background:#407e94;
                     }
                     .bg-card{
-                        background:url('../images/home/portfolio/be-card.png')no-repeat;
+                        background:url($be-card)no-repeat;
                         background-size:auto 100%;
                         background-position: center 100px;
                     }
@@ -377,7 +377,7 @@
                         background:#6b3555;
                     }
                     .bg-card{
-                        background:url('../images/home/portfolio/caphost-card.jpg')no-repeat;
+                        background:url($ht-card)no-repeat;
                         background-size:auto 100%;
                         background-position: -250px 0px;
                     }
@@ -395,7 +395,7 @@
                         background:#4296c5;
                     }
                     .bg-card{
-                        background:url('../images/home/portfolio/pos-card.png')no-repeat;
+                        background:url($pos-card)no-repeat;
                         background-size:auto 100%;
                         background-position: -50px 0px;
                     }

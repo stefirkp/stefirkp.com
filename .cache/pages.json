@@ -25,14 +25,39 @@
         "path": "/PortofolioDetail/archive-letter/"
     },
     {
+        "componentChunkName": "component---src-pages-portofolio-detail-be-js",
+        "jsonName": "portofolio-detail-be-6cf",
+        "path": "/PortofolioDetail/be/"
+    },
+    {
         "componentChunkName": "component---src-pages-portofolio-detail-borderless-js",
         "jsonName": "portofolio-detail-borderless-f9a",
         "path": "/PortofolioDetail/borderless/"
     },
     {
+        "componentChunkName": "component---src-pages-portofolio-detail-caphost-js",
+        "jsonName": "portofolio-detail-caphost-336",
+        "path": "/PortofolioDetail/caphost/"
+    },
+    {
+        "componentChunkName": "component---src-pages-portofolio-detail-crs-js",
+        "jsonName": "portofolio-detail-crs-ba0",
+        "path": "/PortofolioDetail/crs/"
+    },
+    {
         "componentChunkName": "component---src-pages-portofolio-detail-falcon-js",
         "jsonName": "portofolio-detail-falcon-99c",
         "path": "/PortofolioDetail/falcon/"
+    },
+    {
+        "componentChunkName": "component---src-pages-portofolio-detail-fnb-js",
+        "jsonName": "portofolio-detail-fnb-7e5",
+        "path": "/PortofolioDetail/fnb/"
+    },
+    {
+        "componentChunkName": "component---src-pages-portofolio-detail-ht-js",
+        "jsonName": "portofolio-detail-ht-27e",
+        "path": "/PortofolioDetail/ht/"
     },
     {
         "componentChunkName": "component---src-pages-portofolio-detail-jupiter-js",
@@ -48,6 +73,16 @@
         "componentChunkName": "component---src-pages-portofolio-detail-personal-website-js",
         "jsonName": "portofolio-detail-personal-website-e6a",
         "path": "/PortofolioDetail/personal-website/"
+    },
+    {
+        "componentChunkName": "component---src-pages-portofolio-detail-pms-js",
+        "jsonName": "portofolio-detail-pms-7f5",
+        "path": "/PortofolioDetail/pms/"
+    },
+    {
+        "componentChunkName": "component---src-pages-portofolio-detail-pos-js",
+        "jsonName": "portofolio-detail-pos-408",
+        "path": "/PortofolioDetail/pos/"
     },
     {
         "componentChunkName": "component---src-pages-portofolio-detail-pricentric-js",

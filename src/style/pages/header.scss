@@ -56,7 +56,7 @@
             
         }
 
-        &.falcon-layout,&.jupiter-layout,&.borderless-layout,&.pricentric-layout,&.museum-layout,&.archive-layout{
+        &.falcon-layout,&.crs-layout,&.pos-layout,&.ht-layout,&.be-layout,&.caphost-layout,&.jupiter-layout,&.borderless-layout,&.pricentric-layout,&.museum-layout,&.archive-layout{
             color:white;
             .header-wrap{
                 padding-top:40px;
@@ -73,6 +73,15 @@
                 }
             }
         }
+        &.fnb-layout{
+            color:#ffbf42;
+            .header-wrap{
+                .logo svg#stefi path{
+                    stroke:#ffbf42;
+                }
+            }
+        }
         
     }
+
 }
