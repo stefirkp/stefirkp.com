@@ -55,7 +55,7 @@ const Falcon = () => (
                 </div>
                 <div className="name-detail-wrap">
                   <div className="name">Falcon Deploy
-                    <a href="https://stefiportfolio.github.io/falcon/" className="link-port" target='_blank'></a>
+                    <a href="https://stefiportfolio.github.io/falcon/" className="link-port" target='_blank' rel="noopener noreferrer"></a>
                   </div>
                   <div className="type">Product Profile</div>
                   <div className="year">June 2018</div>

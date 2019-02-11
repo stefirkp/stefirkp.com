@@ -1,0 +1,3025 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "de58a1e71c6371f5b8f6bb2a7c442e4d",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "06a0a59b25b29e7955d13fff58ddc62f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "40d4f689e6c3e63d519015c2e2c39010",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "62bf2b72a04b1660a97dc81c919d1251",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e5201e7c64b6cc7dbec0e95be1226684",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fda84ea54a1cff4e23f94795ea39738d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "923fb7ce80c18cde6bb8f6c84865f496",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8f70af98-7ce9-5efe-97fa-8f9c6817f34a": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-source-filesystem",
+      "id": "8f70af98-7ce9-5efe-97fa-8f9c6817f34a",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "28c254b5aff4e8b3804d066a94031619",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0ade377cc79f35e34658720b650cb7f2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.15",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d8200d59f6e1e3d496043167f317dbbf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ab2d21a4-8466-5f02-8695-34b25a88aef4": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-manifest",
+      "id": "ab2d21a4-8466-5f02-8695-34b25a88aef4",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "stefi-personal-website",
+        "short_name": "stefirosadi",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/stefi-icon-2.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3de3b98fb10088696746d0c4849b1d45",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-sass",
+      "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "08c902739512572274d4d7b71fdca598",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "cf0c290d-944f-5d25-bcc7-889cd8ab1b09": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-prefetch-google-fonts",
+      "id": "cf0c290d-944f-5d25-bcc7-889cd8ab1b09",
+      "name": "gatsby-plugin-prefetch-google-fonts",
+      "version": "1.1.1",
+      "pluginOptions": {
+        "plugins": [],
+        "fonts": [
+          {
+            "family": "Oswald",
+            "subsets": [
+              "latin"
+            ]
+          },
+          {
+            "family": "Open Sans",
+            "variants": [
+              "400",
+              "700"
+            ]
+          },
+          {
+            "family": "Roboto"
+          },
+          {
+            "family": "Playfair Display"
+          },
+          {
+            "family": "Raleway"
+          },
+          {
+            "family": "Rubik",
+            "variants": [
+              "300",
+              "400",
+              "500"
+            ]
+          },
+          {
+            "family": "IBM Plex Sans",
+            "variants": [
+              "300",
+              "400",
+              "500"
+            ]
+          },
+          {
+            "family": "Roboto Slab",
+            "variants": [
+              "300",
+              "400",
+              "500"
+            ]
+          },
+          {
+            "family": "Montserrat",
+            "variants": [
+              "300",
+              "400",
+              "500"
+            ]
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-prefetch-google-fonts",
+      "packageJson": {
+        "name": "gatsby-plugin-prefetch-google-fonts",
+        "description": "A Gatsby plugin to download and prefetch [Google Fonts](https://fonts.google.com/). Can increase performance as opposed to loading webfonts from Google's external stylesheet.",
+        "version": "1.1.1",
+        "main": "gatsby-ssr.js",
+        "keywords": [
+          "gatsby-plugin",
+          "gatsby",
+          "plugin",
+          "web",
+          "font",
+          "loader",
+          "google",
+          "webfont",
+          "webfontloader",
+          "prefetch",
+          "download",
+          "downloader",
+          "local"
+        ],
+        "author": {
+          "name": "Kennedy Rose",
+          "email": "krose@escaladesports.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "clean-css",
+            "version": "^4.2.1"
+          },
+          {
+            "name": "download",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "get-urls",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "globby",
+            "version": "^8.0.1"
+          },
+          {
+            "name": "google-fonts-plugin",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "object-hash",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.1.2"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.1.2"
+          },
+          {
+            "name": "@babel/plugin-proposal-class-properties",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-decorators",
+            "version": "^7.1.2"
+          },
+          {
+            "name": "@babel/plugin-proposal-do-expressions",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-export-default-from",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-export-namespace-from",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-function-bind",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-function-sent",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-json-strings",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-logical-assignment-operators",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-nullish-coalescing-operator",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-numeric-separator",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-optional-chaining",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-pipeline-operator",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-throw-expressions",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-syntax-dynamic-import",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-syntax-import-meta",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-syntax-jsx",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "@babel/plugin-transform-runtime",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/preset-react",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "child-process-async",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "child-process-promise",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "emotion",
+            "version": "^9.2.6"
+          },
+          {
+            "name": "emotion-server",
+            "version": "^9.2.6"
+          },
+          {
+            "name": "enzyme",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "enzyme-adapter-react-16",
+            "version": "^1.3.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "eslint-config-escalade-sports",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.19"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "2.0.5"
+          },
+          {
+            "name": "husky",
+            "version": "^0.14.3"
+          },
+          {
+            "name": "identity-obj-proxy",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "isomorphic-fetch",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "jest",
+            "version": "^23.4.2"
+          },
+          {
+            "name": "jest-dom",
+            "version": "^1.12.0"
+          },
+          {
+            "name": "lint-staged",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^1.9.3"
+          },
+          {
+            "name": "netlify-lambda",
+            "version": "^0.4.0"
+          },
+          {
+            "name": "npm-run-all",
+            "version": "^4.1.3"
+          },
+          {
+            "name": "opn-cli",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-netlify-form",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "react-no-ssr",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "react-test-renderer",
+            "version": "^16.4.2"
+          },
+          {
+            "name": "react-testing-library",
+            "version": "^4.1.7"
+          },
+          {
+            "name": "request",
+            "version": "^2.87.0"
+          },
+          {
+            "name": "statable",
+            "version": "^0.3.2"
+          },
+          {
+            "name": "static-server",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "strip-html-comments",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "toml",
+            "version": "^2.3.3"
+          },
+          {
+            "name": "wt-cli",
+            "version": "^10.0.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a1a2680ae1eab81e898a43b971d203fd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "8d18d6c0b47ca27312d9aec209844c04",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.53"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "0.0.4"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.9"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-plugin-prefetch-google-fonts",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.15"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.2"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.8"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.11.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.6.3"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-slick",
+            "version": "^0.23.2"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.15.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9edb3f6a2b9616e801ddcbe039201036",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3c1b514a-cada-58bd-a809-ba978ced4fa9": {
+      "resolve": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-page-creator",
+      "id": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c88cb26247b1d677fd701b1c4b1aedd8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Title from siteMetadata",
+        "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
+        "author": "@gatsbyjs"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-02-11T00:35:29.435Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b76a2afec7106821eb4d09ac1e2e4b1d",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2d4dd647-09d8-5971-9477-9d197dd622e2": {
+      "id": "2d4dd647-09d8-5971-9477-9d197dd622e2",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d1abc0e3606367b0b4ada1daac79ae93",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2019-01-27T06:47:11.647Z",
+      "accessTime": "2019-02-11T00:35:37.629Z",
+      "changeTime": "2019-01-27T06:47:11.647Z",
+      "birthTime": "2018-12-17T08:30:16.017Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12887572331,
+      "blocks": 0,
+      "atimeMs": 1549845337628.5454,
+      "mtimeMs": 1548571631647.0503,
+      "ctimeMs": 1548571631647.0503,
+      "birthtimeMs": 1545035416016.7283,
+      "atime": "2019-02-11T00:35:37.629Z",
+      "mtime": "2019-01-27T06:47:11.647Z",
+      "ctime": "2019-01-27T06:47:11.647Z",
+      "birthtime": "2018-12-17T08:30:16.017Z"
+    },
+    "f8622f45-a0ff-5f5e-a144-c6a90259f86e": {
+      "id": "f8622f45-a0ff-5f5e-a144-c6a90259f86e",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "158c15b12a8c025f9e3fdb3b3bdaead5",
+        "type": "Directory",
+        "description": "Directory \"src/images/home\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home",
+      "relativePath": "home",
+      "extension": "",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2019-02-09T01:58:10.309Z",
+      "accessTime": "2019-02-11T00:35:37.631Z",
+      "changeTime": "2019-02-09T01:58:10.309Z",
+      "birthTime": "2019-01-12T08:17:18.457Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images",
+      "base": "home",
+      "ext": "",
+      "name": "home",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 8,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12887816616,
+      "blocks": 0,
+      "atimeMs": 1549845337630.7607,
+      "mtimeMs": 1549677490308.799,
+      "ctimeMs": 1549677490308.799,
+      "birthtimeMs": 1547281038456.9429,
+      "atime": "2019-02-11T00:35:37.631Z",
+      "mtime": "2019-02-09T01:58:10.309Z",
+      "ctime": "2019-02-09T01:58:10.309Z",
+      "birthtime": "2019-01-12T08:17:18.457Z"
+    },
+    "b02b1158-4763-5a38-9ccf-108916322d8c": {
+      "id": "b02b1158-4763-5a38-9ccf-108916322d8c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d00db0735227b6816f88198120bc9c80",
+        "type": "Directory",
+        "description": "Directory \"src/images/home/skill\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "relativePath": "home/skill",
+      "extension": "",
+      "size": 480,
+      "prettySize": "480 B",
+      "modifiedTime": "2019-01-23T17:55:02.159Z",
+      "accessTime": "2019-02-11T00:35:37.632Z",
+      "changeTime": "2019-01-23T17:55:02.159Z",
+      "birthTime": "2019-01-19T07:19:36.388Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home",
+      "base": "skill",
+      "ext": "",
+      "name": "skill",
+      "relativeDirectory": "home",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 15,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12887998222,
+      "blocks": 0,
+      "atimeMs": 1549845337631.9048,
+      "mtimeMs": 1548266102159.3887,
+      "ctimeMs": 1548266102159.3887,
+      "birthtimeMs": 1547882376387.9553,
+      "atime": "2019-02-11T00:35:37.632Z",
+      "mtime": "2019-01-23T17:55:02.159Z",
+      "ctime": "2019-01-23T17:55:02.159Z",
+      "birthtime": "2019-01-19T07:19:36.388Z"
+    },
+    "cca6f463-684b-5ae6-a7a7-be6634f58d72": {
+      "id": "cca6f463-684b-5ae6-a7a7-be6634f58d72",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "630535b03eafc1099bb1257a2c2d019d",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/link.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/link.svg",
+      "relativePath": "link.svg",
+      "extension": "svg",
+      "size": 1356,
+      "prettySize": "1.36 kB",
+      "modifiedTime": "2014-06-04T09:47:39.000Z",
+      "accessTime": "2019-02-10T14:23:43.758Z",
+      "changeTime": "2019-01-26T15:43:43.247Z",
+      "birthTime": "2014-06-04T09:47:39.000Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images",
+      "base": "link.svg",
+      "ext": ".svg",
+      "name": "link",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888102742,
+      "blocks": 8,
+      "atimeMs": 1549808623757.9563,
+      "mtimeMs": 1401875259000,
+      "ctimeMs": 1548517423246.6855,
+      "birthtimeMs": 1401875259000,
+      "atime": "2019-02-10T14:23:43.758Z",
+      "mtime": "2014-06-04T09:47:39.000Z",
+      "ctime": "2019-01-26T15:43:43.247Z",
+      "birthtime": "2014-06-04T09:47:39.000Z"
+    },
+    "99c252f1-5ea8-5782-ae79-b593a136290e": {
+      "id": "99c252f1-5ea8-5782-ae79-b593a136290e",
+      "children": [
+        "71330c49-ba7d-5a2f-a7c1-efeeb5d5d86d"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d853da1922c4dc64054e3d8cf5f495a4",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/stefi-icon-2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/stefi-icon-2.png",
+      "relativePath": "stefi-icon-2.png",
+      "extension": "png",
+      "size": 17101,
+      "prettySize": "17.1 kB",
+      "modifiedTime": "2019-01-20T13:44:46.381Z",
+      "accessTime": "2019-02-10T13:11:11.252Z",
+      "changeTime": "2019-01-20T13:47:51.583Z",
+      "birthTime": "2019-01-20T13:44:46.372Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images",
+      "base": "stefi-icon-2.png",
+      "ext": ".png",
+      "name": "stefi-icon-2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888088664,
+      "blocks": 40,
+      "atimeMs": 1549804271252.2144,
+      "mtimeMs": 1547991886380.84,
+      "ctimeMs": 1547992071583.145,
+      "birthtimeMs": 1547991886372.3796,
+      "atime": "2019-02-10T13:11:11.252Z",
+      "mtime": "2019-01-20T13:44:46.381Z",
+      "ctime": "2019-01-20T13:47:51.583Z",
+      "birthtime": "2019-01-20T13:44:46.372Z"
+    },
+    "60da8fb4-9be6-5963-ab7c-363a0d1cad9b": {
+      "id": "60da8fb4-9be6-5963-ab7c-363a0d1cad9b",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "428922264f21b180e74c90d4051e9851",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/home/borderless-logo.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/borderless-logo.svg",
+      "relativePath": "home/borderless-logo.svg",
+      "extension": "svg",
+      "size": 7003,
+      "prettySize": "7 kB",
+      "modifiedTime": "2018-12-17T08:29:16.220Z",
+      "accessTime": "2019-02-10T14:23:43.757Z",
+      "changeTime": "2019-01-12T14:19:11.719Z",
+      "birthTime": "2018-12-17T08:29:16.220Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home",
+      "base": "borderless-logo.svg",
+      "ext": ".svg",
+      "name": "borderless-logo",
+      "relativeDirectory": "home",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12887842752,
+      "blocks": 16,
+      "atimeMs": 1549808623756.8044,
+      "mtimeMs": 1545035356220.3135,
+      "ctimeMs": 1547302751718.987,
+      "birthtimeMs": 1545035356220.2285,
+      "atime": "2019-02-10T14:23:43.757Z",
+      "mtime": "2018-12-17T08:29:16.220Z",
+      "ctime": "2019-01-12T14:19:11.719Z",
+      "birthtime": "2018-12-17T08:29:16.220Z"
+    },
+    "88fc891d-5d16-5782-b0c9-bd731b961f43": {
+      "id": "88fc891d-5d16-5782-b0c9-bd731b961f43",
+      "children": [
+        "dbe1ce31-0ffa-5b8d-92ab-3214a65c31cb"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6dff492c3bc8c6c04d00aa11d456ddf1",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/stefi-favicon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/stefi-favicon.png",
+      "relativePath": "stefi-favicon.png",
+      "extension": "png",
+      "size": 10390,
+      "prettySize": "10.4 kB",
+      "modifiedTime": "2019-01-20T13:31:30.254Z",
+      "accessTime": "2019-02-10T13:11:05.405Z",
+      "changeTime": "2019-01-20T13:32:27.914Z",
+      "birthTime": "2019-01-20T13:31:30.222Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images",
+      "base": "stefi-favicon.png",
+      "ext": ".png",
+      "name": "stefi-favicon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888086424,
+      "blocks": 24,
+      "atimeMs": 1549804265404.7979,
+      "mtimeMs": 1547991090253.9028,
+      "ctimeMs": 1547991147914.247,
+      "birthtimeMs": 1547991090221.9866,
+      "atime": "2019-02-10T13:11:05.405Z",
+      "mtime": "2019-01-20T13:31:30.254Z",
+      "ctime": "2019-01-20T13:32:27.914Z",
+      "birthtime": "2019-01-20T13:31:30.222Z"
+    },
+    "f3dd67d9-05c6-585f-9346-73d67dd1aa27": {
+      "id": "f3dd67d9-05c6-585f-9346-73d67dd1aa27",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b93255f4ccdd94877dfe6abaddd9cea5",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/home/path-3-1440.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/path-3-1440.svg",
+      "relativePath": "home/path-3-1440.svg",
+      "extension": "svg",
+      "size": 627,
+      "prettySize": "627 B",
+      "modifiedTime": "2018-12-17T08:29:16.223Z",
+      "accessTime": "2019-02-10T14:23:43.757Z",
+      "changeTime": "2019-01-12T14:27:44.085Z",
+      "birthTime": "2018-12-17T08:29:16.223Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home",
+      "base": "path-3-1440.svg",
+      "ext": ".svg",
+      "name": "path-3-1440",
+      "relativeDirectory": "home",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12887843018,
+      "blocks": 8,
+      "atimeMs": 1549808623756.8438,
+      "mtimeMs": 1545035356222.8472,
+      "ctimeMs": 1547303264085.4197,
+      "birthtimeMs": 1545035356222.7769,
+      "atime": "2019-02-10T14:23:43.757Z",
+      "mtime": "2018-12-17T08:29:16.223Z",
+      "ctime": "2019-01-12T14:27:44.085Z",
+      "birthtime": "2018-12-17T08:29:16.223Z"
+    },
+    "10d40319-8c5b-5b23-95c4-71193361b689": {
+      "id": "10d40319-8c5b-5b23-95c4-71193361b689",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1046853807c5ea3fa18a9b82a4a39386",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/home/white-logo-desk.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/white-logo-desk.svg",
+      "relativePath": "home/white-logo-desk.svg",
+      "extension": "svg",
+      "size": 2417,
+      "prettySize": "2.42 kB",
+      "modifiedTime": "2018-12-17T08:25:41.387Z",
+      "accessTime": "2019-02-10T14:23:43.757Z",
+      "changeTime": "2019-01-12T14:09:31.837Z",
+      "birthTime": "2018-12-17T08:25:41.386Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home",
+      "base": "white-logo-desk.svg",
+      "ext": ".svg",
+      "name": "white-logo-desk",
+      "relativeDirectory": "home",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12887841858,
+      "blocks": 8,
+      "atimeMs": 1549808623756.9548,
+      "mtimeMs": 1545035141386.556,
+      "ctimeMs": 1547302171837.4385,
+      "birthtimeMs": 1545035141386.4456,
+      "atime": "2019-02-10T14:23:43.757Z",
+      "mtime": "2018-12-17T08:25:41.387Z",
+      "ctime": "2019-01-12T14:09:31.837Z",
+      "birthtime": "2018-12-17T08:25:41.386Z"
+    },
+    "5c18bc27-53f2-57d0-8c1c-f9f574e2b788": {
+      "id": "5c18bc27-53f2-57d0-8c1c-f9f574e2b788",
+      "children": [
+        "fe7ee66e-f66e-54e2-babd-f34cbe966552"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d720dd94dc00565610652fe1fcb39ae3",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/home/skill/angular.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/angular.png",
+      "relativePath": "home/skill/angular.png",
+      "extension": "png",
+      "size": 25836,
+      "prettySize": "25.8 kB",
+      "modifiedTime": "2019-01-19T09:18:53.047Z",
+      "accessTime": "2019-02-10T14:23:43.757Z",
+      "changeTime": "2019-01-19T09:20:49.449Z",
+      "birthTime": "2019-01-19T09:18:53.047Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "angular.png",
+      "ext": ".png",
+      "name": "angular",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888008694,
+      "blocks": 56,
+      "atimeMs": 1549808623757.238,
+      "mtimeMs": 1547889533047.0723,
+      "ctimeMs": 1547889649448.8765,
+      "birthtimeMs": 1547889533046.8152,
+      "atime": "2019-02-10T14:23:43.757Z",
+      "mtime": "2019-01-19T09:18:53.047Z",
+      "ctime": "2019-01-19T09:20:49.449Z",
+      "birthtime": "2019-01-19T09:18:53.047Z"
+    },
+    "a3c17ccc-616d-50e8-b11d-6f8b3ea46e96": {
+      "id": "a3c17ccc-616d-50e8-b11d-6f8b3ea46e96",
+      "children": [
+        "e50a6118-130f-5051-9882-5fa2435b15a0"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6c0431c1dd750bbe29ab4736fb48adb7",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/home/skill/cakephp.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/cakephp.png",
+      "relativePath": "home/skill/cakephp.png",
+      "extension": "png",
+      "size": 40678,
+      "prettySize": "40.7 kB",
+      "modifiedTime": "2019-01-19T07:16:41.028Z",
+      "accessTime": "2019-02-10T14:23:43.757Z",
+      "changeTime": "2019-01-19T12:40:25.040Z",
+      "birthTime": "2019-01-19T07:16:41.028Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "cakephp.png",
+      "ext": ".png",
+      "name": "cakephp",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888015899,
+      "blocks": 80,
+      "atimeMs": 1549808623757.275,
+      "mtimeMs": 1547882201028.2285,
+      "ctimeMs": 1547901625039.9753,
+      "birthtimeMs": 1547882201027.8425,
+      "atime": "2019-02-10T14:23:43.757Z",
+      "mtime": "2019-01-19T07:16:41.028Z",
+      "ctime": "2019-01-19T12:40:25.040Z",
+      "birthtime": "2019-01-19T07:16:41.028Z"
+    },
+    "61e4f2f1-e133-57f5-94ae-95c629ba0c64": {
+      "id": "61e4f2f1-e133-57f5-94ae-95c629ba0c64",
+      "children": [
+        "aaab3f9c-0c57-54e9-994a-6e7c941f4f11"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d7c53238a4ed26646e622cb63f022884",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/home/skill/css.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/css.png",
+      "relativePath": "home/skill/css.png",
+      "extension": "png",
+      "size": 49695,
+      "prettySize": "49.7 kB",
+      "modifiedTime": "2019-01-19T09:18:10.425Z",
+      "accessTime": "2019-02-10T14:23:43.757Z",
+      "changeTime": "2019-01-19T09:21:03.819Z",
+      "birthTime": "2019-01-19T09:18:10.425Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "css.png",
+      "ext": ".png",
+      "name": "css",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888008699,
+      "blocks": 104,
+      "atimeMs": 1549808623757.3103,
+      "mtimeMs": 1547889490425.2402,
+      "ctimeMs": 1547889663818.7786,
+      "birthtimeMs": 1547889490424.6875,
+      "atime": "2019-02-10T14:23:43.757Z",
+      "mtime": "2019-01-19T09:18:10.425Z",
+      "ctime": "2019-01-19T09:21:03.819Z",
+      "birthtime": "2019-01-19T09:18:10.425Z"
+    },
+    "0531cc2e-ab42-55f1-bba9-e351b2fd8561": {
+      "id": "0531cc2e-ab42-55f1-bba9-e351b2fd8561",
+      "children": [
+        "73a42087-3857-59e0-a178-a5f4c7b59957"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4c22ba873d8372ed8ff0ebe9f37f8483",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/home/skill/git.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/git.png",
+      "relativePath": "home/skill/git.png",
+      "extension": "png",
+      "size": 30423,
+      "prettySize": "30.4 kB",
+      "modifiedTime": "2019-01-19T07:24:14.102Z",
+      "accessTime": "2019-02-10T14:23:43.757Z",
+      "changeTime": "2019-01-19T07:24:15.195Z",
+      "birthTime": "2019-01-19T07:24:14.094Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "git.png",
+      "ext": ".png",
+      "name": "git",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12887998481,
+      "blocks": 64,
+      "atimeMs": 1549808623757.3826,
+      "mtimeMs": 1547882654102.013,
+      "ctimeMs": 1547882655194.6255,
+      "birthtimeMs": 1547882654094.1108,
+      "atime": "2019-02-10T14:23:43.757Z",
+      "mtime": "2019-01-19T07:24:14.102Z",
+      "ctime": "2019-01-19T07:24:15.195Z",
+      "birthtime": "2019-01-19T07:24:14.094Z"
+    },
+    "426abf6d-edd6-56a4-a140-96794d3c830d": {
+      "id": "426abf6d-edd6-56a4-a140-96794d3c830d",
+      "children": [
+        "806728e0-a136-5446-8bed-fc0a8a31ecde"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9cf4a14cb5024b5d6e988c1519570ce3",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/home/skill/html.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/html.png",
+      "relativePath": "home/skill/html.png",
+      "extension": "png",
+      "size": 53895,
+      "prettySize": "53.9 kB",
+      "modifiedTime": "2019-01-19T09:21:38.835Z",
+      "accessTime": "2019-02-10T14:23:43.757Z",
+      "changeTime": "2019-01-19T09:21:50.487Z",
+      "birthTime": "2019-01-19T09:21:38.834Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "html.png",
+      "ext": ".png",
+      "name": "html",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888008887,
+      "blocks": 112,
+      "atimeMs": 1549808623757.4182,
+      "mtimeMs": 1547889698834.9526,
+      "ctimeMs": 1547889710487.0098,
+      "birthtimeMs": 1547889698834.4646,
+      "atime": "2019-02-10T14:23:43.757Z",
+      "mtime": "2019-01-19T09:21:38.835Z",
+      "ctime": "2019-01-19T09:21:50.487Z",
+      "birthtime": "2019-01-19T09:21:38.834Z"
+    },
+    "a6bb9558-120e-5b31-aebe-80738bb76c35": {
+      "id": "a6bb9558-120e-5b31-aebe-80738bb76c35",
+      "children": [
+        "062fd38e-1b8b-51f5-9b6f-0b4aa82f491e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bcb36bfbd2209958514bdcaa9ef24097",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/home/skill/js.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/js.png",
+      "relativePath": "home/skill/js.png",
+      "extension": "png",
+      "size": 19272,
+      "prettySize": "19.3 kB",
+      "modifiedTime": "2019-01-19T09:18:18.242Z",
+      "accessTime": "2019-02-10T14:23:43.757Z",
+      "changeTime": "2019-01-19T09:20:31.834Z",
+      "birthTime": "2019-01-19T09:18:18.242Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "js.png",
+      "ext": ".png",
+      "name": "js",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888008698,
+      "blocks": 40,
+      "atimeMs": 1549808623757.4556,
+      "mtimeMs": 1547889498242.0479,
+      "ctimeMs": 1547889631834.3462,
+      "birthtimeMs": 1547889498241.7715,
+      "atime": "2019-02-10T14:23:43.757Z",
+      "mtime": "2019-01-19T09:18:18.242Z",
+      "ctime": "2019-01-19T09:20:31.834Z",
+      "birthtime": "2019-01-19T09:18:18.242Z"
+    },
+    "c06c8668-6ace-5f8a-87fc-ecaca8a2f83e": {
+      "id": "c06c8668-6ace-5f8a-87fc-ecaca8a2f83e",
+      "children": [
+        "f4dab02d-0994-559f-a808-186aa61e0611"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a752900c74e7f395a64b0965c9f6b114",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/home/skill/mern.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/mern.png",
+      "relativePath": "home/skill/mern.png",
+      "extension": "png",
+      "size": 22122,
+      "prettySize": "22.1 kB",
+      "modifiedTime": "2019-01-19T07:47:45.113Z",
+      "accessTime": "2019-02-10T14:23:43.757Z",
+      "changeTime": "2019-01-19T07:47:46.205Z",
+      "birthTime": "2019-01-19T07:47:45.104Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "mern.png",
+      "ext": ".png",
+      "name": "mern",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888001560,
+      "blocks": 48,
+      "atimeMs": 1549808623757.493,
+      "mtimeMs": 1547884065112.634,
+      "ctimeMs": 1547884066204.7805,
+      "birthtimeMs": 1547884065103.6594,
+      "atime": "2019-02-10T14:23:43.757Z",
+      "mtime": "2019-01-19T07:47:45.113Z",
+      "ctime": "2019-01-19T07:47:46.205Z",
+      "birthtime": "2019-01-19T07:47:45.104Z"
+    },
+    "b2a78931-73b6-5cf6-87be-41dcde383496": {
+      "id": "b2a78931-73b6-5cf6-87be-41dcde383496",
+      "children": [
+        "515e334a-065b-5a7e-98e0-6b46839eb5b7"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f440dc8f80bbb6bb726d07d50523d9a9",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/home/skill/mysql.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/mysql.png",
+      "relativePath": "home/skill/mysql.png",
+      "extension": "png",
+      "size": 3663,
+      "prettySize": "3.66 kB",
+      "modifiedTime": "2019-01-19T09:18:37.062Z",
+      "accessTime": "2019-02-10T14:23:43.758Z",
+      "changeTime": "2019-01-19T09:20:58.642Z",
+      "birthTime": "2019-01-19T09:18:37.061Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "mysql.png",
+      "ext": ".png",
+      "name": "mysql",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888008696,
+      "blocks": 8,
+      "atimeMs": 1549808623757.5305,
+      "mtimeMs": 1547889517061.5024,
+      "ctimeMs": 1547889658641.724,
+      "birthtimeMs": 1547889517061.1877,
+      "atime": "2019-02-10T14:23:43.758Z",
+      "mtime": "2019-01-19T09:18:37.062Z",
+      "ctime": "2019-01-19T09:20:58.642Z",
+      "birthtime": "2019-01-19T09:18:37.061Z"
+    },
+    "677f1fb2-7236-58f9-bd51-41b10b29ea11": {
+      "id": "677f1fb2-7236-58f9-bd51-41b10b29ea11",
+      "children": [
+        "e9151d26-ff58-541d-9bd9-9958c7b03807"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "00f9d79b850e5377447898aa6510006e",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/home/skill/php.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/php.png",
+      "relativePath": "home/skill/php.png",
+      "extension": "png",
+      "size": 51449,
+      "prettySize": "51.4 kB",
+      "modifiedTime": "2019-01-19T09:18:23.990Z",
+      "accessTime": "2019-02-10T14:23:43.758Z",
+      "changeTime": "2019-01-19T09:20:37.669Z",
+      "birthTime": "2019-01-19T09:18:23.988Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "php.png",
+      "ext": ".png",
+      "name": "php",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888008697,
+      "blocks": 104,
+      "atimeMs": 1549808623757.5671,
+      "mtimeMs": 1547889503989.6565,
+      "ctimeMs": 1547889637668.839,
+      "birthtimeMs": 1547889503988.2498,
+      "atime": "2019-02-10T14:23:43.758Z",
+      "mtime": "2019-01-19T09:18:23.990Z",
+      "ctime": "2019-01-19T09:20:37.669Z",
+      "birthtime": "2019-01-19T09:18:23.988Z"
+    },
+    "19a7d304-66bf-5962-a64c-62b4f310472b": {
+      "id": "19a7d304-66bf-5962-a64c-62b4f310472b",
+      "children": [
+        "ced09425-9dad-586c-a667-b4f2ad5be8e8"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a5f13d42f74fb855a4d55e1ae464012e",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/home/skill/ror.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/ror.jpeg",
+      "relativePath": "home/skill/ror.jpeg",
+      "extension": "jpeg",
+      "size": 10126,
+      "prettySize": "10.1 kB",
+      "modifiedTime": "2019-01-19T09:19:04.127Z",
+      "accessTime": "2019-02-10T14:23:43.758Z",
+      "changeTime": "2019-01-19T09:20:55.352Z",
+      "birthTime": "2019-01-19T09:19:04.127Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "ror.jpeg",
+      "ext": ".jpeg",
+      "name": "ror",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888008693,
+      "blocks": 24,
+      "atimeMs": 1549808623757.6396,
+      "mtimeMs": 1547889544127.4956,
+      "ctimeMs": 1547889655352.328,
+      "birthtimeMs": 1547889544127.2703,
+      "atime": "2019-02-10T14:23:43.758Z",
+      "mtime": "2019-01-19T09:19:04.127Z",
+      "ctime": "2019-01-19T09:20:55.352Z",
+      "birthtime": "2019-01-19T09:19:04.127Z"
+    },
+    "3e4a9cf6-f30b-5309-b44c-b18cd8480354": {
+      "id": "3e4a9cf6-f30b-5309-b44c-b18cd8480354",
+      "children": [
+        "d07a3584-aa94-5141-b870-457b649a4b80"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6b93b46ae681d6dcb342a60e7f4ac4bc",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/home/skill/react.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/react.png",
+      "relativePath": "home/skill/react.png",
+      "extension": "png",
+      "size": 27202,
+      "prettySize": "27.2 kB",
+      "modifiedTime": "2019-01-19T09:18:46.931Z",
+      "accessTime": "2019-02-10T14:23:43.758Z",
+      "changeTime": "2019-01-19T09:49:05.658Z",
+      "birthTime": "2019-01-19T09:18:46.931Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "react.png",
+      "ext": ".png",
+      "name": "react",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888008695,
+      "blocks": 56,
+      "atimeMs": 1549808623757.6028,
+      "mtimeMs": 1547889526931.2532,
+      "ctimeMs": 1547891345658.1301,
+      "birthtimeMs": 1547889526930.887,
+      "atime": "2019-02-10T14:23:43.758Z",
+      "mtime": "2019-01-19T09:18:46.931Z",
+      "ctime": "2019-01-19T09:49:05.658Z",
+      "birthtime": "2019-01-19T09:18:46.931Z"
+    },
+    "71330c49-ba7d-5a2f-a7c1-efeeb5d5d86d": {
+      "id": "71330c49-ba7d-5a2f-a7c1-efeeb5d5d86d",
+      "children": [],
+      "parent": "99c252f1-5ea8-5782-ae79-b593a136290e",
+      "internal": {
+        "contentDigest": "d853da1922c4dc64054e3d8cf5f495a4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "dbe1ce31-0ffa-5b8d-92ab-3214a65c31cb": {
+      "id": "dbe1ce31-0ffa-5b8d-92ab-3214a65c31cb",
+      "children": [],
+      "parent": "88fc891d-5d16-5782-b0c9-bd731b961f43",
+      "internal": {
+        "contentDigest": "6dff492c3bc8c6c04d00aa11d456ddf1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "fe7ee66e-f66e-54e2-babd-f34cbe966552": {
+      "id": "fe7ee66e-f66e-54e2-babd-f34cbe966552",
+      "children": [],
+      "parent": "5c18bc27-53f2-57d0-8c1c-f9f574e2b788",
+      "internal": {
+        "contentDigest": "d720dd94dc00565610652fe1fcb39ae3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e50a6118-130f-5051-9882-5fa2435b15a0": {
+      "id": "e50a6118-130f-5051-9882-5fa2435b15a0",
+      "children": [],
+      "parent": "a3c17ccc-616d-50e8-b11d-6f8b3ea46e96",
+      "internal": {
+        "contentDigest": "6c0431c1dd750bbe29ab4736fb48adb7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "aaab3f9c-0c57-54e9-994a-6e7c941f4f11": {
+      "id": "aaab3f9c-0c57-54e9-994a-6e7c941f4f11",
+      "children": [],
+      "parent": "61e4f2f1-e133-57f5-94ae-95c629ba0c64",
+      "internal": {
+        "contentDigest": "d7c53238a4ed26646e622cb63f022884",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "73a42087-3857-59e0-a178-a5f4c7b59957": {
+      "id": "73a42087-3857-59e0-a178-a5f4c7b59957",
+      "children": [],
+      "parent": "0531cc2e-ab42-55f1-bba9-e351b2fd8561",
+      "internal": {
+        "contentDigest": "4c22ba873d8372ed8ff0ebe9f37f8483",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "806728e0-a136-5446-8bed-fc0a8a31ecde": {
+      "id": "806728e0-a136-5446-8bed-fc0a8a31ecde",
+      "children": [],
+      "parent": "426abf6d-edd6-56a4-a140-96794d3c830d",
+      "internal": {
+        "contentDigest": "9cf4a14cb5024b5d6e988c1519570ce3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "062fd38e-1b8b-51f5-9b6f-0b4aa82f491e": {
+      "id": "062fd38e-1b8b-51f5-9b6f-0b4aa82f491e",
+      "children": [],
+      "parent": "a6bb9558-120e-5b31-aebe-80738bb76c35",
+      "internal": {
+        "contentDigest": "bcb36bfbd2209958514bdcaa9ef24097",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f4dab02d-0994-559f-a808-186aa61e0611": {
+      "id": "f4dab02d-0994-559f-a808-186aa61e0611",
+      "children": [],
+      "parent": "c06c8668-6ace-5f8a-87fc-ecaca8a2f83e",
+      "internal": {
+        "contentDigest": "a752900c74e7f395a64b0965c9f6b114",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "515e334a-065b-5a7e-98e0-6b46839eb5b7": {
+      "id": "515e334a-065b-5a7e-98e0-6b46839eb5b7",
+      "children": [],
+      "parent": "b2a78931-73b6-5cf6-87be-41dcde383496",
+      "internal": {
+        "contentDigest": "f440dc8f80bbb6bb726d07d50523d9a9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "e9151d26-ff58-541d-9bd9-9958c7b03807": {
+      "id": "e9151d26-ff58-541d-9bd9-9958c7b03807",
+      "children": [],
+      "parent": "677f1fb2-7236-58f9-bd51-41b10b29ea11",
+      "internal": {
+        "contentDigest": "00f9d79b850e5377447898aa6510006e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ced09425-9dad-586c-a667-b4f2ad5be8e8": {
+      "id": "ced09425-9dad-586c-a667-b4f2ad5be8e8",
+      "children": [],
+      "parent": "19a7d304-66bf-5962-a64c-62b4f310472b",
+      "internal": {
+        "contentDigest": "a5f13d42f74fb855a4d55e1ae464012e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d07a3584-aa94-5141-b870-457b649a4b80": {
+      "id": "d07a3584-aa94-5141-b870-457b649a4b80",
+      "children": [],
+      "parent": "3e4a9cf6-f30b-5309-b44c-b18cd8480354",
+      "internal": {
+        "contentDigest": "6b93b46ae681d6dcb342a60e7f4ac4bc",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "914a9efa-68d3-5554-9406-ff316cd32475": {
+      "id": "914a9efa-68d3-5554-9406-ff316cd32475",
+      "children": [
+        "bfb2dc76-1b17-5be9-8386-43a88102acd3"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "61d6488f5c3363af88607cc169ce96c3",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/home/skill/gatsbyjs.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill/gatsbyjs.png",
+      "relativePath": "home/skill/gatsbyjs.png",
+      "extension": "png",
+      "size": 142224,
+      "prettySize": "142 kB",
+      "modifiedTime": "2019-01-19T07:46:52.180Z",
+      "accessTime": "2019-02-10T14:23:43.757Z",
+      "changeTime": "2019-01-19T07:46:53.357Z",
+      "birthTime": "2019-01-19T07:46:39.412Z",
+      "root": "/",
+      "dir": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/images/home/skill",
+      "base": "gatsbyjs.png",
+      "ext": ".png",
+      "name": "gatsbyjs",
+      "relativeDirectory": "home/skill",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 12888001527,
+      "blocks": 280,
+      "atimeMs": 1549808623757.3457,
+      "mtimeMs": 1547884012180.2239,
+      "ctimeMs": 1547884013357.0083,
+      "birthtimeMs": 1547883999411.7524,
+      "atime": "2019-02-10T14:23:43.757Z",
+      "mtime": "2019-01-19T07:46:52.180Z",
+      "ctime": "2019-01-19T07:46:53.357Z",
+      "birthtime": "2019-01-19T07:46:39.412Z"
+    },
+    "bfb2dc76-1b17-5be9-8386-43a88102acd3": {
+      "id": "bfb2dc76-1b17-5be9-8386-43a88102acd3",
+      "children": [],
+      "parent": "914a9efa-68d3-5554-9406-ff316cd32475",
+      "internal": {
+        "contentDigest": "61d6488f5c3363af88607cc169ce96c3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "376f94ad960c0908a77522d6bc5875ef",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b56871e37c4f83b949261320e2687326",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/archive-letter/": {
+      "jsonName": "portofolio-detail-archive-letter-491",
+      "internalComponentName": "ComponentPortofolioDetailArchiveLetter",
+      "path": "/PortofolioDetail/archive-letter/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-archive-letter-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js",
+      "id": "SitePage /PortofolioDetail/archive-letter/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a6e3a1efefacd550a7b38fccfd135f84",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/be/": {
+      "jsonName": "portofolio-detail-be-6cf",
+      "internalComponentName": "ComponentPortofolioDetailBe",
+      "path": "/PortofolioDetail/be/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/be.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-be-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/be.js",
+      "id": "SitePage /PortofolioDetail/be/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3920bcd63d9e7bccc737d9a10fbd51cd",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/borderless/": {
+      "jsonName": "portofolio-detail-borderless-f9a",
+      "internalComponentName": "ComponentPortofolioDetailBorderless",
+      "path": "/PortofolioDetail/borderless/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/borderless.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-borderless-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/borderless.js",
+      "id": "SitePage /PortofolioDetail/borderless/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8204322c3d630aff449f25e44afebc3b",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/caphost/": {
+      "jsonName": "portofolio-detail-caphost-336",
+      "internalComponentName": "ComponentPortofolioDetailCaphost",
+      "path": "/PortofolioDetail/caphost/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/caphost.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-caphost-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/caphost.js",
+      "id": "SitePage /PortofolioDetail/caphost/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fb06e3108eb740fbfacd8d1143ad0797",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/crs/": {
+      "jsonName": "portofolio-detail-crs-ba0",
+      "internalComponentName": "ComponentPortofolioDetailCrs",
+      "path": "/PortofolioDetail/crs/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/crs.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-crs-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/crs.js",
+      "id": "SitePage /PortofolioDetail/crs/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "746eeb046836055a0998a1292f0d7114",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/falcon/": {
+      "jsonName": "portofolio-detail-falcon-99c",
+      "internalComponentName": "ComponentPortofolioDetailFalcon",
+      "path": "/PortofolioDetail/falcon/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/falcon.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-falcon-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/falcon.js",
+      "id": "SitePage /PortofolioDetail/falcon/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d9fa870bf06059b738ea89c67c9146aa",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/fnb/": {
+      "jsonName": "portofolio-detail-fnb-7e5",
+      "internalComponentName": "ComponentPortofolioDetailFnb",
+      "path": "/PortofolioDetail/fnb/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/fnb.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-fnb-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/fnb.js",
+      "id": "SitePage /PortofolioDetail/fnb/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "27cf53a749c94d35effd31f3bacb7eec",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/ht/": {
+      "jsonName": "portofolio-detail-ht-27e",
+      "internalComponentName": "ComponentPortofolioDetailHt",
+      "path": "/PortofolioDetail/ht/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/ht.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-ht-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/ht.js",
+      "id": "SitePage /PortofolioDetail/ht/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c92311ee38dfb3672b3e96a4e4a597c7",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/jupiter/": {
+      "jsonName": "portofolio-detail-jupiter-93d",
+      "internalComponentName": "ComponentPortofolioDetailJupiter",
+      "path": "/PortofolioDetail/jupiter/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/jupiter.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-jupiter-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/jupiter.js",
+      "id": "SitePage /PortofolioDetail/jupiter/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cfcb4dbc084292ebd4bcda6b12e65a8f",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/museum/": {
+      "jsonName": "portofolio-detail-museum-6d1",
+      "internalComponentName": "ComponentPortofolioDetailMuseum",
+      "path": "/PortofolioDetail/museum/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/museum.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-museum-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/museum.js",
+      "id": "SitePage /PortofolioDetail/museum/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "882b9ba45d2761d8dc2f773d150fc0c8",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/personal-website/": {
+      "jsonName": "portofolio-detail-personal-website-e6a",
+      "internalComponentName": "ComponentPortofolioDetailPersonalWebsite",
+      "path": "/PortofolioDetail/personal-website/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/personal-website.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-personal-website-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/personal-website.js",
+      "id": "SitePage /PortofolioDetail/personal-website/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b5661d7e9d369f5d33fc01ce15ee43e9",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/pms/": {
+      "jsonName": "portofolio-detail-pms-7f5",
+      "internalComponentName": "ComponentPortofolioDetailPms",
+      "path": "/PortofolioDetail/pms/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pms.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-pms-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pms.js",
+      "id": "SitePage /PortofolioDetail/pms/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4c60699b0745c1b66f093409b2f06fdf",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/PortofolioDetail/": {
+      "jsonName": "portofolio-detail-portofolio-detail-5d9",
+      "internalComponentName": "ComponentPortofolioDetailPortofolioDetail",
+      "path": "/PortofolioDetail/PortofolioDetail/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/PortofolioDetail.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-portofolio-detail-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/PortofolioDetail.js",
+      "id": "SitePage /PortofolioDetail/PortofolioDetail/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bff66ae71065b8a6fbd88c329d6246cb",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/pos/": {
+      "jsonName": "portofolio-detail-pos-408",
+      "internalComponentName": "ComponentPortofolioDetailPos",
+      "path": "/PortofolioDetail/pos/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pos.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-pos-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pos.js",
+      "id": "SitePage /PortofolioDetail/pos/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "57c2307edd7ce4b3938e8013ab38e2cc",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /PortofolioDetail/pricentric/": {
+      "jsonName": "portofolio-detail-pricentric-a51",
+      "internalComponentName": "ComponentPortofolioDetailPricentric",
+      "path": "/PortofolioDetail/pricentric/",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pricentric.js",
+      "componentChunkName": "component---src-pages-portofolio-detail-pricentric-js",
+      "context": {},
+      "pluginCreator___NODE": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "pluginCreatorId": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pricentric.js",
+      "id": "SitePage /PortofolioDetail/pricentric/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b099e633292cb695ce0d08c8342771e0",
+        "description": "3c1b514a-cada-58bd-a809-ba978ced4fa9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5c56d8b52b339ec131ec1c85e0023ae2",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "1a6bc0a944f841b2df9192a036e6dab4"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "sq--src-components-layout-js": 755544856,
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-js": 2011440971,
+    "sq--src-components-seo-js": 1025518380,
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-archive-letter-491": "91/path---portofolio-detail-archive-letter-491-d1c-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-borderless-f9a": "428/path---portofolio-detail-borderless-f-9-a-a0c-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-be-6cf": "237/path---portofolio-detail-be-6-cf-592-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-fnb-7e5": "966/path---portofolio-detail-fnb-7-e-5-e17-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-falcon-99c": "78/path---portofolio-detail-falcon-99-c-fa5-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-caphost-336": "506/path---portofolio-detail-caphost-336-263-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-crs-ba0": "906/path---portofolio-detail-crs-ba-0-a36-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-ht-27e": "115/path---portofolio-detail-ht-27-e-1e8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-museum-6d1": "601/path---portofolio-detail-museum-6-d-1-a4d-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-jupiter-93d": "860/path---portofolio-detail-jupiter-93-d-3c3-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-personal-website-e6a": "937/path---portofolio-detail-personal-website-e-6-a-6d9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-pms-7f5": "904/path---portofolio-detail-pms-7-f-5-0b6-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-portofolio-detail-5d9": "914/path---portofolio-detail-portofolio-detail-5-d-9-a3f-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-pos-408": "980/path---portofolio-detail-pos-408-dcc-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portofolio-detail-pricentric-a51": "346/path---portofolio-detail-pricentric-a-51-f21-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/index.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/archive-letter.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/be.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/be.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/borderless.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/borderless.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/caphost.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/caphost.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/crs.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/crs.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/falcon.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/falcon.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/fnb.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/fnb.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/ht.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/ht.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/jupiter.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/jupiter.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/museum.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/museum.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/personal-website.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/personal-website.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pms.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pms.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/PortofolioDetail.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/PortofolioDetail.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pos.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pos.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pricentric.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/PortofolioDetail/pricentric.js"
+    },
+    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-image-js": {
+      "name": "usersMacbookProDocumentsWwwSelfStefirkpGithubIoSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersMacbookProDocumentsWwwSelfStefirkpGithubIoSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    }
+  }
+}

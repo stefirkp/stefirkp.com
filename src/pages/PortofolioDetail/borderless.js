@@ -1,5 +1,4 @@
 import React from 'react'
-import { navigate } from "gatsby"
 import Layout from '../../components/layout'
 
 const Borderless = () => (
@@ -56,7 +55,7 @@ const Borderless = () => (
                 </div>
                 <div className="name-detail-wrap">
                   <div className="name">Borderless
-                    <a href="https://stefiportfolio.github.io/borderless/" className="link-port" target='_blank'></a>
+                    <a href="https://stefiportfolio.github.io/borderless/" className="link-port" target='_blank' rel="noopener noreferrer"></a>
                   </div>
                   <div className="type">Product Profile</div>
                   <div className="year">Mei 2018</div>

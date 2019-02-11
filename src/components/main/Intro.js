@@ -5,7 +5,7 @@ export default class Intro extends Component {
     let text = ['a website developer', 'a front end developer', 'Craft Lover', 'Dog Lover','a developer']
     var counter = 0;
     var elem = document.getElementById("changer-txt");
-    var inst = setInterval(change, 1500);
+    setInterval(change, 1500);
 
     function change() {
       elem.innerHTML = text[counter];
@@ -26,7 +26,7 @@ export default class Intro extends Component {
             <div className="photo"></div>
             <div className="content">
               <span>scroll down or </span>
-              <span className='link-txt'><a href="https://drive.google.com/file/d/1Zo_wytH1qg3qXQC3hMOCoJY2QE3odc73/view?usp=sharing" download='stefirosadi-cv.pdf' target='_blank'>just view my resume</a></span>
+              <span className='link-txt'><a href="https://drive.google.com/file/d/1Zo_wytH1qg3qXQC3hMOCoJY2QE3odc73/view?usp=sharing" download='stefirosadi-cv.pdf' target='_blank' rel="noopener noreferrer">just view my resume</a></span>
             </div>
           </div>
         </section>

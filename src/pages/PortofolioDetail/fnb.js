@@ -5,15 +5,6 @@ import ProjectIcon from '../../components/layout/projectIcon'
 
 import Slider from "react-slick"
 
-import fnb1 from '../../images/home/portfolio/fnb-0.png'
-import fnb2 from '../../images/home/portfolio/fnb-1.png'
-import fnb3 from '../../images/home/portfolio/fnb-2.png'
-import fnb4 from '../../images/home/portfolio/fnb-5.png'
-import fnb5 from '../../images/home/portfolio/fnb-010.png'
-import fnb6 from '../../images/home/portfolio/fnb-011.png'
-import fnb7 from '../../images/home/portfolio/fnb-012.png'
-import fnb8 from '../../images/home/portfolio/fnb-013.png'
-
 var settings = {
   dots: false,
   infinite: true,
@@ -24,7 +15,14 @@ var settings = {
 };
 
 
-let gallery_list = [fnb1,fnb2,fnb3,fnb4,fnb5,fnb6,fnb7,fnb8
+let gallery_list = ['https://lh3.googleusercontent.com/_gI9bqq3zhC_j2Wfk9z11bMCuttBfOmmWaprIk5UIjctpMeSjRzJivEpEYs9TebWgIMsVNsgF6_TnlmkMZDSn7j7AasYEZthRFwqgqoCgcIe16DZUcMDxYg1WW-kkiHF5q9Yr0Mkgw=w1920-h1080',
+  'https://lh3.googleusercontent.com/jaa--iVc8h-Mw9l9_FZ5IYs9mNgih59Fn7znR5CkjZRqjx473MQWIrSTxq-ijeKfzxHT9AQO_mn1sJKs4-3Gdau36j0JpEU1sjXw-ZcQHscpKofDQweY5JfNwie4UX3q3bGH7-kVmA=w1920-h1080',
+  'https://lh3.googleusercontent.com/TeeJ-wRiyJGLy_SIRIQJZl4BupAq1Rs0YYzhmbCxh6qipwnjwDLaFw0Hv3vaPGSeC9I4QuAi1P_N5KKCWjecvZy7kmUvJxqX1raA2K87550crU16seQAZVp9ntiIrAdGp8FMa6joKA=w1920-h1080',
+  'https://lh3.googleusercontent.com/4FC8WwKSzpprf_PcOHGi6jHp33HVYdp9sLrDozaXlPMi8MeCxc-Jbq2khRGjCNR0qwimCJz4bZgJtbs8VtcsXtzVwXexOYuT_s1zMyv52TY0uXzOqLlVQA9L-6JDXCfPaKXTr00ABg=w1920-h1080',
+  'https://lh3.googleusercontent.com/T3NinNBLwccNt8fEGep6A8W--VxZeZ_3wpm3x97ELXYbQ63oP61YeCp35fPosLBNFfp9VhuiaXulZfOJNLK-UIk8OOvf9PCuINtiL0MxdIUVYdDkDDVeEj_1YPjyWL4dBaX9gYO0Pg=w1920-h1080',
+  'https://lh3.googleusercontent.com/IeOEN3DnZ8laF2QFfuMvdGBg5Ry4SkFN4vHwmoHHz5fqWsOD2LFuLOcdNmiovmbDCWZIyrfjmNcq8HV2SCT81izSTxMFBHAo8w0DBsiBP4VuzNh37XaA7Z7PK5pDYnAQblsQnIqf8g=w1920-h1080',
+  'https://lh3.googleusercontent.com/1RcLlpjd7bbVb2nu3fu5WkUSimvxZwQSJMnYxqV7QAB4WOF-bM0lopEmjpT-MXCFpmeQekFk-GNwPPBh6tyVBtVIn4bCNObrBnHXQ23oDMpmUAa30YITx8f4__s6occxu_D1OKx4ng=w1920-h1080',
+  'https://lh3.googleusercontent.com/S5U3osAIp6aBqj-zD4lQCOqIILqsSLJSZ0JyDqE36msoXkxrABZMPCjDIqFi5kmFoyRbOWTU6ylh252npdWVOabkq6uhxqh0UZ-8oyr3VQxgoKlHWrSmZz_-sBZIwD0LI-BkjPFZ7g=w1920-h1080'
 ]
 
 const Fnb = () => (

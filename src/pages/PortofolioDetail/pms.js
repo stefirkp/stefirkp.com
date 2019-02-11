@@ -4,15 +4,6 @@ import Layout from '../../components/layout'
 import ProjectIcon from '../../components/layout/projectIcon'
 
 import Slider from "react-slick"
-
-import pms1 from '../../images/home/portfolio/pms-1.png'
-import pms2 from '../../images/home/portfolio/pms-3.png'
-import pms3 from '../../images/home/portfolio/pms-4.png'
-import pms4 from '../../images/home/portfolio/pms-5.png'
-import pms5 from '../../images/home/portfolio/pms-6.png'
-import pms6 from '../../images/home/portfolio/pms-7.png'
-import pms7 from '../../images/home/portfolio/pms-8.png'
-
 var settings = {
   dots: false,
   infinite: true,
@@ -23,7 +14,13 @@ var settings = {
 };
 
 
-let gallery_list = [pms1,pms2,pms3,pms4,pms5,pms6,pms7
+let gallery_list = ['https://lh3.googleusercontent.com/6GXQhsdT-Y-fIJu27Kd9JiqAsWUHenJdvut9cDIP87iqyIvIxVc2TuM_OTEQ66qJRqw2I774gaHjjeU35wAkUi2ze9JaNpXajmlyc5Jz0tTtXlHRKmzdIBpwSnIyClLfwhASc97xTQ=w1920-h1080',
+'https://lh3.googleusercontent.com/RyUjnBjqsy0or_GOwAYpF9SWc-wxpF5U6-PDB35WGIlcrOze-F-1A9MOaCkbLa9MKTxrho0sT-uHTnxpVFJ4pHnr-HgVUzJMcD_MLvnU4rn7CfhasZjPOmwAUzqtbtomRMqvUOvLMQ=w1920-h1080',
+'https://lh3.googleusercontent.com/n-PGBWD0YR-DNEagcB9QXD6vd23rIC8T7Ie_v2ym9Y-cS2jk3ByHP2lbVl6ScKQ6QGne4IdF8WPJhlNaUzZYl7a-Fv10DfZrwFp4YP7HpMH47LJTy9NeyjZjUPhxTUKv-G9bzZxXfw=w1920-h1080',
+'https://lh3.googleusercontent.com/Qjw69OMBCnqp1q7gjIb8nb0o8VnDydhTxRq5yZ2IohOr27s2DBnzWFoj9_BSKzArs4DxNyrXxy2CFZNj9NckrWTHM6aeXGEvxxuQDh5yD_s396Bbq4iILMWx7xT56YftQwglyf7DOQ=w1920-h1080',
+'https://lh3.googleusercontent.com/IHijDgSghjXoJ3GscbMC8hd_ORs0ORh6rC5ut1E1Syu0P28zTgs6N7ohwd6UuZX7jHg-uuejV2hR05cBxpDY7qr5sDmKXWhbIR8u4kzdIJAnV4TqRSrJ0lg71p4NqymnWTpRjuLOjg=w1920-h1080',
+'https://lh3.googleusercontent.com/Joz4QSJvMK3RKPoVe8VnyCaJvMIN5dLvHpU9j-3qRMKHzPPPqzrW3OPTJdqMd6MgB1se63cabtPUNQ3SJHtIQevQM-tq-my_G8f8DsDSexiTkjzYp-3T_b5_O6YEZv-s2g-t61_03Q=w1920-h1080',
+'https://lh3.googleusercontent.com/mEW5WQw7UhO3UtN1_uqmFIuJjKiGJPBpCgwYhHHG9Vut7hwJ71x7mbNlhlf9etguNJIEtvg9E1Lg4NR_XUdZPipuscurgssbugRBqZe35mR1zYU3_HzdZRgqdVBq3D6phIKgr8zDcA=w1920-h1080'
 ]
 
 

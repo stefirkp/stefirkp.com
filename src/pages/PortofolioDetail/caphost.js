@@ -28,7 +28,7 @@ const Caphost = () => (
                 </div>
                 <div className="name-detail-wrap">
                   <div className="name">Caption Hospitality
-                    <a href="https://www.captionhospitality.com/" className="link-port" target='_blank'></a>
+                    <a href="https://www.captionhospitality.com/" className="link-port" target='_blank' rel="noopener noreferrer"></a>
                   </div>
                   <div className="type">Product Profile</div>
                   <div className="year">middle 2018</div>

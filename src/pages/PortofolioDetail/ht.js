@@ -28,7 +28,7 @@ const HotelTemplate = () => (
                 <ProjectIcon fill='#6b3555'></ProjectIcon></div>
                 <div className="name-detail-wrap">
                   <div className="name">Hotel Template
-                    <a href="https://pawoncokelat.com/" className="link-port" target='_blank'></a>
+                    <a href="https://pawoncokelat.com/" className="link-port" target='_blank' rel="noopener noreferrer"></a>
                   </div>
                   <div className="type">Hotel Profile</div>
                   <div className="year">middle 2018</div>

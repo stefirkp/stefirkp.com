@@ -12,17 +12,17 @@ var settings = {
 };
 let gallery_list = [
 'https://lh3.googleusercontent.com/NLnQLNXS_7nFocnum05wAohVQT1TjI4b7gPBdo8tJuyCdipJpJ6XY4rZLGfftgIKd96zNJCX7AHPHhvjqbPUtMV8zZ6aFKXP8QV-jOTwJeBYA7FCqyfv1N-AC3JbFbjoDn8M8Wn1Lg=w2400',
-,'https://lh3.googleusercontent.com/G9-0_bDUm6cNrAhOywYAtC_wbf7Pcmtrw2U8CklzwPHRY42M1Pidk_HmUxjGflNyJ27bDahoXAphBshLGQKc7LOlMLnxwCyKkMf6_Ulq0xYiSP6lH167cqhxxlpTu-4QroAtfZUNeQ=w2400',
-,'https://lh3.googleusercontent.com/g5kww173myoive2ywMgtUtlkfvTE0gjxcHA2QIOpoT4BTzAy-bJe7V0yYouO5xly7K50_dvBjxB7VdH4qHkBSlVKxQFpkcWExDeR8-qQB0WPhzRtYmORIy5DFgFXP7TiihoOTksc1A=w2400',
-,'https://lh3.googleusercontent.com/_ynuU7tkzqd6DW3j55d26PcZFcuJz6lW_-qX0DYQmjL_U0fk7dVwGXq1St5JTiwEBFlbo9m80dVR6hn05dE1chGNtLyG5Tlv5mQGFVpXCHVaK61-bQEkqCNIY-OPFOIiBbEINrZhhQ=w2400',
-,'https://lh3.googleusercontent.com/6t1aAcenzLmGastw_MpO-WsroVu4oVm5RanBfmcIvoUW54zd4Xcqh1FwtdcPKclHZS2gFy7i6x19q_giBn0IgKaaE-LeIy9OYm8dHlrHYr7BwQDSOLUN_qGQg9wroVKO0rXpHGbcEQ=w2400',
-,'https://lh3.googleusercontent.com/HXAmNe-xcnPNUyRE-8zYZ0X5Xfg07Rl9ONAyxcMfYjJfQqbXBuBIihTMVbp3gO1sk29RqU7FG9DGsCCbW39_iIXTIJ8e8toPp65eztP574wOzMnh-QXeOwub9aOtwSHccbXCaGvpyw=w2400',
-,'https://lh3.googleusercontent.com/RxJbtpIkHwdwUtHLtC7o-aDOqQVf5t5B1I4w4fqvZ6LPDDnC4lT3jTMjzDt_ztrXGHByqygEFkE6qU02ReeYDEQqIeT4t_Izy6kPTDc2-HtRnkQ8wLlAJXnWEDpOea4USaLW80VoCg=w2400',
-,'https://lh3.googleusercontent.com/3GQrVaGONqQtS8FJL2np5KkFtEHaV0gAUNrtkfNNkpJz3hd7mFPWzZj60WwPkOa42hxCwDsrkpxehZn73E_zvBfF_WHNLWxAyl_0GHKYn7OidIl5YFd9wiNf6qzNrNAfvhu8U44atA=w2400',
-,'https://lh3.googleusercontent.com/DuOofum4pyjdOMkNPDbFBxvUKTR8Bgv6KLbQbzypYcCCLRLa0WcCLn2yXRAPMcNR8S_uIrxaVUEVLa0sWoiuftwSCzM0HrxKGhHBUAWQPVbeHBi5NvmKv5UB63DFjKY1y8vT18oe3g=w2400',
-,'https://lh3.googleusercontent.com/U_9xwmRam3T9QyZWvUFIoEjvoX6LERnYm4YFZCXrw7B3ovKm5kf_EXACG9OYoGjfsv2pU_08XJiTbdO-hlMlSqHlRGIk2VTkumyF0OmsGZKoqequlBJx28do1c0MbjwPiXfY0-NYQQ=w2400',
-,'https://lh3.googleusercontent.com/MqNhei-pE6FriwBJOKgVpqi2PlBigWvdBgTSbopzR_5NNwrdsZasba6Mq78GLsRReCTjzKxMf_qkZW4iwOczlaeHCe7DduyifAjTA3NJLeophDjxqI7g3JMuNZJhsaSoyUoH-8aEeA=w2400',
-,'https://lh3.googleusercontent.com/MHmGPZ-RgsOjav-lhG4PKiX_9C1hhI3kY4Kgxv8wUv89la2bMxP8h3l9ZjvbWwZhxsw-3JKeXmYwoj0wEk7hf0IF3wf8Tv9Hk3FHaC2rmo4uKZQj0X5stTnxe2_Y5sDBxlJkGW55gQ=w2400'
+'https://lh3.googleusercontent.com/G9-0_bDUm6cNrAhOywYAtC_wbf7Pcmtrw2U8CklzwPHRY42M1Pidk_HmUxjGflNyJ27bDahoXAphBshLGQKc7LOlMLnxwCyKkMf6_Ulq0xYiSP6lH167cqhxxlpTu-4QroAtfZUNeQ=w2400',
+'https://lh3.googleusercontent.com/g5kww173myoive2ywMgtUtlkfvTE0gjxcHA2QIOpoT4BTzAy-bJe7V0yYouO5xly7K50_dvBjxB7VdH4qHkBSlVKxQFpkcWExDeR8-qQB0WPhzRtYmORIy5DFgFXP7TiihoOTksc1A=w2400',
+'https://lh3.googleusercontent.com/_ynuU7tkzqd6DW3j55d26PcZFcuJz6lW_-qX0DYQmjL_U0fk7dVwGXq1St5JTiwEBFlbo9m80dVR6hn05dE1chGNtLyG5Tlv5mQGFVpXCHVaK61-bQEkqCNIY-OPFOIiBbEINrZhhQ=w2400',
+'https://lh3.googleusercontent.com/6t1aAcenzLmGastw_MpO-WsroVu4oVm5RanBfmcIvoUW54zd4Xcqh1FwtdcPKclHZS2gFy7i6x19q_giBn0IgKaaE-LeIy9OYm8dHlrHYr7BwQDSOLUN_qGQg9wroVKO0rXpHGbcEQ=w2400',
+'https://lh3.googleusercontent.com/HXAmNe-xcnPNUyRE-8zYZ0X5Xfg07Rl9ONAyxcMfYjJfQqbXBuBIihTMVbp3gO1sk29RqU7FG9DGsCCbW39_iIXTIJ8e8toPp65eztP574wOzMnh-QXeOwub9aOtwSHccbXCaGvpyw=w2400',
+'https://lh3.googleusercontent.com/RxJbtpIkHwdwUtHLtC7o-aDOqQVf5t5B1I4w4fqvZ6LPDDnC4lT3jTMjzDt_ztrXGHByqygEFkE6qU02ReeYDEQqIeT4t_Izy6kPTDc2-HtRnkQ8wLlAJXnWEDpOea4USaLW80VoCg=w2400',
+'https://lh3.googleusercontent.com/3GQrVaGONqQtS8FJL2np5KkFtEHaV0gAUNrtkfNNkpJz3hd7mFPWzZj60WwPkOa42hxCwDsrkpxehZn73E_zvBfF_WHNLWxAyl_0GHKYn7OidIl5YFd9wiNf6qzNrNAfvhu8U44atA=w2400',
+'https://lh3.googleusercontent.com/DuOofum4pyjdOMkNPDbFBxvUKTR8Bgv6KLbQbzypYcCCLRLa0WcCLn2yXRAPMcNR8S_uIrxaVUEVLa0sWoiuftwSCzM0HrxKGhHBUAWQPVbeHBi5NvmKv5UB63DFjKY1y8vT18oe3g=w2400',
+'https://lh3.googleusercontent.com/U_9xwmRam3T9QyZWvUFIoEjvoX6LERnYm4YFZCXrw7B3ovKm5kf_EXACG9OYoGjfsv2pU_08XJiTbdO-hlMlSqHlRGIk2VTkumyF0OmsGZKoqequlBJx28do1c0MbjwPiXfY0-NYQQ=w2400',
+'https://lh3.googleusercontent.com/MqNhei-pE6FriwBJOKgVpqi2PlBigWvdBgTSbopzR_5NNwrdsZasba6Mq78GLsRReCTjzKxMf_qkZW4iwOczlaeHCe7DduyifAjTA3NJLeophDjxqI7g3JMuNZJhsaSoyUoH-8aEeA=w2400',
+'https://lh3.googleusercontent.com/MHmGPZ-RgsOjav-lhG4PKiX_9C1hhI3kY4Kgxv8wUv89la2bMxP8h3l9ZjvbWwZhxsw-3JKeXmYwoj0wEk7hf0IF3wf8Tv9Hk3FHaC2rmo4uKZQj0X5stTnxe2_Y5sDBxlJkGW55gQ=w2400'
 ]
 const Pricentric = () => (
   <Layout idLayout='pricentric-layout'>
@@ -78,7 +78,7 @@ const Pricentric = () => (
                 </div>
                 <div className="name-detail-wrap">
                   <div className="name">Pricentric
-                    <a href="https://stefiportfolio.github.io/pricentric/pages/anatomy_management.html" className="link-port" target='_blank'></a>
+                    <a href="https://stefiportfolio.github.io/pricentric/pages/anatomy_management.html" className="link-port" target='_blank' rel="noopener noreferrer"></a>
                   </div>
                   <div className="type">Report Application</div>
                   <div className="year">June 2017</div>

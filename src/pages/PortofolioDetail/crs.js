@@ -4,13 +4,6 @@ import Layout from '../../components/layout'
 import ProjectIcon from '../../components/layout/projectIcon'
 
 import Slider from "react-slick"
-
-import crs1 from '../../images/home/portfolio/crs-1.png'
-import crs2 from '../../images/home/portfolio/crs-2.png'
-import crs3 from '../../images/home/portfolio/crs-3.png'
-import crs4 from '../../images/home/portfolio/crs-4.png'
-import crs5 from '../../images/home/portfolio/crs-5.png'
-
 var settings = {
   dots: false,
   infinite: true,
@@ -21,7 +14,11 @@ var settings = {
 };
 
 
-let gallery_list = [crs1,crs2,crs3,crs4,crs5
+let gallery_list = ['https://lh3.googleusercontent.com/5LVABU33mkkQV2PocFYSRNyN-2E7tnLizFREbll6yNTrEylgv9HtvgzcBbPMej2ps1SS5jOVvqCfdgIXJY7v7PkslNxB5hF8Gc8E5YCdTxtGyZHWOQGE47glqMZ7dUHJ0zl-dje5uw=w1920-h1080',
+'https://lh3.googleusercontent.com/R_IpRCidwode_lMLFILzJeSst9GiaB6Ryg6O52PqVRmd8f4TlWtNrzaedp8ru9gQnrU2eBSoWQqtKeFYaMwCjI31sww1rEU0IKCH9_cbobfXkenlu1gMELdaKBktSyU1krR1IrJf8Q=w1920-h1080',
+'https://lh3.googleusercontent.com/yn8ASgKhQs2Q_3I9kkyj8LPAOCUDNjx_cS6IaUQBF3fRubxxTk--hDFf91DTrQHOOf9bIYOo2YVNW9vN-9vLE17Hfmia3P5AQXFt1lgg3uaTT1ddFghL7X_NbtBn71YAr6jZvdBHbw=w1920-h1080',
+'https://lh3.googleusercontent.com/hvBAiHeBkzmuIf5b6Uo8oh3qOFI1bfDfDpQtouieto0g51y_Cl7R4slqjKEAWdXqfwoF0lO39CEmsacrKWNhGXZftMSAij9PVwzBbCzPHW6WuAUJcKo5y3O660Skft5W3HGvraNyZA=w1920-h1080',
+'https://lh3.googleusercontent.com/N_n38Jw7e9Dg3zBo4ykRUkawDBfDvlBXOOlsunrIOXukykXB9lYzrwabY5kwGG7zH6BEzHjpgAu7MyOUZ6BsaIbRmFkwPicbhc0bK1uSNoS2IauKzTFhxT7KVb-aS3Nfrvy9KstXvg=w1920-h1080'
 ]
 
 const Crs = () => (
