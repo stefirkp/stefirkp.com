@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import StefiCV from '../../data/CV Stefi Rosadi.pdf'
 
 export default class Intro extends Component {
   componentDidMount(){
@@ -26,7 +27,7 @@ export default class Intro extends Component {
             <div className="photo"></div>
             <div className="content">
               <span>scroll down or </span>
-              <span className='link-txt'><a href="https://drive.google.com/file/d/1z9JyAuNGpe1rbZJWvgCj5QplalyC8plU/view?usp=sharing" download='stefirosadi-cv.pdf' target='_blank' rel="noopener noreferrer">just view my resume</a></span>
+              <span className='link-txt'><a href={StefiCV} download='stefirosadi-cv.pdf' target='_blank'>just view my resume</a></span>
             </div>
           </div>
         </section>
