@@ -31,7 +31,7 @@ const HotelTemplate = () => (
                     <a href="https://pawoncokelat.com/" className="link-port" target='_blank' rel="noopener noreferrer"></a>
                   </div>
                   <div className="type">Hotel Profile</div>
-                  <div className="year">middle 2018</div>
+                  <div className="year">May 2018</div>
                 </div>
               </div>
             </div>

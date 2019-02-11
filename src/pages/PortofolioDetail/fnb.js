@@ -52,7 +52,7 @@ const Fnb = () => (
                   <div className="name">Food and Beverages POS
                   </div>
                   <div className="type">Restaurant Cashier Application</div>
-                  <div className="year">June 2018</div>
+                  <div className="year">July 2017</div>
                 </div>
               </div>
             </div>

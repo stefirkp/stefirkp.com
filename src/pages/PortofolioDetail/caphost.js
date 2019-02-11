@@ -31,7 +31,7 @@ const Caphost = () => (
                     <a href="https://www.captionhospitality.com/" className="link-port" target='_blank' rel="noopener noreferrer"></a>
                   </div>
                   <div className="type">Product Profile</div>
-                  <div className="year">middle 2018</div>
+                  <div className="year">March 2017</div>
                 </div>
               </div>
             </div>

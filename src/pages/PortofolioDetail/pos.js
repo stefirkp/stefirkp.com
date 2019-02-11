@@ -49,7 +49,7 @@ const Pos = () => (
                   <div className="name">Point of sales
                   </div>
                   <div className="type">Hotel Application </div>
-                  <div className="year">Middle 2017</div>
+                  <div className="year">March 2016</div>
                 </div>
               </div>
             </div>

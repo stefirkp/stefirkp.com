@@ -51,7 +51,7 @@ const Pms = () => (
                   <div className="name">PMS
                   </div>
                   <div className="type">Management System</div>
-                  <div className="year">June 2018</div>
+                  <div className="year">July 2018</div>
                 </div>
               </div>
             </div>

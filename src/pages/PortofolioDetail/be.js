@@ -30,7 +30,7 @@ const BookingEngine = () => (
                     <a href="http://adilla-syariah.captionhotel.com/booking/" className="link-port" target='_blank' rel="noopener noreferrer"></a>
                   </div>
                   <div className="type">Application System</div>
-                  <div className="year">middle 2018</div>
+                  <div className="year">Feb 2017</div>
                 </div>
               </div>
             </div>
