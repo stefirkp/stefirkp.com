@@ -27,7 +27,7 @@ export default class Intro extends Component {
             <div className="photo"></div>
             <div className="content">
               <span>scroll down or </span>
-              <span className='link-txt'><a href={StefiCV} download='stefirosadi-cv.pdf' target='_blank'>just view my resume</a></span>
+              <span className='link-txt'><a href={StefiCV} download='stefirosadi-cv.pdf' target='_blank' rel="noopener noreferrer">just view my resume</a></span>
             </div>
           </div>
         </section>

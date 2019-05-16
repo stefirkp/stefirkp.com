@@ -28,8 +28,14 @@ export default About
 const life_list = [
   {
     id:'caption',
+    location:'WIR Global',
+    year:'April 2019 - Now',
+    title:'Front End Developer',
+    desc:'Join in Mindstore unit as a Senior Front End Developer. Create web application based on client request, such as Bidding Application. This application provide bidding between hotel and supplier. Implement using react – redux. '
+  },{
+    id:'caption',
     location:'Caption Hospitality',
-    year:'Des 2015 - Now',
+    year:'Des 2015 - January 2019',
     title:'Front End Developer',
     desc:'Create application for hotel industry, such as Point of Sales for front desk and restaurant, Product Profile, and Center Management System. From here i learn about React JS, Ruby on Rails, Angular, and preprocessor CSS as SCSS. Increase my skill day by day by learning how to create clean code, so another member can develop easily.'
   },
