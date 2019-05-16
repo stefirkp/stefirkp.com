@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "de58a1e71c6371f5b8f6bb2a7c442e4d",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1523,16 +1514,14 @@
         "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
         "author": "@gatsbyjs"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-05-16T12:35:49.572Z",
+      "buildTime": "2019-05-16T12:43:10.388Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "106cf27ca767f20c3390ebe69f6e33cc",
+        "contentDigest": "36b9cf4db36a26ce3842150b78ee7508",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1542,7 +1531,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bd11f40234f18d736de8ce6c29ff3ca2",
+        "contentDigest": "7429f6ebe272e6b9faafa51f1159a677",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1554,7 +1543,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-01-27T06:47:11.647Z",
-      "accessTime": "2019-05-16T12:35:57.254Z",
+      "accessTime": "2019-05-16T12:43:17.055Z",
       "changeTime": "2019-01-27T06:47:11.647Z",
       "birthTime": "2018-12-17T08:30:16.017Z",
       "root": "/",
@@ -1572,11 +1561,11 @@
       "blksize": 4096,
       "ino": 12887572331,
       "blocks": 0,
-      "atimeMs": 1558010157254.126,
+      "atimeMs": 1558010597055.4646,
       "mtimeMs": 1548571631647.0503,
       "ctimeMs": 1548571631647.0503,
       "birthtimeMs": 1545035416016.7283,
-      "atime": "2019-05-16T12:35:57.254Z",
+      "atime": "2019-05-16T12:43:17.055Z",
       "mtime": "2019-01-27T06:47:11.647Z",
       "ctime": "2019-01-27T06:47:11.647Z",
       "birthtime": "2018-12-17T08:30:16.017Z"
@@ -1586,7 +1575,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "69e3a9ee547a49e68445bffabf4e29da",
+        "contentDigest": "230337ad7bb9c2e20959669bc955a01b",
         "type": "Directory",
         "description": "Directory \"src/images/home\"",
         "owner": "gatsby-source-filesystem"
@@ -1598,7 +1587,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-02-11T01:18:18.747Z",
-      "accessTime": "2019-05-16T12:35:57.260Z",
+      "accessTime": "2019-05-16T12:43:17.059Z",
       "changeTime": "2019-02-11T01:18:18.747Z",
       "birthTime": "2019-01-12T08:17:18.457Z",
       "root": "/",
@@ -1616,11 +1605,11 @@
       "blksize": 4096,
       "ino": 12887816616,
       "blocks": 0,
-      "atimeMs": 1558010157259.8303,
+      "atimeMs": 1558010597058.7002,
       "mtimeMs": 1549847898746.8247,
       "ctimeMs": 1549847898746.8247,
       "birthtimeMs": 1547281038456.9429,
-      "atime": "2019-05-16T12:35:57.260Z",
+      "atime": "2019-05-16T12:43:17.059Z",
       "mtime": "2019-02-11T01:18:18.747Z",
       "ctime": "2019-02-11T01:18:18.747Z",
       "birthtime": "2019-01-12T08:17:18.457Z"
@@ -1630,7 +1619,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f83f604c59988d27214cce93cbe88d89",
+        "contentDigest": "c1bc98cdbcaafe5aa2de819f1e6b9b36",
         "type": "Directory",
         "description": "Directory \"src/images/home/skill\"",
         "owner": "gatsby-source-filesystem"
@@ -1642,7 +1631,7 @@
       "size": 480,
       "prettySize": "480 B",
       "modifiedTime": "2019-01-23T17:55:02.159Z",
-      "accessTime": "2019-05-16T12:35:57.263Z",
+      "accessTime": "2019-05-16T12:43:17.060Z",
       "changeTime": "2019-01-23T17:55:02.159Z",
       "birthTime": "2019-01-19T07:19:36.388Z",
       "root": "/",
@@ -1660,11 +1649,11 @@
       "blksize": 4096,
       "ino": 12887998222,
       "blocks": 0,
-      "atimeMs": 1558010157263.0845,
+      "atimeMs": 1558010597060.4182,
       "mtimeMs": 1548266102159.3887,
       "ctimeMs": 1548266102159.3887,
       "birthtimeMs": 1547882376387.9553,
-      "atime": "2019-05-16T12:35:57.263Z",
+      "atime": "2019-05-16T12:43:17.060Z",
       "mtime": "2019-01-23T17:55:02.159Z",
       "ctime": "2019-01-23T17:55:02.159Z",
       "birthtime": "2019-01-19T07:19:36.388Z"
@@ -2652,7 +2641,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8a189c32e46715fe50576e7d2fbab977",
+        "contentDigest": "368967fc4b2ae8bf2b2d769b9adb9dd6",
         "type": "Directory",
         "description": "Directory \"src/data\"",
         "owner": "gatsby-source-filesystem"
@@ -2664,7 +2653,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-02-11T10:53:11.350Z",
-      "accessTime": "2019-05-16T12:35:57.295Z",
+      "accessTime": "2019-05-16T12:43:17.094Z",
       "changeTime": "2019-02-11T10:53:11.350Z",
       "birthTime": "2019-02-11T10:42:23.985Z",
       "root": "/",
@@ -2682,11 +2671,11 @@
       "blksize": 4096,
       "ino": 12889575008,
       "blocks": 0,
-      "atimeMs": 1558010157295.2573,
+      "atimeMs": 1558010597093.9578,
       "mtimeMs": 1549882391349.723,
       "ctimeMs": 1549882391349.723,
       "birthtimeMs": 1549881743984.7795,
-      "atime": "2019-05-16T12:35:57.295Z",
+      "atime": "2019-05-16T12:43:17.094Z",
       "mtime": "2019-02-11T10:53:11.350Z",
       "ctime": "2019-02-11T10:53:11.350Z",
       "birthtime": "2019-02-11T10:42:23.985Z"
@@ -3135,10 +3124,6 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/.cache/dev-404-page.js"
-    },
     "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/macbook_pro/Documents/www/self/stefirkp.github.io/src/pages/404.js"
